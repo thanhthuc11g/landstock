@@ -1,0 +1,492 @@
+2022-12-16 14:43:06.478  INFO--[23-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-16 14:43:06.509  INFO--[23-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 19244 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-12-16 14:43:06.509  INFO--[23-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-12-16 14:43:07.540  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-16 14:43:07.540  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-16 14:43:07.712  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 167ms. Found 36 JPA repository interfaces.
+2022-12-16 14:43:07.712  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-16 14:43:07.712  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-16 14:43:07.728  INFO--[23-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 9ms. Found 2 MongoDB repository interfaces.
+2022-12-16 14:43:08.587  INFO--[23-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-12-16 14:43:08.587  INFO--[23-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-12-16 14:43:08.587  INFO--[23-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-16 14:43:08.587  INFO--[23-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-16 14:43:08.727  INFO--[23-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-16 14:43:08.727  INFO--[23-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2171 ms
+2022-12-16 14:43:08.977  INFO--[23-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2022-12-16 14:43:09.055  INFO--[23-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-16 14:43:09.087  INFO--[23-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-16 14:43:09.087  INFO--[23-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-16 14:43:09.462  INFO--[23-main           ] [                                        ]o.m.d.cluster                  :No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@3bf01a01 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2022-12-16 14:43:09.696  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:58543}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:43:09.696  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:56555}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2022-12-16 14:43:09.696  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:56834}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2022-12-16 14:43:10.087  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=388945800, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000002, setVersion=1, lastWriteDate=Fri Dec 16 14:43:08 GMT+07:00 2022, lastUpdateTimeNanos=110355544688800}
+2022-12-16 14:43:10.087  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=388918800, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Dec 16 14:43:08 GMT+07:00 2022, lastUpdateTimeNanos=110355544691900}
+2022-12-16 14:43:10.087  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000002 from replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:43:10.087  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:43:10.087  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:43:10.102  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=403663500, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Dec 16 14:43:08 GMT+07:00 2022, lastUpdateTimeNanos=110355558849900}
+2022-12-16 14:43:10.696  INFO--[23-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:58544}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:43:11.117  INFO--[23-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-16 14:43:11.117  INFO--[23-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-16 14:43:11.414  INFO--[23-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-16 14:43:11.415  INFO--[23-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-16 14:43:11.879  INFO--[23-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-16 14:43:14.998  INFO--[23-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-12-16 14:43:15.092  INFO--[23-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-16 14:43:15.123  INFO--[23-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-16 14:43:15.201  INFO--[23-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-16 14:43:15.264  INFO--[23-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-16 14:43:15.982  INFO--[23-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-16 14:43:15.998  INFO--[23-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 14:43:16.467  WARN--[23-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-16 14:43:17.352  INFO--[23-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-12-16 14:43:19.012  INFO--[23-sson-netty-2-17] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-16 14:43:19.014  INFO--[23-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-16 14:43:20.023  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-16 14:43:20.024  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-12-16 14:43:20.139  INFO--[23-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 915365f9-fae2-4c4d-ab19-f4943ee99c35
+
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-12-16 14:43:20.176  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-12-16 14:43:20.212  INFO--[23-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a3c7dbc, org.springframework.security.web.context.SecurityContextPersistenceFilter@11def039, org.springframework.security.web.header.HeaderWriterFilter@738b34af, org.springframework.web.filter.CorsFilter@9b2ce79, org.springframework.security.web.csrf.CsrfFilter@61f56074, org.springframework.security.web.authentication.logout.LogoutFilter@611d6114, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@4c9ed40, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44b522ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1199ac5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@265bea14, org.springframework.security.web.session.SessionManagementFilter@69af6978, org.springframework.security.web.access.ExceptionTranslationFilter@79a81557, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@736b8ed4]
+2022-12-16 14:43:20.346  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-16 14:43:20.347  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-12-16 14:43:20.347  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-16 14:43:20.347  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-12-16 14:43:20.347  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-16 14:43:20.348  INFO--[23-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-12-16 14:43:21.702  INFO--[23-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-12-16 14:43:21.737  INFO--[23-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-12-16 14:43:21.748  INFO--[23-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-12-16 14:43:21.800  INFO--[23-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-12-16 14:43:21.800  INFO--[23-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-16 14:43:21.801  INFO--[23-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-16 14:43:21.801  INFO--[23-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-16 14:43:21.845  INFO--[23-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-16 14:43:21.845  INFO--[23-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 94 ms
+2022-12-16 14:43:21.857  INFO--[23-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-16 14:43:22.336  INFO--[23-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-12-16 14:43:22.339  INFO--[23-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-16 14:43:22.354  INFO--[23-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 16.065 seconds (JVM running for 17.9)
+2022-12-16 14:43:22.359  INFO--[23-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-12-16 14:43:22.359  INFO--[23-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-12-16 14:43:22.492  INFO--[23-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[LandStock], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-12-16 14:43:22.547  INFO--[23-(2)-172.20.10.7] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-16 14:43:22.547  INFO--[23-(2)-172.20.10.7] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-12-16 14:43:22.558  INFO--[23-(2)-172.20.10.7] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 11 ms
+2022-12-16 14:43:22.941  INFO--[23-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 200 OK Headers: {Date=[Fri, 16 Dec 2022 07:42:30 GMT], Content-Type=[application/json;charset=UTF-8], Connection=[keep-alive], Vary=[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Cache-Control=[no-store], Pragma=[no-cache], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=NMDKBJKHIMCDHGLJEOJMGEAGEMHOHEGMCCDGMDADCGJPCLAMEJGJCMKBIAHAPDFMOEHDKNIDLBKDCDGAOIIACKMHBCMJBOCKDNJAAKDCANCDICJFFBFIOPJGAAHPEMOM; HttpOnly; secure, MB01e353a0=01bb14ea42df46f3125a24a03ad92484911e1707906574341cd65601d7569fe20e76985f32c517f1326c98bc096b022a98f0e8cd0d; Path=/], Transfer-Encoding=[chunked]} Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzExODAxNTAsInVzZXJfbmFtZSI6IntcImlkXCI6MTE0MzIsXCJicmFuY2hJZFwiOjEsXCJ1c2VybmFtZVwiOlwiY212X2FtY19hcHBcIixcInVzZXJDb2RlXCI6XCJjbXZfYW1jX2FwcFwiLFwiZnVsbE5hbWVcIjpcIk1vYmlsZSBhcHAgQU1DXCIsXCJlbWFpbFwiOlwidGVzdC5jbXZfYW1jX2FwcEBtYmJhbmsuY29tLnZuXCIsXCJicmFuY2hDb2RlXCI6XCJWTjAwMTAwMDFcIixcImV4cGlyZUF0XCI6MTY3MTE3NjU1NDIyOSxcInRva2VuVHlwZVwiOlwiQUNDRVNTX1RPS0VOXCIsXCJjbGllbnRJZFwiOlwiY212LWNsaWVudC1pZFwiLFwic2NvcGVzXCI6W1wiTUIjTU9ESU
+2022-12-16 14:43:23.044  INFO--[23-main           ] [                                        ]a.c.m.c.CmvSchedule            :end getFirstAccessToken
+2022-12-16 14:44:39.564 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:46:52.847 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:46:53.964  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:5, serverValue:58566}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:46:54.183  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:7, serverValue:56851}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2022-12-16 14:46:54.835  INFO--[23-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:6, serverValue:56576}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2022-12-16 14:47:02.866 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:47:12.886 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:47:22.896 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:47:32.923 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:47:42.929 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:47:52.950 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:02.957 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:12.988 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:23.001 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:33.009 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:43.023 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:48:53.047 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:49:03.078 ERROR--[23-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net' after 2 queries 
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/172.20.10.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2022-12-16 14:49:12.336  INFO--[23-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-12-16 14:49:12.336  INFO--[23-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-12-16 14:49:12.336  INFO--[23-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-12-16 14:49:12.336  INFO--[23-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-12-16 14:49:12.336  INFO--[23-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-12-16 14:49:12.597  INFO--[23-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-16 14:49:12.598  INFO--[23-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-12-16 14:49:12.607  INFO--[23-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-12-16 14:49:12.607  INFO--[23-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:58544}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017 because there was a socket exception raised on another connection from this pool.
+2022-12-16 14:49:13.827  INFO--[23-extShutdownHook] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:8, serverValue:58580}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-16 14:49:14.206  INFO--[23-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:8, serverValue:58580}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017 because the pool has been closed.

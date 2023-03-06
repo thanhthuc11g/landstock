@@ -1,0 +1,559 @@
+2022-11-28 10:40:38.846  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-11-28 10:40:38.877  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 18024 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-11-28 10:40:38.877  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-11-28 10:40:40.137  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-28 10:40:40.145  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 10:40:40.357  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 210ms. Found 36 JPA repository interfaces.
+2022-11-28 10:40:40.357  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-28 10:40:40.357  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-11-28 10:40:40.366  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 10ms. Found 2 MongoDB repository interfaces.
+2022-11-28 10:40:41.466  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-11-28 10:40:41.476  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-11-28 10:40:41.476  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-28 10:40:41.476  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-28 10:40:41.677  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-28 10:40:41.677  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2750 ms
+2022-11-28 10:40:41.876  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-11-28 10:40:42.286  INFO--[26-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5306504}] to 207.46.234.134:27717
+2022-11-28 10:40:42.357  INFO--[26-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=68894200}
+2022-11-28 10:40:43.278  INFO--[26-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5306505}] to 207.46.234.134:27717
+2022-11-28 10:40:43.476  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-28 10:40:43.481  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-28 10:40:43.846  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-28 10:40:43.848  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-28 10:40:44.447  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-11-28 10:40:47.826  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-11-28 10:40:47.950  INFO--[26-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 10:40:47.987  INFO--[26-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-11-28 10:40:48.068  INFO--[26-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-28 10:40:48.156  INFO--[26-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-28 10:40:48.997  INFO--[26-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 10:40:49.015  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 10:40:49.638  WARN--[26-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 10:40:50.697  INFO--[26-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-11-28 10:40:55.369  INFO--[26-sson-netty-2-20] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-28 10:40:55.369  INFO--[26-sson-netty-2-19] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-28 10:40:55.746  INFO--[26-main           ] [                                        ]redAnnotationBeanPostProcessor :Autowired annotation is not supported on static fields: private static java.lang.String ati.com.mbeelive.cmv.CmvRestClient.clientMessageId
+2022-11-28 10:40:56.527  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-28 10:40:56.527  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-11-28 10:40:56.673  INFO--[26-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 7790037f-52fb-44ae-909d-bf1c4758e9e5
+
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-11-28 10:40:56.706  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-11-28 10:40:56.756  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@aca89a3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d5dc037, org.springframework.security.web.header.HeaderWriterFilter@2f6601f4, org.springframework.web.filter.CorsFilter@7122b1ff, org.springframework.security.web.csrf.CsrfFilter@3ec457ec, org.springframework.security.web.authentication.logout.LogoutFilter@4315d110, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@5f18a661, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@309d298, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b16671e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fadd58, org.springframework.security.web.session.SessionManagementFilter@7dd5d17a, org.springframework.security.web.access.ExceptionTranslationFilter@109a4e10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b313fdf]
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-28 10:40:56.967  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-11-28 10:40:58.527  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-11-28 10:40:58.567  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-11-28 10:40:58.606  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-11-28 10:40:58.677  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-11-28 10:40:58.677  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-11-28 10:40:58.677  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-28 10:40:58.677  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-28 10:40:58.736  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-28 10:40:58.736  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 119 ms
+2022-11-28 10:40:58.746  INFO--[26-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-28 10:40:59.366  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-11-28 10:40:59.366  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-28 10:40:59.385  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 20.808 seconds (JVM running for 22.899)
+2022-11-28 10:40:59.386  INFO--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-11-28 10:40:59.386  INFO--[26-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-11-28 10:40:59.577  INFO--[26-)-192.168.8.150] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 10:40:59.577  INFO--[26-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-11-28 10:40:59.596  INFO--[26-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 19 ms
+2022-11-28 10:40:59.637  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[null], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-11-28 10:41:00.483  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 400 BAD_REQUEST Headers: {Date=[Mon, 28 Nov 2022 03:40:12 GMT], Content-Type=[application/json], Content-Length=[108], Connection=[keep-alive], Access-Control-Allow-Origin=[*], Access-Control-Allow-Methods=[*], Access-Control-Allow-Headers=[*], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=FMLFBAIMIFHPNLHBFMKEJJBKEBIHKMJPEKHDGBGDFNDILAOCPPPGOBMKCBAJEDKKHPKDEBLJBNGBFJGDAOBADGNAFCEBMICJFDCHPBJNDIDJDFINFMJPCCDAFGHFGMKN; HttpOnly; secure, MB01e353a0=01bb14ea42a7abb79dd77164c9dde9d29afcec9ebd7d6f094b10f7dfbb03401cf683d853e5e047d071088a144df8165419442acc6f; Path=/]} Body: {"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}
+2022-11-28 10:41:16.222 ERROR--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:447)
+	at ati.com.mbeelive.cmv.CmvRestClient.postForLogin(CmvRestClient.java:82)
+	at ati.com.mbeelive.cmv.CmvRestClient.login(CmvRestClient.java:119)
+	at ati.com.mbeelive.cmv.CmvRestClient.getAccessToken(CmvRestClient.java:110)
+	at ati.com.mbeelive.cmv.CmvSchedule.getFirstAccessToken(CmvSchedule.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.context.event.EventPublishingRunListener.running(EventPublishingRunListener.java:108)
+	at org.springframework.boot.SpringApplicationRunListeners.running(SpringApplicationRunListeners.java:77)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at ati.com.mbeelive.MbeeliveApplication.main(MbeeliveApplication.java:29)
+2022-11-28 11:00:00.491  INFO--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=b74ba8eb-76d7-42f1-b05c-3ee39eca5381 | {"httpMethod":"POST","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"5778d7fb-b042-496d-b631-36e8380be993","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{}}
+2022-11-28 11:00:00.539  INFO--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=b74ba8eb-76d7-42f1-b05c-3ee39eca5381 | {"ids":["63842e87cfbd3d264b4a914c"],"status":"Approved","rejectedReason":""}
+2022-11-28 11:00:00.544 DEBUG--[26-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-28 11:00:00.564  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e8e59cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.568  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40a76350 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.571  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c7b0aaa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.574  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17cddeab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.576  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f125076 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.579  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34d41727 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.581  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30fe754d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.583  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49bfdd7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.585  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1473b5de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.586  WARN--[26-ynchLogThread-1] [                                        ]o.m.d.connection               :Got socket exception on connection [connectionId{localValue:2, serverValue:5306505}] to 207.46.234.134:27717. All connections to 207.46.234.134:27717 will be closed.
+2022-11-28 11:00:00.587  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ae558 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-28 11:00:00.596  INFO--[26-ynchLogThread-1] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5306505}] to 207.46.234.134:27717 because there was a socket exception raised by this connection.
+2022-11-28 11:00:00.608 ERROR--[26-ynchLogThread-1] [                                        ]a.c.m.a.LogAsyn                :Exception sending message; nested exception is com.mongodb.MongoSocketWriteException: Exception sending message
+2022-11-28 11:00:00.613 DEBUG--[26-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "b74ba8eb-76d7-42f1-b05c-3ee39eca5381"} and update: { "$set" : { "requestBody" : { "ids" : ["63842e87cfbd3d264b4a914c"], "status" : "Approved", "rejectedReason" : "", "_class" : "ati.com.mbeelive.dto.post.input.UpdateStatusPostInput"}}} in collection: logs
+2022-11-28 11:00:00.614  INFO--[26-ynchLogThread-2] [                                        ]o.m.d.cluster                  :Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-11-28 11:00:01.388  INFO--[26-ynchLogThread-2] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:5306577}] to 207.46.234.134:27717
+2022-11-28 11:00:03.307 DEBUG--[26-nio-8083-exec-1] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "_id" : { "$in" : [{ "$oid" : "63842e87cfbd3d264b4a914c"}]}} fields: {} for class: class ati.com.mbeelive.document.post.Post in collection: posts
+2022-11-28 11:00:03.469 DEBUG--[26-nio-8083-exec-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [_id, title, customerCategory, images, categoryIds, categoryNames, status, type, totalView, totalLike, totalComment, approved_at, offComment, score, rejectedReasons, postImages, floorNo, area, costs, showInfor, created_at, updated_at, created_by, deleted, _class]
+2022-11-28 11:00:37.946  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s641ms460µs900ns).
+2022-11-28 11:00:37.959 DEBUG--[26-nchNotiThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [title, content, userId, sourceId, status, type, linkToTarget, subType, created_at, updated_at, created_by, deleted, _class]
+2022-11-28 11:00:38.023 DEBUG--[26-nio-8083-exec-1] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} for class: class ati.com.mbeelive.document.post.PostLibrary in collection: post_library
+2022-11-28 11:00:38.035 DEBUG--[26-nio-8083-exec-1] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} in db.collection: landstock.post_library
+2022-11-28 11:00:38.607  INFO--[26-nio-8083-exec-1] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:5306668}] to 207.46.234.134:27717
+2022-11-28 11:00:56.233 ERROR--[26-nio-8083-exec-1] [                                        ]a.c.m.e.CustomExceptionHandler :null
+java.lang.NullPointerException
+	at ati.com.mbeelive.service.post.PostService.lambda$adminUpdateStatusMultiplePost$3(PostService.java:173)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at ati.com.mbeelive.service.post.PostService.adminUpdateStatusMultiplePost(PostService.java:170)
+	at ati.com.mbeelive.service.post.PostService$$FastClassBySpringCGLIB$$1f70b308.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ati.com.mbeelive.service.post.PostService$$EnhancerBySpringCGLIB$$1c310cc4.adminUpdateStatusMultiplePost(<generated>)
+	at ati.com.mbeelive.controller.cms.PostV2Controller.updateStatus(PostV2Controller.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-11-28 11:00:56.364  INFO--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=b74ba8eb-76d7-42f1-b05c-3ee39eca5381 | {"responseCode":500,"during":"56056 ms","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"5778d7fb-b042-496d-b631-36e8380be993","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Lỗi hệ thống!\",\"code\":1001,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":28},\"time\":{\"hour\":11,\"minute\":0,\"second\":56,\"nano\":236689600}}}"}
+2022-11-28 11:03:27.098  INFO--[26-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=eacaad74-ffc1-4409-b49f-46fcc85654d5 | {"httpMethod":"POST","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"9b3a2e59-ac6d-47b0-b9b1-fca5388c90df","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{}}
+2022-11-28 11:03:27.100  INFO--[26-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=eacaad74-ffc1-4409-b49f-46fcc85654d5 | {"ids":["63842e87cfbd3d264b4a914c"],"status":"Approved","rejectedReason":""}
+2022-11-28 11:03:27.101 DEBUG--[26-ynchLogThread-3] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-28 11:03:27.102 DEBUG--[26-ynchLogThread-4] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "eacaad74-ffc1-4409-b49f-46fcc85654d5"} and update: { "$set" : { "requestBody" : { "ids" : ["63842e87cfbd3d264b4a914c"], "status" : "Approved", "rejectedReason" : "", "_class" : "ati.com.mbeelive.dto.post.input.UpdateStatusPostInput"}}} in collection: logs
+2022-11-28 11:03:27.436 DEBUG--[26-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "_id" : { "$in" : [{ "$oid" : "63842e87cfbd3d264b4a914c"}]}} fields: {} for class: class ati.com.mbeelive.document.post.Post in collection: posts
+2022-11-28 11:03:41.695 DEBUG--[26-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} for class: class ati.com.mbeelive.document.post.PostLibrary in collection: post_library
+2022-11-28 11:03:41.698 DEBUG--[26-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} in db.collection: landstock.post_library
+2022-11-28 11:04:05.421 ERROR--[26-nio-8083-exec-4] [                                        ]a.c.m.e.CustomExceptionHandler :null
+java.lang.NullPointerException
+	at ati.com.mbeelive.service.post.PostService.lambda$adminUpdateStatusMultiplePost$3(PostService.java:173)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at ati.com.mbeelive.service.post.PostService.adminUpdateStatusMultiplePost(PostService.java:170)
+	at ati.com.mbeelive.service.post.PostService$$FastClassBySpringCGLIB$$1f70b308.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ati.com.mbeelive.service.post.PostService$$EnhancerBySpringCGLIB$$1c310cc4.adminUpdateStatusMultiplePost(<generated>)
+	at ati.com.mbeelive.controller.cms.PostV2Controller.updateStatus(PostV2Controller.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-11-28 11:04:05.424  INFO--[26-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=eacaad74-ffc1-4409-b49f-46fcc85654d5 | {"responseCode":500,"during":"38331 ms","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"9b3a2e59-ac6d-47b0-b9b1-fca5388c90df","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Lỗi hệ thống!\",\"code\":1001,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":28},\"time\":{\"hour\":11,\"minute\":4,\"second\":5,\"nano\":421104200}}}"}
+2022-11-28 11:05:58.257  INFO--[26-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=560777b3-9aef-4d7a-a09a-a875ecc950b5 | {"httpMethod":"POST","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"58921af7-a631-41f2-a0dd-76cccf2800c4","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{}}
+2022-11-28 11:05:58.259  INFO--[26-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=560777b3-9aef-4d7a-a09a-a875ecc950b5 | {"ids":["63842e87cfbd3d264b4a914c"],"status":"Approved","rejectedReason":""}
+2022-11-28 11:05:58.259 DEBUG--[26-ynchLogThread-5] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-28 11:05:58.261 DEBUG--[26-ynchLogThread-6] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "560777b3-9aef-4d7a-a09a-a875ecc950b5"} and update: { "$set" : { "requestBody" : { "ids" : ["63842e87cfbd3d264b4a914c"], "status" : "Approved", "rejectedReason" : "", "_class" : "ati.com.mbeelive.dto.post.input.UpdateStatusPostInput"}}} in collection: logs
+2022-11-28 11:05:58.616 DEBUG--[26-nio-8083-exec-6] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "_id" : { "$in" : [{ "$oid" : "63842e87cfbd3d264b4a914c"}]}} fields: {} for class: class ati.com.mbeelive.document.post.Post in collection: posts
+2022-11-28 11:06:01.145 DEBUG--[26-nio-8083-exec-6] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} for class: class ati.com.mbeelive.document.post.PostLibrary in collection: post_library
+2022-11-28 11:06:01.147 DEBUG--[26-nio-8083-exec-6] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "63842e87cfbd3d264b4a914c"} fields: {} in db.collection: landstock.post_library
+2022-11-28 11:06:18.442 ERROR--[26-nio-8083-exec-6] [                                        ]a.c.m.e.CustomExceptionHandler :null
+java.lang.NullPointerException
+	at ati.com.mbeelive.service.post.PostService.lambda$adminUpdateStatusMultiplePost$3(PostService.java:173)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at ati.com.mbeelive.service.post.PostService.adminUpdateStatusMultiplePost(PostService.java:170)
+	at ati.com.mbeelive.service.post.PostService$$FastClassBySpringCGLIB$$1f70b308.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ati.com.mbeelive.service.post.PostService$$EnhancerBySpringCGLIB$$1c310cc4.adminUpdateStatusMultiplePost(<generated>)
+	at ati.com.mbeelive.controller.cms.PostV2Controller.updateStatus(PostV2Controller.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-11-28 11:06:18.443  INFO--[26-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=560777b3-9aef-4d7a-a09a-a875ecc950b5 | {"responseCode":500,"during":"20191 ms","httpPath":"/api/cms/v2/post/updateStatus","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"97","postman-token":"58921af7-a631-41f2-a0dd-76cccf2800c4","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Lỗi hệ thống!\",\"code\":1001,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":28},\"time\":{\"hour\":11,\"minute\":6,\"second\":18,\"nano\":442622200}}}"}
+2022-11-28 11:06:18.591  INFO--[26-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-11-28 11:06:18.595  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-11-28 11:06:18.595  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-11-28 11:06:18.595  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-11-28 11:06:18.597  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-11-28 11:06:20.646 ERROR--[26-sson-netty-2-28] [                                        ]i.n.u.c.D.rejectedExecution    :Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:926)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:828)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:818)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:842)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:499)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:96)
+	at io.netty.channel.group.DefaultChannelGroupFuture.setSuccess0(DefaultChannelGroupFuture.java:200)
+	at io.netty.channel.group.DefaultChannelGroupFuture.access$400(DefaultChannelGroupFuture.java:41)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:75)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:48)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1186)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:773)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.NioEventLoop.closeAll(NioEventLoop.java:769)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-11-28 11:06:20.680  INFO--[26-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 11:06:20.682  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-11-28 11:06:20.697  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-11-28 11:06:21.104  INFO--[26-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:5306668}] to 207.46.234.134:27717 because the pool has been closed.
+2022-11-28 11:06:21.104  INFO--[26-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:3, serverValue:5306577}] to 207.46.234.134:27717 because the pool has been closed.

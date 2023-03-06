@@ -1,0 +1,330 @@
+2022-11-22 14:40:40.919  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-11-22 14:40:40.934  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 18484 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-11-22 14:40:40.934  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-11-22 14:40:42.012  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:40:42.012  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-22 14:40:42.200  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 179ms. Found 36 JPA repository interfaces.
+2022-11-22 14:40:42.200  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-22 14:40:42.200  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-11-22 14:40:42.215  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 10ms. Found 2 MongoDB repository interfaces.
+2022-11-22 14:40:43.168  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-11-22 14:40:43.184  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-11-22 14:40:43.184  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-22 14:40:43.184  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-22 14:40:43.325  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-22 14:40:43.325  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2344 ms
+2022-11-22 14:40:43.512  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-11-22 14:40:43.793  INFO--[25-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5260984}] to 207.46.234.134:27717
+2022-11-22 14:40:43.887  INFO--[25-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=90482900}
+2022-11-22 14:40:44.606  INFO--[25-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5260985}] to 207.46.234.134:27717
+2022-11-22 14:40:44.730  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-22 14:40:44.730  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-22 14:40:45.355  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-22 14:40:45.355  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-22 14:40:45.793  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-11-22 14:41:35.224 ERROR--[25-main           ] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:133)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:692)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:374)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1702)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1447)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1425)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:886)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:790)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:228)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1208)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1425)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:255)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:229)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5161)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:829)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:440)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at ati.com.mbeelive.MbeeliveApplication.main(MbeeliveApplication.java:29)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:342)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:203)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1353)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 160 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1377)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1290)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:411)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:383)
+	at com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:317)
+	at com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:188)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:97)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:333)
+	... 165 more
+2022-11-22 14:41:35.333  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-22 14:41:35.396  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-11-22 14:41:35.474  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-22 14:41:35.599  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-11-22 14:41:42.838  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-11-22 14:41:42.850  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-22 14:41:43.934  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-22 14:41:43.950  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-22 14:41:44.628  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-22 14:41:45.725  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-11-22 14:41:47.666  INFO--[25-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-22 14:41:47.668  INFO--[25-sson-netty-2-20] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-22 14:41:48.050  INFO--[25-main           ] [                                        ]redAnnotationBeanPostProcessor :Autowired annotation is not supported on static fields: private static java.lang.String ati.com.mbeelive.cmv.CmvRestClient.clientMessageId
+2022-11-22 14:41:48.947  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-22 14:41:48.947  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-11-22 14:41:49.077  INFO--[25-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: af317bf1-98e5-4471-945e-38a33a34d503
+
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-11-22 14:41:49.118  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-11-22 14:41:49.156  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@310cd0d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@69ebb009, org.springframework.security.web.header.HeaderWriterFilter@79b9ed8d, org.springframework.web.filter.CorsFilter@3f698ab8, org.springframework.security.web.csrf.CsrfFilter@1cdb3ccd, org.springframework.security.web.authentication.logout.LogoutFilter@300788d6, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@7d1f60cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@462478a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fcafcfe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d2bac23, org.springframework.security.web.session.SessionManagementFilter@10aabada, org.springframework.security.web.access.ExceptionTranslationFilter@19a71722, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45e6b8fa]
+2022-11-22 14:41:49.329  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-22 14:41:49.330  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-11-22 14:41:49.339  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-22 14:41:49.339  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-11-22 14:41:49.340  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-22 14:41:49.340  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-11-22 14:41:50.676  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-11-22 14:41:50.712  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-11-22 14:41:50.722  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-11-22 14:41:50.777  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-11-22 14:41:50.778  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-11-22 14:41:50.778  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-22 14:41:50.778  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-22 14:41:50.820  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-22 14:41:50.820  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 94 ms
+2022-11-22 14:41:50.833  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-22 14:41:51.458  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-11-22 14:41:51.461  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-22 14:41:51.476  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 70.79 seconds (JVM running for 72.412)
+2022-11-22 14:41:51.480  INFO--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-11-22 14:41:51.480  INFO--[25-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-11-22 14:41:51.885  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[null], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-11-22 14:41:52.134  INFO--[25-)-192.168.8.104] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-22 14:41:52.134  INFO--[25-)-192.168.8.104] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-11-22 14:41:52.141  INFO--[25-)-192.168.8.104] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 7 ms
+2022-11-22 14:41:52.793  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 400 BAD_REQUEST Headers: {Date=[Tue, 22 Nov 2022 07:41:05 GMT], Content-Type=[application/json], Content-Length=[108], Connection=[keep-alive], Access-Control-Allow-Origin=[*], Access-Control-Allow-Methods=[*], Access-Control-Allow-Headers=[*], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=LJIEJGIMKHFGCCLJIHJMLMKCKFFLIHENDIHDPIDNPKNBDIMLHILNOELCBOOIDJJJLAADELLIGMHLPHNKNPDAENELMHPOMMKDMGOLMIJNMBHDBJAEGIKFNJEFMOGNKCCK; HttpOnly; secure, MB01e353a0=01bb14ea422ddda45e162cf7aa641debe93841e66be81d10b7b05b112541509336b37950bc58d23aec4b3343a1622264712c7fe625; Path=/]} Body: {"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}
+2022-11-22 14:41:52.797 ERROR--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:447)
+	at ati.com.mbeelive.cmv.CmvRestClient.postForLogin(CmvRestClient.java:82)
+	at ati.com.mbeelive.cmv.CmvRestClient.login(CmvRestClient.java:119)
+	at ati.com.mbeelive.cmv.CmvRestClient.getAccessToken(CmvRestClient.java:110)
+	at ati.com.mbeelive.cmv.CmvSchedule.getFirstAccessToken(CmvSchedule.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.context.event.EventPublishingRunListener.running(EventPublishingRunListener.java:108)
+	at org.springframework.boot.SpringApplicationRunListeners.running(SpringApplicationRunListeners.java:77)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at ati.com.mbeelive.MbeeliveApplication.main(MbeeliveApplication.java:29)
+2022-11-22 14:43:07.502  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=7624b41b-618c-4546-9e8b-9a8533d27e37 | {"httpMethod":"POST","httpPath":"/api/cms/v1/postcate/search","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"110","postman-token":"67a23108-960e-461f-823d-f62a157a945f","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{}}
+2022-11-22 14:43:07.558 DEBUG--[25-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-22 14:43:07.559  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=7624b41b-618c-4546-9e8b-9a8533d27e37 | {"type":"ChillCorner","status":"ACTIVE","pageSize":10,"pageNo":0,"sort":"createdAt:desc"}
+2022-11-22 14:43:07.600 DEBUG--[25-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "7624b41b-618c-4546-9e8b-9a8533d27e37"} and update: { "$set" : { "requestBody" : { "type" : "ChillCorner", "status" : "ACTIVE", "pageSize" : 10, "pageNo" : 0, "sort" : "createdAt:desc", "_class" : "ati.com.mbeelive.dto.post.input.SearchPostCategoryInput"}}} in collection: logs
+2022-11-22 14:43:12.886  INFO--[25-ynchLogThread-2] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:5260986}] to 207.46.234.134:27717
+2022-11-22 14:43:15.124 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "delete" : false, "isParent" : true, "status" : "ACTIVE", "type" : "ChillCorner"} fields: {} for class: class ati.com.mbeelive.document.post.PostCategory in collection: post_category
+2022-11-22 14:43:53.711  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=7624b41b-618c-4546-9e8b-9a8533d27e37 | {"responseCode":400,"during":"46419 ms","httpPath":"/api/cms/v1/postcate/search","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"110","postman-token":"67a23108-960e-461f-823d-f62a157a945f","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Loại bài đăng không tồn tại hoặc đã bị gỡ!\",\"code\":1028,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":22},\"time\":{\"hour\":14,\"minute\":43,\"second\":53,\"nano\":683657500}}}"}
+2022-11-22 14:43:54.253  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-11-22 14:43:54.253  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-11-22 14:43:54.253  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-11-22 14:43:54.253  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-11-22 14:43:54.253  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-11-22 14:43:54.391  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-22 14:43:54.391  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-11-22 14:43:54.401  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-11-22 14:43:54.541  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:3, serverValue:5260986}] to 207.46.234.134:27717 because the pool has been closed.
+2022-11-22 14:43:54.541  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5260985}] to 207.46.234.134:27717 because the pool has been closed.

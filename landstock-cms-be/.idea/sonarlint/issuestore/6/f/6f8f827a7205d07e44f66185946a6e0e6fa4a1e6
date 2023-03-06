@@ -1,0 +1,11 @@
+
+]
+java:S1854B"BRemove this useless assignment to local variable "authentication".(õîªÜüÿÿÿÿ
+V	java:S125S"<This block of commented-out lines of code should be removed.(”Âµøÿÿÿÿ
+P	java:S125c"<This block of commented-out lines of code should be removed.(òİú_
+c
+java:S5361t"HReplace this call to "replaceAll()" by a call to the "replace()" method.(å±¶üøÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'ati.com.mbeelive.log.LoggingService'.(çšüÿÿÿÿ
+I
+java:S1068'".Remove this unused "REQUEST_IP" private field.(ô¯“ìıÿÿÿÿ

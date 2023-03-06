@@ -1,0 +1,17 @@
+
+q
+java:S1104"[Make contentApproved a static final constant or non-public and provide accessors if needed.(İÖèä
+o
+java:S1104"YMake contentReject a static final constant or non-public and provide accessors if needed.(ÁŠˆ¯
+u
+java:S1104"ZMake contentDeleted a static final constant or non-public and provide accessors if needed.(ƒÌÓóıÿÿÿÿ
+g
+java:S1104"QMake title a static final constant or non-public and provide accessors if needed.(‰©‰•
+K
+java:S1444"5Make this "public static contentApproved" field final(İÖèä
+I
+java:S1444"3Make this "public static contentReject" field final(ÁŠˆ¯
+O
+java:S1444"4Make this "public static contentDeleted" field final(ƒÌÓóıÿÿÿÿ
+A
+java:S1444"+Make this "public static title" field final(‰©‰•

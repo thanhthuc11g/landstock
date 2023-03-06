@@ -1,0 +1,181 @@
+2022-12-22 09:49:22.325  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-22 09:49:22.372  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 2624 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-12-22 09:49:22.388  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-12-22 09:49:23.888  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-22 09:49:23.903  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-22 09:49:24.138  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 228ms. Found 36 JPA repository interfaces.
+2022-12-22 09:49:24.138  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-22 09:49:24.138  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-22 09:49:24.153  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 14ms. Found 2 MongoDB repository interfaces.
+2022-12-22 09:49:25.340  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-12-22 09:49:25.356  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-12-22 09:49:25.356  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-22 09:49:25.356  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-22 09:49:25.543  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-22 09:49:25.543  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 3077 ms
+2022-12-22 09:49:26.231  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2022-12-22 09:49:26.715  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-22 09:49:26.715  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-22 09:49:26.746  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-12-22 09:49:26.825  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-22 09:49:26.856  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-22 09:49:26.856  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2022-12-22 09:49:26.856  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@7eefaca0 from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2022-12-22 09:49:28.527  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:92346}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2022-12-22 09:49:28.527  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:92031}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2022-12-22 09:49:28.855  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=328712900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Thu Dec 22 09:49:26 GMT+07:00 2022, lastUpdateTimeNanos=113962850428900}
+2022-12-22 09:49:28.855  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=332205100, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Thu Dec 22 09:49:26 GMT+07:00 2022, lastUpdateTimeNanos=113962850434100}
+2022-12-22 09:49:28.886  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :No server chosen by WritableServerSelector from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=332205100, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Thu Dec 22 09:49:26 GMT+07:00 2022, lastUpdateTimeNanos=113962850434100}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=328712900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Thu Dec 22 09:49:26 GMT+07:00 2022, lastUpdateTimeNanos=113962850428900}]}. Waiting for 30000 ms before timing out
+2022-12-22 09:49:29.637  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:95587}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-22 09:49:29.807  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=169985900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-01.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000002, setVersion=1, lastWriteDate=Thu Dec 22 09:49:28 GMT+07:00 2022, lastUpdateTimeNanos=113963797258100}
+2022-12-22 09:49:29.807  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000002 from replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-22 09:49:29.807  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-22 09:49:29.807  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-22 09:49:31.634  INFO--[26-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:95588}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2022-12-22 09:49:32.681  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-22 09:49:32.696  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-22 09:49:33.305  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-22 09:49:41.350  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-12-22 09:49:41.585  INFO--[26-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-22 09:49:41.647  INFO--[26-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-22 09:49:41.788  INFO--[26-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-22 09:49:42.303  INFO--[26-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-22 09:49:43.303  INFO--[26-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-22 09:49:43.319  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-22 09:49:44.521  WARN--[26-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-22 09:49:45.558  INFO--[26-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-12-22 09:49:49.142  INFO--[26-isson-netty-2-1] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-22 09:49:49.470  INFO--[26-sson-netty-2-20] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-22 09:49:52.648  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-22 09:49:52.648  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-12-22 09:49:52.820  INFO--[26-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 320908cf-fc05-48c1-ac8d-b53624931b35
+
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-12-22 09:49:52.851  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-12-22 09:49:52.898  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e3cea61, org.springframework.security.web.context.SecurityContextPersistenceFilter@340572ad, org.springframework.security.web.header.HeaderWriterFilter@11d0033b, org.springframework.web.filter.CorsFilter@626b8822, org.springframework.security.web.csrf.CsrfFilter@736b8ed4, org.springframework.security.web.authentication.logout.LogoutFilter@1c57a111, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@70f5f6c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5066442d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d2058b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ab7a4eb, org.springframework.security.web.session.SessionManagementFilter@6e4dfd4d, org.springframework.security.web.access.ExceptionTranslationFilter@36c222ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52e67513]
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-22 09:49:53.075  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-12-22 09:49:54.423  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-12-22 09:49:54.454  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-12-22 09:49:54.469  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-12-22 09:49:54.532  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-12-22 09:49:54.532  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-22 09:49:54.532  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-22 09:49:54.532  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-22 09:49:54.579  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-22 09:49:54.579  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 110 ms
+2022-12-22 09:49:54.594  INFO--[26-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-22 09:49:55.188  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-12-22 09:49:55.188  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-22 09:49:55.207  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 33.285 seconds (JVM running for 35.759)
+2022-12-22 09:49:55.207  INFO--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-12-22 09:49:55.207  INFO--[26-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-12-22 09:49:55.539  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[LandStock], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-12-22 09:49:55.810  INFO--[26-)-192.168.8.105] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-22 09:49:55.810  INFO--[26-)-192.168.8.105] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-12-22 09:49:55.810  INFO--[26-)-192.168.8.105] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 0 ms
+2022-12-22 09:49:57.069  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 200 OK Headers: {Date=[Thu, 22 Dec 2022 02:49:02 GMT], Content-Type=[application/json;charset=UTF-8], Connection=[keep-alive], Vary=[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Cache-Control=[no-store], Pragma=[no-cache], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=IILHNLBBNGLHAICGLBALCFABOLCIJACHHPKBHEENCMOKJFBDFFDAHDBNAINNMCNIPKMDBPFIDFNKBAENKNAAEJDJFMODOPBFFFIKOPNJIIBGDJKBBFBKBMPHEFEBOLAF; HttpOnly; secure, MB01e353a0=01bb14ea42787df14b03780b26f185698c527dac4736d7d84af6e328fa849b302aad9616418f4c4dddf9b6f19af6dcdd46f388ab5f; Path=/], Transfer-Encoding=[chunked]} Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzE2ODA5NDIsInVzZXJfbmFtZSI6IntcImlkXCI6MTE0MzIsXCJicmFuY2hJZFwiOjEsXCJ1c2VybmFtZVwiOlwiY212X2FtY19hcHBcIixcInVzZXJDb2RlXCI6XCJjbXZfYW1jX2FwcFwiLFwiZnVsbE5hbWVcIjpcIk1vYmlsZSBhcHAgQU1DXCIsXCJlbWFpbFwiOlwidGVzdC5jbXZfYW1jX2FwcEBtYmJhbmsuY29tLnZuXCIsXCJicmFuY2hDb2RlXCI6XCJWTjAwMTAwMDFcIixcImV4cGlyZUF0XCI6MTY3MTY3NzM0NTk5MCxcInRva2VuVHlwZVwiOlwiQUNDRVNTX1RPS0VOXCIsXCJjbGllbnRJZFwiOlwiY212LWNsaWVudC1pZFwiLFwic2NvcGVzXCI6W1wiTUIjTU9ESU
+2022-12-22 09:49:57.179  INFO--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :end getFirstAccessToken
+2022-12-22 09:50:48.768 ERROR--[26-nio-8083-exec-1] [                                        ].c.C.[.[.[.[dispatcherServlet] :Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalArgumentException: Illegal base64 character 2e
+	at java.base/java.util.Base64$Decoder.decode0(Base64.java:746)
+	at java.base/java.util.Base64$Decoder.decode(Base64.java:538)
+	at java.base/java.util.Base64$Decoder.decode(Base64.java:561)
+	at ati.com.mbeelive.log.LoggingService.logRequest(LoggingService.java:97)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:117)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-22 09:50:48.807  INFO--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=463b24c4-b5b8-4b6d-8f25-ca80193e04aa | {"responseCode":500,"during":"30203 ms","httpPath":"/error","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"sec-fetch-mode":"cors","referer":"http://localhost:8083/swagger-ui/index.html?configUrl\u003d/v3/api-docs/swagger-config","sec-fetch-site":"same-origin","accept-language":"vi-VN,vi;q\u003d0.9,fr-FR;q\u003d0.8,fr;q\u003d0.7,en-US;q\u003d0.6,en;q\u003d0.5","cookie":"Idea-8bcc7671\u003d0e07d4ae-086b-49d7-886d-b91ab4a52490","accept":"application/json; charset\u003dUTF-8","authorization":"\u003c\u003cNot log authorization record\u003e\u003e","sec-ch-ua":"\"Not?A_Brand\";v\u003d\"8\", \"Chromium\";v\u003d\"108\", \"Google Chrome\";v\u003d\"108\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36","sec-fetch-dest":"empty"},"body":"{\"timestamp\":\"Dec 22, 2022, 9:50:48 AM\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"\",\"path\":\"/api/cms/v2/post/search\"}"}
+2022-12-22 09:50:49.077  INFO--[26-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-12-22 09:50:49.077  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-12-22 09:50:49.077  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-12-22 09:50:49.077  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-12-22 09:50:49.077  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-12-22 09:50:49.807  INFO--[26-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-22 09:50:49.823  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-12-22 09:50:55.381  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-12-22 09:50:55.649  INFO--[26-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:95588}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017 because the pool has been closed.

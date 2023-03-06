@@ -1,0 +1,14 @@
+
+@
+java:S5411-"*Use the primitive boolean expression here.(‘¼«™
+O
+java:S1854"9Remove this useless assignment to local variable "views".(€¶–Û
+@
+java:S1481"*Remove this unused "views" local variable.(€¶–Û
+V	java:S125"<This block of commented-out lines of code should be removed.(ª¤„šùÿÿÿÿ
+O
+java:S1854+"9Remove this useless assignment to local variable "views".(€¶–Û
+T
+java:S1854."9Remove this useless assignment to local variable "views".(ØŒ£üÿÿÿÿ
+E
+java:S1068"*Remove this unused "logger" private field.(Î²ÓÌøÿÿÿÿ

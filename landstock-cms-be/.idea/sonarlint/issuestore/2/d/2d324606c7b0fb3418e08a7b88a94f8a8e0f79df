@@ -1,0 +1,15 @@
+
+j
+java:S1104("UMake pathLogin a static final constant or non-public and provide accessors if needed.(¦‡e
+K
+java:S1444("/Make this "public static pathLogin" field final(¦‡e8ò±‚¯Ï0
+
+java:S3008)"_Rename this field "Header_Authorization" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï—Üóùÿÿÿÿ8¡²‚¯Ï0
+~
+java:S3008*"aRename this field "Header_clientMessageId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ã¸8±²‚¯Ï0
+V
+java:S1075("ARefactor your code to get this URI from a customizable parameter.(¦‡e
+S
+java:S26962"6Make the enclosing method "static" or remove this set.(›´ú8“¿è®Ï0
+\
+java:S3457{"AFormat specifiers should be used instead of string concatenation.(À•…Òûÿÿÿÿ

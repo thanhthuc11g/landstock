@@ -1,0 +1,182 @@
+2023-02-08 13:35:22.321  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-08 13:35:22.345  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Starting CrawnewsApplication on DESKTOP-GSNRLR9 with PID 14932 (C:\Work\MbLandStock\landstock-tool-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-tool-be)
+2023-02-08 13:35:22.347  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :No active profile set, falling back to default profiles: default
+2023-02-08 13:35:22.930  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 13:35:22.932  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-08 13:35:23.002  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.DistrictRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.004  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.NewsRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.006  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProjectRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.008  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProvinceRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.009  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.SearchPriceViewRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.011  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.StreetRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.014  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.WardRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 13:35:23.025  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 90ms. Found 1 MongoDB repository interfaces.
+2023-02-08 13:35:23.303  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 13:35:23.303  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-08 13:35:23.333  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.CmvRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-02-08 13:35:23.355  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 49ms. Found 7 JPA repository interfaces.
+2023-02-08 13:35:23.795  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8084 (http)
+2023-02-08 13:35:23.801  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8084"]
+2023-02-08 13:35:23.802  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 13:35:23.802  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 13:35:23.973  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 13:35:23.973  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1589 ms
+2023-02-08 13:35:24.188  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2023-02-08 13:35:26.865  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2023-02-08 13:35:26.913  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-08 13:35:26.952  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-08 13:35:27.045  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-08 13:35:27.131  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-08 13:35:27.581  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-08 13:35:27.588  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 13:35:27.763  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-08 13:35:27.933  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 13:35:27.966  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 13:35:27.967  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 13:35:28.517  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:40724}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-08 13:35:28.517  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:40619}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-08 13:35:28.517  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:42444}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 13:35:28.554  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2023-02-08 13:35:28.601  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=82450000, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 13:35:23 GMT+07:00 2023, lastUpdateTimeNanos=1983398600419000}
+2023-02-08 13:35:28.606  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=89623000, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 13:35:23 GMT+07:00 2023, lastUpdateTimeNanos=1983398607079000}
+2023-02-08 13:35:28.610  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92772900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Wed Feb 08 13:35:23 GMT+07:00 2023, lastUpdateTimeNanos=1983398610235400}
+2023-02-08 13:35:28.610  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000005 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 13:35:28.610  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 13:35:28.610  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 13:35:30.414  INFO--[25-sson-netty-2-11] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 13:35:30.449  INFO--[25-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 13:35:30.935  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 13:35:30.936  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2023-02-08 13:35:30.939  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 13:35:30.939  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'increView'
+2023-02-08 13:35:30.977  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-08 13:35:31.443  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2023-02-08 13:35:31.470  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8084"]
+2023-02-08 13:35:31.480  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8084 (http) with context path ''
+2023-02-08 13:35:31.527  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8091 (http)
+2023-02-08 13:35:31.528  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8091"]
+2023-02-08 13:35:31.528  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 13:35:31.528  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 13:35:31.570  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 13:35:31.570  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 87 ms
+2023-02-08 13:35:31.581  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-08 13:35:31.624  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8091"]
+2023-02-08 13:35:31.628  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8091 (http) with context path ''
+2023-02-08 13:35:31.643  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Started CrawnewsApplication in 9.519 seconds (JVM running for 10.973)
+2023-02-08 13:35:32.009  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :start crawNews
+2023-02-08 13:35:32.165  INFO--[25-)-192.168.8.122] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 13:35:32.165  INFO--[25-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2023-02-08 13:35:32.171  INFO--[25-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 6 ms
+2023-02-08 13:38:32.513  WARN--[25-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s414ms532µs800ns).
+2023-02-08 13:38:32.809  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2023-02-08 13:38:32.811  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'increView'
+2023-02-08 13:38:32.811  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2023-02-08 13:38:33.111  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 13:38:33.114  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2023-02-08 13:38:33.343  INFO--[25-)-192.168.8.122] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:42461}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 13:38:33.357  INFO--[25-)-192.168.8.122] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:42461}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because the pool has been closed.
+2023-02-08 13:38:33.361  WARN--[25-)-192.168.8.122] [                                        ]o.s.b.a.m.MongoHealthIndicator :MongoDB health check failed
+org.springframework.data.mongodb.ClientSessionException: state should be: open; nested exception is java.lang.IllegalStateException: state should be: open
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:148)
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2874)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:541)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeCommand(MongoTemplate.java:457)
+	at org.springframework.boot.actuate.mongo.MongoHealthIndicator.doHealthCheck(MongoHealthIndicator.java:46)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor89.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: state should be: open
+	at com.mongodb.assertions.Assertions.isTrue(Assertions.java:72)
+	at com.mongodb.internal.connection.DefaultServer.getDescription(DefaultServer.java:123)
+	at com.mongodb.internal.binding.ClusterBinding$ClusterBindingConnectionSource.getServerDescription(ClusterBinding.java:109)
+	at com.mongodb.client.internal.ClientSessionBinding$SessionBindingConnectionSource.getServerDescription(ClientSessionBinding.java:125)
+	at com.mongodb.internal.operation.CommandOperationHelper.executeCommandWithConnection(CommandOperationHelper.java:219)
+	at com.mongodb.internal.operation.CommandOperationHelper$5.call(CommandOperationHelper.java:206)
+	at com.mongodb.internal.operation.OperationHelper.withReadConnectionSource(OperationHelper.java:462)
+	at com.mongodb.internal.operation.CommandOperationHelper.executeCommand(CommandOperationHelper.java:203)
+	at com.mongodb.internal.operation.CommandOperationHelper.executeCommand(CommandOperationHelper.java:198)
+	at com.mongodb.internal.operation.CommandReadOperation.execute(CommandReadOperation.java:58)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:178)
+	at com.mongodb.client.internal.MongoDatabaseImpl.executeCommand(MongoDatabaseImpl.java:194)
+	at com.mongodb.client.internal.MongoDatabaseImpl.runCommand(MongoDatabaseImpl.java:163)
+	at com.mongodb.client.internal.MongoDatabaseImpl.runCommand(MongoDatabaseImpl.java:158)
+	at org.springframework.data.mongodb.core.MongoTemplate.lambda$executeCommand$2(MongoTemplate.java:457)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:539)
+	... 44 more
+2023-02-08 13:38:35.337 ERROR--[25-scheduling-1   ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/de-xuat-xay-dung-luat-thue-bat-dong-san-20230207160554907.chn|error=java.lang.InterruptedException
+reactor.core.Exceptions$ReactiveException: java.lang.InterruptedException
+	at reactor.core.Exceptions.propagate(Exceptions.java:393)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91)
+	at reactor.core.publisher.Mono.block(Mono.java:1685)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:169)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafefTest(CrawService.java:120)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.mbeelive.toolbackend.service.CrawService$$EnhancerBySpringCGLIB$$8ffaf983.crawnewItemCafefTest(<generated>)
+	at com.mbeelive.toolbackend.schedule.ThreadExcuteJob.crawNewsBds(ThreadExcuteJob.java:41)
+	at com.mbeelive.toolbackend.schedule.NewsRealEstateSchedule.crawNews(NewsRealEstateSchedule.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1343)
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:232)
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:87)
+	... 28 more
+2023-02-08 13:38:35.420  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.

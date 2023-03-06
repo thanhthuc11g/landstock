@@ -1,0 +1,167 @@
+2022-12-06 14:19:33.139  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-06 14:19:33.171  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 19740 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-12-06 14:19:33.171  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-12-06 14:19:34.327  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 14:19:34.327  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 14:19:34.514  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 185ms. Found 36 JPA repository interfaces.
+2022-12-06 14:19:34.514  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-06 14:19:34.514  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-06 14:19:34.530  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 10ms. Found 2 MongoDB repository interfaces.
+2022-12-06 14:19:35.483  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-12-06 14:19:35.483  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-12-06 14:19:35.483  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-06 14:19:35.483  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-06 14:19:35.639  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-06 14:19:35.639  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2421 ms
+2022-12-06 14:19:35.811  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-12-06 14:19:36.123  INFO--[25-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5370360}] to 207.46.234.134:27717
+2022-12-06 14:19:36.201  INFO--[25-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=87237100}
+2022-12-06 14:19:37.342  INFO--[25-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5370361}] to 207.46.234.134:27717
+2022-12-06 14:19:37.764  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-06 14:19:37.764  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-06 14:19:38.107  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-06 14:19:38.107  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-12-06 14:19:38.576  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-06 14:19:42.481  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-12-06 14:19:42.606  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 14:19:42.653  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-06 14:19:42.731  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 14:19:42.825  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-06 14:19:43.637  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 14:19:43.653  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 14:19:44.231  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 14:19:45.152  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-12-06 14:19:47.261  INFO--[25-sson-netty-2-28] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-06 14:19:47.340  INFO--[25-sson-netty-2-20] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-06 14:19:47.656  INFO--[25-main           ] [                                        ]redAnnotationBeanPostProcessor :Autowired annotation is not supported on static fields: private static java.lang.String ati.com.mbeelive.cmv.CmvRestClient.clientMessageId
+2022-12-06 14:19:48.369  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-06 14:19:48.369  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-12-06 14:19:48.494  INFO--[25-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 7c9d19c0-bcc2-4ef2-babc-3940e15dd6bf
+
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-12-06 14:19:48.525  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-12-06 14:19:48.572  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4799ce06, org.springframework.security.web.context.SecurityContextPersistenceFilter@384d40a5, org.springframework.security.web.header.HeaderWriterFilter@31d7e70, org.springframework.web.filter.CorsFilter@73c7a727, org.springframework.security.web.csrf.CsrfFilter@3f7a48a1, org.springframework.security.web.authentication.logout.LogoutFilter@7d963aca, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@5d5ad1e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2558c3fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e755a96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f792c5a, org.springframework.security.web.session.SessionManagementFilter@2e608993, org.springframework.security.web.access.ExceptionTranslationFilter@193bf20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c16b2f7]
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-06 14:19:48.700  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-12-06 14:19:50.087  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-12-06 14:19:50.134  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-12-06 14:19:50.150  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-12-06 14:19:50.200  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-12-06 14:19:50.200  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-06 14:19:50.200  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-06 14:19:50.200  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-06 14:19:50.247  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-06 14:19:50.247  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 97 ms
+2022-12-06 14:19:50.263  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-06 14:19:50.725  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-12-06 14:19:50.725  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-06 14:19:50.741  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 17.895 seconds (JVM running for 19.474)
+2022-12-06 14:19:50.741  INFO--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-12-06 14:19:50.741  INFO--[25-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-12-06 14:19:50.915  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[null], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-12-06 14:19:51.199  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 400 BAD_REQUEST Headers: {Date=[Tue, 06 Dec 2022 07:19:01 GMT], Content-Type=[application/json], Content-Length=[108], Connection=[keep-alive], Access-Control-Allow-Origin=[*], Access-Control-Allow-Methods=[*], Access-Control-Allow-Headers=[*], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=HDDEPEJLCJDJGHEDPCMPIOALEJGJNAKJCBIMEKADJKFMKIKGGHAKAGEPDLKDDOBJPLKDEBGJKMCDCHCLIECAOLJLJOCJDOBEDNMABAKGOFEMKFBDHNKMNNOGDDLDBGPH; HttpOnly; secure, MB01e353a0=01bb14ea42c4ca21d5c70d5ee4cc15c944e57fdfaf20b0550fd1445b597774fde839839e4fe6dcd0d2b982672c01e41810854c01f6; Path=/]} Body: {"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}
+2022-12-06 14:19:56.417 ERROR--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: [{"clientMessageId":null,"data":null,"errorCode":"203","errorDesc":["'clientMessageId' header is mandatory"]}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:101)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:447)
+	at ati.com.mbeelive.cmv.CmvRestClient.postForLogin(CmvRestClient.java:82)
+	at ati.com.mbeelive.cmv.CmvRestClient.login(CmvRestClient.java:119)
+	at ati.com.mbeelive.cmv.CmvRestClient.getAccessToken(CmvRestClient.java:110)
+	at ati.com.mbeelive.cmv.CmvSchedule.getFirstAccessToken(CmvSchedule.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.context.event.EventPublishingRunListener.running(EventPublishingRunListener.java:108)
+	at org.springframework.boot.SpringApplicationRunListeners.running(SpringApplicationRunListeners.java:77)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at ati.com.mbeelive.MbeeliveApplication.main(MbeeliveApplication.java:29)
+2022-12-06 14:19:56.433  INFO--[25-)-192.168.8.100] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 14:19:56.433  INFO--[25-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-12-06 14:19:56.433  INFO--[25-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 0 ms
+2022-12-06 14:21:23.205  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=835a06bc-89a4-43b8-8267-f8941a9857be | {"httpMethod":"PUT","httpPath":"/api/cms/v2/post/update","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"229","postman-token":"1fcb68d1-8316-48d5-a595-2dd291baa1c4","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{}}
+2022-12-06 14:21:23.249  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=835a06bc-89a4-43b8-8267-f8941a9857be | {"postId":"638ea78a0260ec0e056dbd54","showInfor":true,"floorNo":2000,"area":200000.0,"costs":5.0E8,"isHighlight":false,"startTime":{"date":{"year":2022,"month":12,"day":5},"time":{"hour":17,"minute":0,"second":0,"nano":0}},"endTime":{"date":{"year":2022,"month":12,"day":9},"time":{"hour":16,"minute":59,"second":59,"nano":0}}}
+2022-12-06 14:21:23.250 DEBUG--[25-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-12-06 14:21:23.302 DEBUG--[25-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "835a06bc-89a4-43b8-8267-f8941a9857be"} and update: { "$set" : { "requestBody" : { "postId" : "638ea78a0260ec0e056dbd54", "showInfor" : true, "floorNo" : 2000, "area" : 200000.0, "costs" : 5.0E8, "isHighlight" : false, "startTime" : { "$date" : "2022-12-05T10:00:00Z"}, "endTime" : { "$date" : "2022-12-09T09:59:59Z"}, "_class" : "ati.com.mbeelive.dto.post.input.UpdatePostInput"}}} in collection: logs
+2022-12-06 14:21:23.963  INFO--[25-ynchLogThread-2] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:5370382}] to 207.46.234.134:27717
+2022-12-06 14:21:28.301  WARN--[25-nio-8083-exec-3] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2adba533 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-12-06 14:21:31.161 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "id" : "638ea78a0260ec0e056dbd54", "deleted" : false} fields: {} for class: class ati.com.mbeelive.document.post.Post in collection: posts
+2022-12-06 14:21:31.208 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "_id" : { "$oid" : "638ea78a0260ec0e056dbd54"}, "deleted" : false} fields: {} in db.collection: landstock.posts
+2022-12-06 14:23:28.481  WARN--[25-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m15s861ms280µs400ns).
+2022-12-06 14:23:28.559 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [_id, title, customerCategory, images, categoryIds, categoryNames, status, totalView, totalLike, totalComment, approved_at, offComment, score, rejectedReasons, postImages, floorNo, area, costs, showInfor, isHighlight, created_at, updated_at, created_by, deleted, _class]
+2022-12-06 14:23:29.078 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "638ea78a0260ec0e056dbd54"} fields: {} for class: class ati.com.mbeelive.document.post.PostLibrary in collection: post_library
+2022-12-06 14:23:29.078 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :findOne using query: { "deleted" : false, "postId" : "638ea78a0260ec0e056dbd54"} fields: {} in db.collection: landstock.post_library
+2022-12-06 14:23:29.394 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [_id, title, content, images, categoryIds, categoryNames, status, totalView, totalLike, score, postId, floorNo, area, costs, isShowInfor, created_at, updated_at, deleted, _class]
+2022-12-06 14:23:29.518 DEBUG--[25-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [_id, title, customerCategory, images, categoryIds, categoryNames, status, totalView, totalLike, totalComment, approved_at, offComment, score, rejectedReasons, postImages, floorNo, area, costs, showInfor, isHighlight, created_at, updated_at, created_by, deleted, _class]
+2022-12-06 14:23:31.034  INFO--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=835a06bc-89a4-43b8-8267-f8941a9857be | {"responseCode":200,"during":"127843 ms","httpPath":"/api/cms/v2/post/update","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"229","postman-token":"1fcb68d1-8316-48d5-a595-2dd291baa1c4","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"success\",\"code\":200,\"data\":{\"id\":\"638ea78a0260ec0e056dbd54\",\"title\":\"Đăng bài test caption 06/12/2022\",\"customerCategory\":\"\",\"images\":[null],\"status\":\"Reject\",\"totalView\":0,\"totalLike\":0,\"totalComment\":0,\"categories\":[{\"id\":\"637b38120aef820ed55e5af5\",\"name\":\"Nhà đẹp\",\"type\":\"ChillHouse\",\"status\":\"ACTIVE\",\"image\":\"https://devbrood.blob.core.windows.net/bds/cms%2Fnews%2Fimages_BxiZ4Q.jfif\",\"isParent\":true,\"parentName\":\"Nhà đẹp\",\"description\":\"        Nhà Vườn     \"},{\"id\":\"62a2ffeca6c"}
+2022-12-06 14:23:31.115  WARN--[25-nio-8083-exec-3] [                                        ].b.a.m.w.s.WebMvcMetricsFilter :Failed to record timer metrics
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at io.micrometer.core.instrument.ImmutableTag.<init>(ImmutableTag.java:35)
+	at io.micrometer.core.instrument.Tag.of(Tag.java:29)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcTags.method(WebMvcTags.java:74)
+	at org.springframework.boot.actuate.metrics.web.servlet.DefaultWebMvcTagsProvider.getTags(DefaultWebMvcTagsProvider.java:74)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.getTimer(WebMvcMetricsFilter.java:179)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.record(WebMvcMetricsFilter.java:134)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-06 14:23:31.131  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-12-06 14:23:31.131  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-12-06 14:23:31.131  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-12-06 14:23:31.131  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-12-06 14:23:31.131  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-12-06 14:23:31.303  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 14:23:31.303  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-12-06 14:23:32.131  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-12-06 14:23:32.225  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5370361}] to 207.46.234.134:27717 because the pool has been closed.
+2022-12-06 14:23:32.225  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:3, serverValue:5370382}] to 207.46.234.134:27717 because the pool has been closed.

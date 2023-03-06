@@ -1,0 +1,115 @@
+package ati.com.mbeelive.entity;
+
+import ati.com.mbeelive.enums.CommonStatus;
+import ati.com.mbeelive.enums.PriceType;
+import ati.com.mbeelive.enums.ProjectMaintenanceFeeType;
+import ati.com.mbeelive.enums.ProjectSellStatus;
+import java.time.LocalDateTime;
+import java.util.Date;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SetAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
+@StaticMetamodel(Project.class)
+public abstract class Project_ {
+
+	public static volatile SingularAttribute<Project, String> referenceLinks;
+	public static volatile SingularAttribute<Project, String> code;
+	public static volatile SingularAttribute<Project, LocalDateTime> lastModifiedAt;
+	public static volatile SingularAttribute<Project, String> thumb;
+	public static volatile SingularAttribute<Project, String> documents;
+	public static volatile SingularAttribute<Project, Double> latitude;
+	public static volatile SetAttribute<Project, ProjectMapType> projectTypes;
+	public static volatile SingularAttribute<Project, String> description;
+	public static volatile SingularAttribute<Project, String> handoverProgressItems;
+	public static volatile SingularAttribute<Project, Long> supportValue;
+	public static volatile SingularAttribute<Project, Integer> extendTime;
+	public static volatile SingularAttribute<Project, Integer> maxLoanTime;
+	public static volatile SingularAttribute<Project, Date> createdAt;
+	public static volatile SingularAttribute<Project, Long> minValue;
+	public static volatile SingularAttribute<Project, Long> view;
+	public static volatile SingularAttribute<Project, Province> province;
+	public static volatile SingularAttribute<Project, Boolean> pinkBook;
+	public static volatile SingularAttribute<Project, String> lawName;
+	public static volatile SingularAttribute<Project, Street> street;
+	public static volatile SingularAttribute<Project, Double> price;
+	public static volatile SingularAttribute<Project, Boolean> isProve;
+	public static volatile SingularAttribute<Project, Long> id;
+	public static volatile SingularAttribute<Project, Double> maxLoanRate;
+	public static volatile SingularAttribute<Project, Double> longitude;
+	public static volatile SingularAttribute<Project, Date> updatedAt;
+	public static volatile SingularAttribute<Project, String> utilityApartment;
+	public static volatile SingularAttribute<Project, String> images;
+	public static volatile SingularAttribute<Project, Long> maintenanceFee;
+	public static volatile SingularAttribute<Project, String> address;
+	public static volatile SingularAttribute<Project, String> projectEndow;
+	public static volatile SingularAttribute<Project, PriceType> priceType;
+	public static volatile SingularAttribute<Project, Float> vat;
+	public static volatile SingularAttribute<Project, ProjectMaintenanceFeeType> maintenanceFeeType;
+	public static volatile SingularAttribute<Project, Integer> version;
+	public static volatile SingularAttribute<Project, Integer> totalTower;
+	public static volatile SingularAttribute<Project, Boolean> deleted;
+	public static volatile SingularAttribute<Project, Partner> partner;
+	public static volatile SingularAttribute<Project, ProjectSellStatus> sellStatus;
+	public static volatile SingularAttribute<Project, Long> createdBy;
+	public static volatile SingularAttribute<Project, District> district;
+	public static volatile SingularAttribute<Project, String> utilityRealEstate;
+	public static volatile SingularAttribute<Project, String> name;
+	public static volatile SingularAttribute<Project, Integer> position;
+	public static volatile SingularAttribute<Project, Integer> totalApartment;
+	public static volatile SingularAttribute<Project, CommonStatus> status;
+	public static volatile SingularAttribute<Project, Double> endowLoanRate;
+	public static volatile SingularAttribute<Project, String> overviewImageUrl;
+
+	public static final String REFERENCE_LINKS = "referenceLinks";
+	public static final String CODE = "code";
+	public static final String LAST_MODIFIED_AT = "lastModifiedAt";
+	public static final String THUMB = "thumb";
+	public static final String DOCUMENTS = "documents";
+	public static final String LATITUDE = "latitude";
+	public static final String PROJECT_TYPES = "projectTypes";
+	public static final String DESCRIPTION = "description";
+	public static final String HANDOVER_PROGRESS_ITEMS = "handoverProgressItems";
+	public static final String SUPPORT_VALUE = "supportValue";
+	public static final String EXTEND_TIME = "extendTime";
+	public static final String MAX_LOAN_TIME = "maxLoanTime";
+	public static final String CREATED_AT = "createdAt";
+	public static final String MIN_VALUE = "minValue";
+	public static final String VIEW = "view";
+	public static final String PROVINCE = "province";
+	public static final String PINK_BOOK = "pinkBook";
+	public static final String LAW_NAME = "lawName";
+	public static final String STREET = "street";
+	public static final String PRICE = "price";
+	public static final String IS_PROVE = "isProve";
+	public static final String ID = "id";
+	public static final String MAX_LOAN_RATE = "maxLoanRate";
+	public static final String LONGITUDE = "longitude";
+	public static final String UPDATED_AT = "updatedAt";
+	public static final String UTILITY_APARTMENT = "utilityApartment";
+	public static final String IMAGES = "images";
+	public static final String MAINTENANCE_FEE = "maintenanceFee";
+	public static final String ADDRESS = "address";
+	public static final String PROJECT_ENDOW = "projectEndow";
+	public static final String PRICE_TYPE = "priceType";
+	public static final String VAT = "vat";
+	public static final String MAINTENANCE_FEE_TYPE = "maintenanceFeeType";
+	public static final String VERSION = "version";
+	public static final String TOTAL_TOWER = "totalTower";
+	public static final String DELETED = "deleted";
+	public static final String PARTNER = "partner";
+	public static final String SELL_STATUS = "sellStatus";
+	public static final String CREATED_BY = "createdBy";
+	public static final String DISTRICT = "district";
+	public static final String UTILITY_REAL_ESTATE = "utilityRealEstate";
+	public static final String NAME = "name";
+	public static final String POSITION = "position";
+	public static final String TOTAL_APARTMENT = "totalApartment";
+	public static final String STATUS = "status";
+	public static final String ENDOW_LOAN_RATE = "endowLoanRate";
+	public static final String OVERVIEW_IMAGE_URL = "overviewImageUrl";
+
+}
+

@@ -1,0 +1,104 @@
+2022-12-09 12:01:11.806  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-09 12:01:11.837  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Starting CrawnewsApplication on DESKTOP-GSNRLR9 with PID 23236 (C:\Work\MbLandStock\landstock-tool-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-tool-be)
+2022-12-09 12:01:11.837  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :No active profile set, falling back to default profiles: default
+2022-12-09 12:01:12.418  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-09 12:01:12.418  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-09 12:01:12.480  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.DistrictRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.480  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.NewsRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.480  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProjectRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.480  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProvinceRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.480  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.SearchPriceViewRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.496  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.StreetRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.496  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.WardRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-09 12:01:12.512  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 90ms. Found 1 MongoDB repository interfaces.
+2022-12-09 12:01:12.778  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-09 12:01:12.778  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-09 12:01:12.809  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.CmvRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-12-09 12:01:12.825  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 50ms. Found 7 JPA repository interfaces.
+2022-12-09 12:01:13.264  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8084 (http)
+2022-12-09 12:01:13.264  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8084"]
+2022-12-09 12:01:13.264  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-09 12:01:13.264  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-09 12:01:13.407  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-09 12:01:13.407  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1538 ms
+2022-12-09 12:01:13.625  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-09 12:01:16.586  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-12-09 12:01:16.633  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-09 12:01:16.664  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-09 12:01:16.759  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-09 12:01:16.837  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-09 12:01:17.323  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-09 12:01:17.339  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09 12:01:17.402  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-12-09 12:01:17.719  INFO--[25-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5396649}] to 207.46.234.134:27717
+2022-12-09 12:01:17.809  INFO--[25-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=88921600}
+2022-12-09 12:01:18.154  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-12-09 12:01:20.214  INFO--[25-isson-netty-2-6] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-09 12:01:20.247  INFO--[25-sson-netty-2-18] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-09 12:01:20.846  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-09 12:01:20.846  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-12-09 12:01:20.846  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-09 12:01:20.846  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'increView'
+2022-12-09 12:01:20.909  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-09 12:01:21.353  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-12-09 12:01:21.387  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8084"]
+2022-12-09 12:01:21.389  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-09 12:01:21.437  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8091 (http)
+2022-12-09 12:01:21.437  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-09 12:01:21.437  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-09 12:01:21.437  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-09 12:01:21.484  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-09 12:01:21.484  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 95 ms
+2022-12-09 12:01:21.499  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-09 12:01:21.547  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8091"]
+2022-12-09 12:01:21.547  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-09 12:01:21.562  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start update image Post-------------------------
+2022-12-09 12:01:21.562  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Started CrawnewsApplication in 9.964 seconds (JVM running for 11.531)
+2022-12-09 12:01:22.128  INFO--[25-)-192.168.8.106] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-09 12:01:22.128  INFO--[25-)-192.168.8.106] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-12-09 12:01:22.136  INFO--[25-)-192.168.8.106] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 8 ms
+2022-12-09 12:01:22.152  INFO--[25-scheduling-1   ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5396650}] to 207.46.234.134:27717
+2022-12-09 12:01:23.367  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-09 12:01:23.367  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end update image Post---------------------------
+2022-12-09 12:01:23.367  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postHighLight-------------------------
+2022-12-09 12:01:42.873  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-09 12:02:17.469  WARN--[25-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m779ms6µs700ns).
+2022-12-09 12:02:19.372  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-09 12:02:21.197  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postHighLight---------------------------
+2022-12-09 12:02:22.021  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postHighLight-------------------------
+2022-12-09 12:02:36.125  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-12-09 12:02:36.164  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'increView'
+2022-12-09 12:02:36.164  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-12-09 12:02:36.294  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-09 12:02:36.309 ERROR--[25-scheduling-1   ] [                                        ].TaskUtils$LoggingErrorHandler :Unexpected error occurred in scheduled task
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'redissonConnectionFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:624)
+	at org.springframework.beans.factory.BeanFactoryUtils.beansOfTypeIncludingAncestors(BeanFactoryUtils.java:378)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:168)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:151)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.mbeelive.toolbackend.collection.PostCollection$$EnhancerBySpringCGLIB$$a1c58cdd.getPostisHighlight(<generated>)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:109)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postHighLight(PostSchedule.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-09 12:02:36.447  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5396650}] to 207.46.234.134:27717 because the pool has been closed.
+2022-12-09 12:02:36.447  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09 12:02:36.447  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...

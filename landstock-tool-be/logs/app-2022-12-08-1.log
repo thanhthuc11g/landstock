@@ -1,0 +1,867 @@
+2022-12-08 16:46:42.859  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-08 16:46:42.891  INFO--[26-main           ] [                                        ]c.m.t.CrawnewsApplication      :Starting CrawnewsApplication on DESKTOP-GSNRLR9 with PID 17316 (C:\Work\MbLandStock\landstock-tool-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-tool-be)
+2022-12-08 16:46:42.895  INFO--[26-main           ] [                                        ]c.m.t.CrawnewsApplication      :No active profile set, falling back to default profiles: default
+2022-12-08 16:46:43.832  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-08 16:46:43.834  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-08 16:46:43.908  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.DistrictRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.913  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.NewsRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.915  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProjectRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.918  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProvinceRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.920  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.SearchPriceViewRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.923  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.StreetRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.924  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.WardRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2022-12-08 16:46:43.968  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 130ms. Found 1 MongoDB repository interfaces.
+2022-12-08 16:46:44.353  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-08 16:46:44.353  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-08 16:46:44.393  INFO--[26-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.CmvRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-12-08 16:46:44.423  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 65ms. Found 7 JPA repository interfaces.
+2022-12-08 16:46:45.073  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8084 (http)
+2022-12-08 16:46:45.081  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8084"]
+2022-12-08 16:46:45.082  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-08 16:46:45.082  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-08 16:46:45.279  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-08 16:46:45.279  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2306 ms
+2022-12-08 16:46:45.558  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-08 16:46:47.802 ERROR--[26-main           ] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Can't create a new thread (errno 1); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:133)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:637)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.mbeelive.toolbackend.CrawnewsApplication.main(CrawnewsApplication.java:22)
+2022-12-08 16:46:47.839  INFO--[26-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-08 16:46:47.874  INFO--[26-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-08 16:46:47.965  INFO--[26-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-08 16:46:48.079  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-08 16:46:50.109 ERROR--[26-main           ] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Can't create a new thread (errno 1); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1858)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1795)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.mbeelive.toolbackend.CrawnewsApplication.main(CrawnewsApplication.java:22)
+2022-12-08 16:46:50.109  WARN--[26-main           ] [                                        ]j.e.i.JdbcEnvironmentInitiator :HHH000342: Could not obtain connection to query metadata
+java.sql.SQLException: Can't create a new thread (errno 1); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1858)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1795)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.mbeelive.toolbackend.CrawnewsApplication.main(CrawnewsApplication.java:22)
+2022-12-08 16:46:50.122  INFO--[26-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-12-08 16:46:50.676  INFO--[26-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 16:46:50.683  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:46:50.687  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-08 16:46:52.691 ERROR--[26-main           ] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Can't create a new thread (errno 1); if you are not out of available memory, you can consult the manual for a possible OS-dependent bug
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:133)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.lambda$isInitializingDatabase$0(DataSourceInitializedPublisher.java:128)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.isInitializingDatabase(DataSourceInitializedPublisher.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:110)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:102)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:430)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.mbeelive.toolbackend.CrawnewsApplication.main(CrawnewsApplication.java:22)
+2022-12-08 16:46:52.755  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-12-08 16:46:52.979  INFO--[26-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5389288}] to 207.46.234.134:27717
+2022-12-08 16:46:53.075  INFO--[26-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=94526800}
+2022-12-08 16:46:53.607  INFO--[26-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-12-08 16:46:56.865  INFO--[26-sson-netty-2-13] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-08 16:46:56.865  INFO--[26-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-12-08 16:46:57.533  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-08 16:46:57.534  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-12-08 16:46:57.536  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-12-08 16:46:57.536  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'increView'
+2022-12-08 16:46:57.571  WARN--[26-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-08 16:46:58.090  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-12-08 16:46:58.116  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8084"]
+2022-12-08 16:46:58.126  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-08 16:46:58.178  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8091 (http)
+2022-12-08 16:46:58.178  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-08 16:46:58.178  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-08 16:46:58.178  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-08 16:46:58.222  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-08 16:46:58.222  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 93 ms
+2022-12-08 16:46:58.236  INFO--[26-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-12-08 16:46:58.319  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8091"]
+2022-12-08 16:46:58.323  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-08 16:46:58.339  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start update image Post-------------------------
+2022-12-08 16:46:58.340  INFO--[26-main           ] [                                        ]c.m.t.CrawnewsApplication      :Started CrawnewsApplication in 15.754 seconds (JVM running for 17.905)
+2022-12-08 16:46:58.915  INFO--[26-scheduling-1   ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5389289}] to 207.46.234.134:27717
+2022-12-08 16:46:59.165  INFO--[26-)-192.168.8.150] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-12-08 16:46:59.166  INFO--[26-)-192.168.8.150] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-08 16:46:59.166  INFO--[26-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-12-08 16:46:59.172  INFO--[26-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 6 ms
+2022-12-08 16:47:00.178  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:00.178  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end update image Post---------------------------
+2022-12-08 16:47:00.178  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:00.966  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:01.625  INFO--[26-)-192.168.8.150] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-12-08 16:47:01.625  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:01.625  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:02.011  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:02.719  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:03.328  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:03.328  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:04.005  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:07.849  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:08.560  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:08.560  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:09.002  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:09.620  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:10.248  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:10.248  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:11.013  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:11.947  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:15.854  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:15.854  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:16.001  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:16.680  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:17.315  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:17.315  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:18.007  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:18.636  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:19.283  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:19.283  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:20.002  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:23.795  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:24.428  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:24.428  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:25.001  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:25.618  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:26.230  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:26.230  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:27.005  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:27.641  INFO--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2022-12-08 16:47:28.813 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 32","parameters":{"retry_after":32}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 32","parameters":{"retry_after":32}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:28.813  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:29.006  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:29.819 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 30","parameters":{"retry_after":30}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 30","parameters":{"retry_after":30}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:31.479 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 29","parameters":{"retry_after":29}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 29","parameters":{"retry_after":29}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:31.479  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:32.002  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:32.686 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 28","parameters":{"retry_after":28}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 28","parameters":{"retry_after":28}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:33.351 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 27","parameters":{"retry_after":27}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 27","parameters":{"retry_after":27}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:33.351  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:34.001  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:34.594 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 26","parameters":{"retry_after":26}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 26","parameters":{"retry_after":26}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:35.180 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 25","parameters":{"retry_after":25}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 25","parameters":{"retry_after":25}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:35.180  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:36.000  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:36.633 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 24","parameters":{"retry_after":24}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 24","parameters":{"retry_after":24}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:37.350 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 23","parameters":{"retry_after":23}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 23","parameters":{"retry_after":23}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:37.350  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:38.001  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:39.453 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 21","parameters":{"retry_after":21}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 21","parameters":{"retry_after":21}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:41.001 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 19","parameters":{"retry_after":19}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 19","parameters":{"retry_after":19}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:41.001  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:42.002  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:42.760 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 17","parameters":{"retry_after":17}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 17","parameters":{"retry_after":17}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:43.375 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 17","parameters":{"retry_after":17}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 17","parameters":{"retry_after":17}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:43.376  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:44.013  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:45.085 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 15","parameters":{"retry_after":15}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 15","parameters":{"retry_after":15}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:46.228 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 14","parameters":{"retry_after":14}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 14","parameters":{"retry_after":14}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:46.228  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:47.009  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:47.987 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 12","parameters":{"retry_after":12}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 12","parameters":{"retry_after":12}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:49.117 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 11","parameters":{"retry_after":11}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 11","parameters":{"retry_after":11}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:49.117  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:50.014  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:50.586 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 10","parameters":{"retry_after":10}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 10","parameters":{"retry_after":10}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.setHighlight(PostService.java:102)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:44)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:51.200 ERROR--[26-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :sendMessage|token=429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 9","parameters":{"retry_after":9}}]
+org.springframework.web.client.HttpClientErrorException$TooManyRequests: 429 Too Many Requests: [{"ok":false,"error_code":429,"description":"Too Many Requests: retry after 9","parameters":{"retry_after":9}}]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:137)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:184)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:780)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:738)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:672)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:581)
+	at com.mbeelive.toolbackend.telegram.TeleGramRestClient.get(TeleGramRestClient.java:29)
+	at com.mbeelive.toolbackend.telegram.TelegramService.sendMessage(TelegramService.java:28)
+	at com.mbeelive.toolbackend.service.PostService.removedHighlight(PostService.java:117)
+	at com.mbeelive.toolbackend.schedule.PostSchedule.postLibraryHighLight(PostSchedule.java:45)
+	at jdk.internal.reflect.GeneratedMethodAccessor96.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-12-08 16:47:51.200  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------end postLibraryHighLight---------------------------
+2022-12-08 16:47:52.010  INFO--[26-scheduling-1   ] [                                        ]c.m.t.s.PostSchedule           :----------------------start postLibraryHighLight-------------------------
+2022-12-08 16:47:53.358  INFO--[26-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-12-08 16:47:53.363  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'increView'
+2022-12-08 16:47:53.363  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-12-08 16:47:53.628  INFO--[26-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5389289}] to 207.46.234.134:27717 because the pool has been closed.
+2022-12-08 16:47:53.631  INFO--[26-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-08 16:47:53.634  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-12-08 16:47:55.113  INFO--[26-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.

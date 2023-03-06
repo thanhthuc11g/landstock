@@ -1,0 +1,13 @@
+
+c
+java:S1192,"GDefine a constant instead of duplicating this literal "userId" 4 times.(ÂÍ†98‡óÖœÊ0
+j
+java:S1192*"HDefine a constant instead of duplicating this literal "deleted" 3 times.(î‹×¯ûÿÿÿÿ8‡óÖœÊ0
+i
+java:S1192/"GDefine a constant instead of duplicating this literal "status" 4 times.(Ûë—¹ıÿÿÿÿ8‡óÖœÊ0
+]
+java:S1128"GRemove this unused import 'ati.com.mbeelive.document.post.PostComment'.(°“×Ò
+a
+java:S1128"FRemove this unused import 'ati.com.mbeelive.enums.post.CommentStatus'.(¸Å“Úşÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

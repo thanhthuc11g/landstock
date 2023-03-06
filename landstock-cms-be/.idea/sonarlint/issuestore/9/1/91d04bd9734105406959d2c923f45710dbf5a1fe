@@ -1,0 +1,31 @@
+
+h
+java:S1192*"FDefine a constant instead of duplicating this literal "level" 3 times.(æë­¸ûÿÿÿÿ8şõÖœÊ0
+i
+java:S1192."GDefine a constant instead of duplicating this literal "postId" 3 times.(ì±ñÿÿÿÿÿ8şõÖœÊ0
+f
+java:S1192'"IDefine a constant instead of duplicating this literal "parentId" 4 times.(¤Ù•ğ8şõÖœÊ0
+k
+java:S1192%"IDefine a constant instead of duplicating this literal "deleted" 11 times.(î‹×¯ûÿÿÿÿ8şõÖœÊ0
+n
+java:S1192T"LDefine a constant instead of duplicating this literal "approved_at" 3 times.(€âàûÿÿÿÿ8şõÖœÊ0
+i
+java:S11921"GDefine a constant instead of duplicating this literal "status" 8 times.(Ûë—¹ıÿÿÿÿ8şõÖœÊ0
+q
+java:S1488h"\Immediately return this expression instead of assigning it to the temporary variable "data".(ã‘»
+q
+java:S1488{"\Immediately return this expression instead of assigning it to the temporary variable "data".(ã‘»
+r
+java:S1488…"\Immediately return this expression instead of assigning it to the temporary variable "data".(ã‘»
+s
+java:S1488œ"\Immediately return this expression instead of assigning it to the temporary variable "data".(¾ƒ³“
+t
+java:S1488§"]Immediately return this expression instead of assigning it to the temporary variable "total".(ìµõÍ
+t
+java:S1488²"]Immediately return this expression instead of assigning it to the temporary variable "total".(ìµõÍ
+s
+java:S1488Æ"\Immediately return this expression instead of assigning it to the temporary variable "data".(¾ƒ³“
+j
+java:S1128"TRemove this unused import 'ati.com.mbeelive.dto.post.input.AdminUpdateCommentInput'.(“ƒ€´
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

@@ -1,0 +1,19 @@
+
+T
+java:S26298"7Use the built-in formatting to construct this argument.(ì’ü‡8¸¦×œÊ0
+S
+java:S2629A"7Use the built-in formatting to construct this argument.(©é°L8¸¦×œÊ0
+T
+java:S2629J"7Use the built-in formatting to construct this argument.(Û•ÔÃ8¸¦×œÊ0
+{	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(è™Æşÿÿÿÿ8Ç¦×œÊ0
+^
+java:S34578"AFormat specifiers should be used instead of string concatenation.(ì’ü‡8×¦×œÊ0
+]
+java:S3457A"AFormat specifiers should be used instead of string concatenation.(©é°L8×¦×œÊ0
+^
+java:S3457J"AFormat specifiers should be used instead of string concatenation.(Û•ÔÃ8×¦×œÊ0
+]	java:S125Q"<This block of commented-out lines of code should be removed.(ĞÎ‚×ÿÿÿÿÿ8×¦×œÊ0
+]	java:S125X"<This block of commented-out lines of code should be removed.(ĞÎ‚×ÿÿÿÿÿ8×¦×œÊ0
+]	java:S125o"<This block of commented-out lines of code should be removed.(ĞÎ‚×ÿÿÿÿÿ8ç¦×œÊ0
+Y	java:S125"<This block of commented-out lines of code should be removed.(¶şÁÑ8ç¦×œÊ0
+^	java:S125"<This block of commented-out lines of code should be removed.(ĞÎ‚×ÿÿÿÿÿ8ç¦×œÊ0

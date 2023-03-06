@@ -1,0 +1,47 @@
+2022-11-18 08:40:29.943  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-11-18 08:40:30.036  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 10116 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-11-18 08:40:30.036  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-11-18 08:40:33.770  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-18 08:40:33.770  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 08:40:34.082  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 305ms. Found 36 JPA repository interfaces.
+2022-11-18 08:40:34.082  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-18 08:40:34.082  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-11-18 08:40:34.098  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 14ms. Found 2 MongoDB repository interfaces.
+2022-11-18 08:40:37.050  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-11-18 08:40:37.066  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-11-18 08:40:37.066  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-18 08:40:37.066  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-18 08:40:37.425  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-18 08:40:37.425  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 7201 ms
+2022-11-18 08:40:37.660  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-11-18 08:40:38.175  INFO--[26-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5230411}] to 207.46.234.134:27717
+2022-11-18 08:40:38.300  INFO--[26-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=115519700}
+2022-11-18 08:40:40.924  INFO--[26-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5230412}] to 207.46.234.134:27717
+2022-11-18 08:40:41.034  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-18 08:40:41.049  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-18 08:40:41.659  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-18 08:40:41.659  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-18 08:40:43.205  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-11-18 08:40:47.017  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-11-18 08:40:48.063  INFO--[26-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 08:40:48.719  INFO--[26-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-11-18 08:40:49.235  INFO--[26-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 08:40:49.704  INFO--[26-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-18 08:40:53.172  INFO--[26-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 08:40:53.250  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 08:40:55.046  WARN--[26-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 08:40:58.374  INFO--[26-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-11-18 08:41:01.638  INFO--[26-sson-netty-2-11] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-18 08:41:01.671  INFO--[26-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-18 08:41:02.902  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-18 08:41:02.902  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-11-18 08:41:03.027  INFO--[26-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 9f5f53a7-efd6-48f6-a178-d97534f922ae
+
+2022-11-18 08:41:03.090  WARN--[26-main           ] [                                        ]letWebServerApplicationContext :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalStateException: Can't configure antMatchers after anyRequest
+2022-11-18 08:41:03.090  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-11-18 08:41:03.250  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 08:41:03.250  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-11-18 08:41:04.094  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-11-18 08:41:04.203  INFO--[26-main           ] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5230412}] to 207.46.234.134:27717 because the pool has been closed.

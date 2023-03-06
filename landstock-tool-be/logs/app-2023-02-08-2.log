@@ -1,0 +1,764 @@
+2023-02-08 09:41:58.137  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-08 09:41:58.161  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Starting CrawnewsApplication on DESKTOP-GSNRLR9 with PID 10808 (C:\Work\MbLandStock\landstock-tool-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-tool-be)
+2023-02-08 09:41:58.163  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :No active profile set, falling back to default profiles: default
+2023-02-08 09:41:58.774  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 09:41:58.776  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-08 09:41:58.867  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.DistrictRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.870  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.NewsRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.872  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProjectRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.874  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProvinceRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.876  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.SearchPriceViewRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.879  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.StreetRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.880  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.WardRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 09:41:58.892  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 114ms. Found 1 MongoDB repository interfaces.
+2023-02-08 09:41:59.196  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 09:41:59.196  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-08 09:41:59.228  INFO--[25-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.CmvRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-02-08 09:41:59.254  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 55ms. Found 7 JPA repository interfaces.
+2023-02-08 09:41:59.727  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8084 (http)
+2023-02-08 09:41:59.733  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8084"]
+2023-02-08 09:41:59.733  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 09:41:59.734  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 09:41:59.865  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 09:41:59.865  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1662 ms
+2023-02-08 09:42:00.100  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2023-02-08 09:42:02.767  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2023-02-08 09:42:02.817  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-08 09:42:02.853  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-08 09:42:02.933  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-08 09:42:03.018  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-08 09:42:03.491  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-08 09:42:03.498  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 09:42:03.683  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-08 09:42:04.421  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2023-02-08 09:42:05.756  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 09:42:05.782  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 09:42:05.782  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 09:42:05.855  INFO--[25-sson-netty-2-18] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 09:42:05.875  INFO--[25-sson-netty-2-20] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 09:42:06.204  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:39553}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.204  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:39666}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.216  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:41250}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.284  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=77852200, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 09:42:02 GMT+07:00 2023, lastUpdateTimeNanos=1969396272548100}
+2023-02-08 09:42:06.287  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=82220800, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 09:42:02 GMT+07:00 2023, lastUpdateTimeNanos=1969396276537900}
+2023-02-08 09:42:06.293  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=76754900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Wed Feb 08 09:42:02 GMT+07:00 2023, lastUpdateTimeNanos=1969396282390400}
+2023-02-08 09:42:06.293  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000005 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.293  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.293  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 09:42:06.380  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 09:42:06.381  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2023-02-08 09:42:06.384  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 09:42:06.384  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'increView'
+2023-02-08 09:42:06.424  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-08 09:42:06.915  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2023-02-08 09:42:06.941  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8084"]
+2023-02-08 09:42:06.951  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8084 (http) with context path ''
+2023-02-08 09:42:06.999  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8091 (http)
+2023-02-08 09:42:07.000  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8091"]
+2023-02-08 09:42:07.000  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 09:42:07.000  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 09:42:07.042  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 09:42:07.042  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 88 ms
+2023-02-08 09:42:07.052  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-08 09:42:07.096  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8091"]
+2023-02-08 09:42:07.100  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8091 (http) with context path ''
+2023-02-08 09:42:07.116  INFO--[25-main           ] [                                        ]c.m.t.CrawnewsApplication      :Started CrawnewsApplication in 9.211 seconds (JVM running for 11.103)
+2023-02-08 09:42:07.441  INFO--[25-)-192.168.8.122] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 09:42:07.441  INFO--[25-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2023-02-08 09:42:07.446  INFO--[25-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 5 ms
+2023-02-08 09:42:08.003  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :start crawNews
+2023-02-08 09:42:37.098  INFO--[25-)-192.168.8.122] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:41251}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 09:42:38.723  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 09:42:46.218 ERROR--[25-AsynchThread-10] [                                        ]c.a.s.c.Utility                :Request body emitted 1365 bytes, less than the expected 1406 bytes.
+2023-02-08 09:42:46.218 ERROR--[25-AsynchThread-3 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1378 bytes, less than the expected 1395 bytes.
+2023-02-08 09:42:46.222 ERROR--[25-AsynchThread-3 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/nhieu-loi-the-tu-du-an-8200-ti-dong-20230208082506349.chn|error=Request body emitted 1378 bytes, less than the expected 1395 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1378 bytes, less than the expected 1395 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:46.222 ERROR--[25-AsynchThread-10] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/diem-mat-nhung-yeu-to-dinh-hinh-thi-truong-bat-dong-san-chau-a-2023-20230207165522743.chn|error=Request body emitted 1365 bytes, less than the expected 1406 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1365 bytes, less than the expected 1406 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:46.569 ERROR--[25-AsynchThread-8 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1382 bytes, more than the expected 1348 bytes.
+2023-02-08 09:42:46.569 ERROR--[25-AsynchThread-8 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/dau-nam-theo-chan-nha-dau-tu-san-bat-dong-san-ngop-o-dong-nai-20230207165741761.chn|error=Request body emitted 1382 bytes, more than the expected 1348 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1382 bytes, more than the expected 1348 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:46.691 ERROR--[25-AsynchThread-2 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1390 bytes, more than the expected 1355 bytes.
+2023-02-08 09:42:46.691 ERROR--[25-AsynchThread-2 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/photo-essay-ruc-rich-len-thanh-pho-gia-dat-huyen-dong-dan-nhat-viet-nam-cham-nguong-300-trieu-dong-m2-20230208090220773.chn|error=Request body emitted 1390 bytes, more than the expected 1355 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1390 bytes, more than the expected 1355 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:47.367 ERROR--[25-AsynchThread-6 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1367 bytes, less than the expected 1368 bytes.
+2023-02-08 09:42:47.367 ERROR--[25-AsynchThread-6 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/chu-tich-horea-kien-nghi-khan-truoc-cuoc-hop-cua-ngan-hang-nha-nuoc-ve-tin-dung-linh-vuc-bat-dong-san-sang-8-2-20230208071920401.chn|error=Request body emitted 1367 bytes, less than the expected 1368 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1367 bytes, less than the expected 1368 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:47.574 ERROR--[25-AsynchThread-1 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1345 bytes, less than the expected 1373 bytes.
+2023-02-08 09:42:47.575 ERROR--[25-AsynchThread-1 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/feri-cu-10-nha-dau-tu-thi-co-9-nguoi-dang-quan-sat-va-cho-doi-co-hoi-xuong-tien-phu-hop-20230208091344793.chn|error=Request body emitted 1345 bytes, less than the expected 1373 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1345 bytes, less than the expected 1373 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:47.589 ERROR--[25-AsynchThread-4 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1376 bytes, more than the expected 1373 bytes.
+2023-02-08 09:42:47.589 ERROR--[25-AsynchThread-4 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/nha-o-xa-hoi-khoi-sac-2023020808220486.chn|error=Request body emitted 1376 bytes, more than the expected 1373 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1376 bytes, more than the expected 1373 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:47.620  INFO--[25-AsynchThread-7 ] [                                        ]c.m.t.s.CrawService            :image=image-news/79432757-c7dc-4701-a667-2bcac4067c72.aspx
+2023-02-08 09:42:48.125 ERROR--[25-AsynchThread-2 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1391 bytes, more than the expected 1370 bytes.
+2023-02-08 09:42:48.125 ERROR--[25-AsynchThread-2 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/tiet-lo-nong-truoc-cuoc-hop-rat-quan-trong-ve-von-tin-dung-bat-dong-san-2023020715331006.chn|error=Request body emitted 1391 bytes, more than the expected 1370 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1391 bytes, more than the expected 1370 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:48.399 ERROR--[25-AsynchThread-10] [                                        ]c.a.s.c.Utility                :Request body emitted 1370 bytes, less than the expected 1372 bytes.
+2023-02-08 09:42:48.399 ERROR--[25-AsynchThread-10] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/bao-sa-thai-can-quet-bat-dong-san-trong-khi-dat-xanh-cat-giam-hon-3000-nguoi-thi-vinhomes-tang-dot-bien-nhan-su-chi-trong-3-thang-20230207154917122.chn|error=Request body emitted 1370 bytes, less than the expected 1372 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1370 bytes, less than the expected 1372 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:48.669 ERROR--[25-AsynchThread-8 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1376 bytes, less than the expected 1383 bytes.
+2023-02-08 09:42:48.670 ERROR--[25-AsynchThread-8 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/chu-tich-quoc-hoi-co-the-lam-viec-ca-ngay-nghi-gio-nghi-de-hoan-thien-luat-dat-dai-20230207154027805.chn|error=Request body emitted 1376 bytes, less than the expected 1383 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1376 bytes, less than the expected 1383 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:48.807 ERROR--[25-AsynchThread-1 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1363 bytes, less than the expected 1382 bytes.
+2023-02-08 09:42:48.808 ERROR--[25-AsynchThread-1 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/me-man-mau-nha-cap-4-gia-re-nhung-khong-gian-sang-trong-nhu-biet-thu-o-binh-thuan-20230207135629024.chn|error=Request body emitted 1363 bytes, less than the expected 1382 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1363 bytes, less than the expected 1382 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:48.881 ERROR--[25-AsynchThread-3 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1380 bytes, less than the expected 1383 bytes.
+2023-02-08 09:42:48.882 ERROR--[25-AsynchThread-3 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/vay-tien-mua-nha-da-de-nhung-tac-o-lai-suat-qua-cao-20230207162541293.chn|error=Request body emitted 1380 bytes, less than the expected 1383 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1380 bytes, less than the expected 1383 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:48.998 ERROR--[25-AsynchThread-9 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1395 bytes, more than the expected 1357 bytes.
+2023-02-08 09:42:48.998 ERROR--[25-AsynchThread-9 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/9x-sai-gon-va-khat-khao-so-huu-can-nha-dau-doi-20230207174317352.chn|error=Request body emitted 1395 bytes, more than the expected 1357 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1395 bytes, more than the expected 1357 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:49.138 ERROR--[25-AsynchThread-7 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1385 bytes, more than the expected 1377 bytes.
+2023-02-08 09:42:49.138 ERROR--[25-AsynchThread-7 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/doanh-nghiep-bat-dong-san-khong-phai-lai-suat-cao-ma-khong-tiep-can-von-ngan-hang-20230207133926726.chn|error=Request body emitted 1385 bytes, more than the expected 1377 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1385 bytes, more than the expected 1377 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:49.446 ERROR--[25-AsynchThread-6 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1388 bytes, more than the expected 1371 bytes.
+2023-02-08 09:42:49.446 ERROR--[25-AsynchThread-6 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/binh-duong-rot-von-cao-nhat-tu-truoc-den-nay-cho-cac-du-an-giao-thong-20230207144244337.chn|error=Request body emitted 1388 bytes, more than the expected 1371 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1388 bytes, more than the expected 1371 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$3(Utility.java:269)
+	at reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onComplete(FluxPeekFuseable.java:922)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:359)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onComplete(FluxConcatMap.java:268)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2395)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:50.252 ERROR--[25-AsynchThread-5 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1380 bytes, less than the expected 1408 bytes.
+2023-02-08 09:42:50.252 ERROR--[25-AsynchThread-5 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/thi-truong-bat-dong-san-nin-tho-truoc-cuoc-hop-giai-cuu-20230208071736087.chn|error=Request body emitted 1380 bytes, less than the expected 1408 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1380 bytes, less than the expected 1408 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:50.284 ERROR--[25-AsynchThread-4 ] [                                        ]c.a.s.c.Utility                :Request body emitted 1363 bytes, less than the expected 1371 bytes.
+2023-02-08 09:42:50.285 ERROR--[25-AsynchThread-4 ] [                                        ]c.m.t.s.CrawService            :crawnewItem crawnewItem: |url=https://cafef.vn/chu-du-an-bat-dong-san-khu-vuc-nao-khong-duoc-phan-lo-ban-nen-20230207135020118.chn|error=Request body emitted 1363 bytes, less than the expected 1371 bytes.
+com.azure.core.exception.UnexpectedLengthException: Request body emitted 1363 bytes, less than the expected 1371 bytes.
+	at com.azure.storage.common.Utility.lambda$convertStreamToByteBuffer$1(Utility.java:259)
+	at reactor.core.publisher.MonoCallable.call(MonoCallable.java:91)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:401)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onNext(FluxConcatMap.java:243)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:121)
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2393)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:162)
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:228)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+	at reactor.core.publisher.FluxJust.subscribe(FluxJust.java:68)
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:62)
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4252)
+	at reactor.core.publisher.Mono.block(Mono.java:1684)
+	at com.azure.storage.common.implementation.StorageImplUtils.blockWithOptionalTimeout(StorageImplUtils.java:99)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:222)
+	at com.azure.storage.blob.BlobClient.uploadWithResponse(BlobClient.java:185)
+	at com.azure.storage.blob.BlobClient.upload(BlobClient.java:163)
+	at com.mbeelive.toolbackend.uploads.AzureBlobStorageDriver.upload(AzureBlobStorageDriver.java:156)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:123)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:74)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99)
+		at reactor.core.publisher.Mono.block(Mono.java:1685)
+		... 19 more
+2023-02-08 09:42:53.282  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 09:43:36.792  WARN--[25-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s974ms916µs100ns).
+2023-02-08 09:43:38.336  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 09:43:42.621  INFO--[25-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 09:43:46.333  INFO--[25-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :end crawNews|ExcuteTime= 85590ms
+2023-02-08 09:43:46.646  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2023-02-08 09:43:46.649  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'increView'
+2023-02-08 09:43:46.650  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2023-02-08 09:43:46.966  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:41251}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because the pool has been closed.
+2023-02-08 09:43:46.967  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 09:43:46.970  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2023-02-08 09:43:46.980  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.

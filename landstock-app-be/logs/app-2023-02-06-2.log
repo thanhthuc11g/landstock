@@ -1,0 +1,458 @@
+2023-02-06 10:30:33.657  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-06 10:30:33.687  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 3608 (C:\Work\MbLandStock\landstock-app-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-app-be)
+2023-02-06 10:30:33.690 DEBUG--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Running with Spring Boot v2.3.12.RELEASE, Spring v5.2.15.RELEASE
+2023-02-06 10:30:33.690  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2023-02-06 10:30:34.829  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-06 10:30:34.830  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 10:30:35.024  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 190ms. Found 37 JPA repository interfaces.
+2023-02-06 10:30:35.025  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-06 10:30:35.025  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-06 10:30:35.035  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 8ms. Found 1 MongoDB repository interfaces.
+2023-02-06 10:30:35.749  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-02-06 10:30:35.756  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2023-02-06 10:30:35.760  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-02-06 10:30:35.992  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 10:30:36.003  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 10:30:36.004  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-06 10:30:36.264  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2023-02-06 10:30:36.271  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2023-02-06 10:30:36.271  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-06 10:30:36.271  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-06 10:30:36.470  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-06 10:30:36.470  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2728 ms
+2023-02-06 10:30:36.806  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-06 10:30:36.943  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-06 10:30:36.966  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-06 10:30:36.967  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-06 10:30:37.340  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@5709e10b from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2023-02-06 10:30:37.740  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:27151}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.740  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:27250}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.740  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:28160}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.833  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=87658700, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Mon Feb 06 10:30:35 GMT+07:00 2023, lastUpdateTimeNanos=1799491314039600}
+2023-02-06 10:30:37.837  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000005 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.837  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.837  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:30:37.846  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=103877300, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Feb 06 10:30:35 GMT+07:00 2023, lastUpdateTimeNanos=1799491328934600}
+2023-02-06 10:30:37.848  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=105929200, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Feb 06 10:30:35 GMT+07:00 2023, lastUpdateTimeNanos=1799491330985100}
+2023-02-06 10:30:38.483  INFO--[26-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:28161}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:30:38.744  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-06 10:30:38.746  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-06 10:30:39.423  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-06 10:30:39.423  INFO--[26-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-06 10:30:39.895  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2023-02-06 10:30:42.673  INFO--[26-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2023-02-06 10:30:42.768  INFO--[26-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 10:30:42.805  INFO--[26-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-06 10:30:42.893  INFO--[26-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-06 10:30:42.982  INFO--[26-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-06 10:30:43.879  INFO--[26-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 10:30:43.892  INFO--[26-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 10:30:44.389  WARN--[26-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 10:30:45.077  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2023-02-06 10:30:45.137 DEBUG--[26-main           ] [                                        ].c.m.s.JwtAuthenticationFilter :Filter 'jwtAuthenticationFilter' configured for use
+2023-02-06 10:30:45.137 DEBUG--[26-main           ] [                                        ]a.c.m.l.RequestLoggingFilter   :Filter 'requestLoggingFilter' configured for use
+2023-02-06 10:30:45.551  INFO--[26-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2023-02-06 10:30:47.556  INFO--[26-isson-netty-2-3] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-06 10:30:47.658  INFO--[26-sson-netty-2-17] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-06 10:30:48.735  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-06 10:30:48.735  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2023-02-06 10:30:48.961  INFO--[26-main           ] [                                        ].c.GcpContextAutoConfiguration :The default project ID is mb-data-science-329003
+2023-02-06 10:30:48.995  INFO--[26-main           ] [                                        ]s.c.DefaultCredentialsProvider :Default credentials provider for service account landstock-pubsub-dev@mb-data-science-329003.iam.gserviceaccount.com
+2023-02-06 10:30:48.996  INFO--[26-main           ] [                                        ]s.c.DefaultCredentialsProvider :Scopes in use by default credentials: [https://www.googleapis.com/auth/pubsub, https://www.googleapis.com/auth/spanner.admin, https://www.googleapis.com/auth/spanner.data, https://www.googleapis.com/auth/datastore, https://www.googleapis.com/auth/sqlservice.admin, https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/devstorage.read_write, https://www.googleapis.com/auth/cloudruntimeconfig, https://www.googleapis.com/auth/trace.append, https://www.googleapis.com/auth/cloud-platform, https://www.googleapis.com/auth/cloud-vision, https://www.googleapis.com/auth/bigquery, https://www.googleapis.com/auth/monitoring.write]
+2023-02-06 10:30:48.998  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService
+2023-02-06 10:30:49.009  INFO--[26-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'pubsubPublisherThreadPool'
+2023-02-06 10:30:49.056  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'pubSubAcknowledgementExecutor'
+2023-02-06 10:30:49.158  INFO--[26-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 4f6ecd90-0693-4589-9143-54952dae3631
+
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2023-02-06 10:30:49.235  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-02-06 10:30:49.286  INFO--[26-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4dac863d, org.springframework.security.web.context.SecurityContextPersistenceFilter@67feb5d0, org.springframework.security.web.header.HeaderWriterFilter@489cbbcb, org.springframework.web.filter.CorsFilter@503308de, org.springframework.security.web.csrf.CsrfFilter@68e7f7c4, org.springframework.security.web.authentication.logout.LogoutFilter@480f24b1, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@3c2654e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19cf111c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75e355e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@482bdb02, org.springframework.security.web.session.SessionManagementFilter@272185e8, org.springframework.security.web.access.ExceptionTranslationFilter@27d3a440, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24ab86eb]
+2023-02-06 10:30:49.430  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-06 10:30:49.430  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2023-02-06 10:30:49.430  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-06 10:30:49.430  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2023-02-06 10:30:49.431  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-06 10:30:49.431  INFO--[26-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ].s.i.c.PublishSubscribeChannel :Channel 'application.errorChannel' has 1 subscriber(s).
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean '_org.springframework.integration.errorLogger'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {message-handler:pubSubConfig.messageSenderCmvRatting.serviceActivator} as a subscriber to the 'pubsubCmvRattingChannel' channel
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubCmvRattingChannel' has 1 subscriber(s).
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean 'pubSubConfig.messageSenderCmvRatting.serviceActivator'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {message-handler:pubSubConfig.messageSenderLog.serviceActivator} as a subscriber to the 'pubsubLogChannel' channel
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubLogChannel' has 1 subscriber(s).
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean 'pubSubConfig.messageSenderLog.serviceActivator'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]ryBean$MethodInvocationGateway :started bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ].s.i.g.GatewayProxyFactoryBean :started bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ]ryBean$MethodInvocationGateway :started bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-06 10:30:51.844  INFO--[26-main           ] [                                        ].s.i.g.GatewayProxyFactoryBean :started bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-06 10:30:51.845  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2023-02-06 10:30:51.856  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2023-02-06 10:30:51.918  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2023-02-06 10:30:51.918  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2023-02-06 10:30:51.919  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-06 10:30:51.919  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-06 10:30:51.968  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-06 10:30:51.968  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 108 ms
+2023-02-06 10:30:51.984  INFO--[26-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-06 10:30:52.751  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2023-02-06 10:30:52.754  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2023-02-06 10:30:52.798  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 19.378 seconds (JVM running for 22.167)
+2023-02-06 10:30:52.805  INFO--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2023-02-06 10:30:52.805  INFO--[26-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2023-02-06 10:30:52.965  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-public.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[LandStock], Content-Length=[49]} Body: {"username":"cmv_squad9","password":"cmv_squad9"}
+2023-02-06 10:30:53.070  INFO--[26-)-192.168.8.100] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 10:30:53.070  INFO--[26-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2023-02-06 10:30:53.080  INFO--[26-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 10 ms
+2023-02-06 10:30:53.405  INFO--[26-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-public.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 200 OK Headers: {Date=[Mon, 06 Feb 2023 03:29:49 GMT], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Connection=[keep-alive], vary=[Origin,Access-Control-Request-Method,Access-Control-Request-Headers], cache-control=[no-store], pragma=[no-cache], x-envoy-upstream-service-time=[37], Server=[istio-envoy], x-envoy-decorator-operation=[ms001-service-cmv-auth-service.prod-cmv.svc.cluster.local:9129/*], Set-Cookie=[BIGipServerk8s_cmv_api_auth_pool_9129=1679556874.43299.0000; path=/; Httponly; Secure, BIGipServerapiGee_dmz_in_pool=3894149386.47873.0000; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=OBOAADIMOCPPELPOFGFOPMFHEBCDLPPIALDKBEMNBIINAKLNDPOCABNFELGKKIGFAFKDGJCECDEDFGOPPFPAIPFNOHPKCGKMOBGPFCMGKEDKOOLJADNAELGIGNDAFJAE; HttpOnly; secure]} Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU2OTczODksInVzZXJfbmFtZSI6IntcImlkXCI6Mjk1ODUsXCJicmFuY2hJZFwiOjEsXCJ1c2VybmFtZVwiOlwiY212X3NxdWFkOVwiLFwidXNlckNvZGVcIjpcImNtdl9zcXVhZDlcIixcImZ1bGxOYW1lXCI6XCJjbXZfc3F1YWQ5XCIsXCJlbWFpbFwiOlwiY212c3F1YWQ5QG1iYmFuay5jb20udm5cIixcImJyYW5jaENvZGVcIjpcIm51bGxcIixcImV4cGlyZUF0XCI6MTY3NTY1NDIzMjI5NSxcInRva2VuVHlwZVwiOlwiQUNDRVNTX1RPS0VOXCIsXCJjbGllbnRJZFwiOlwiY212LWNsaWVudC1pZFwiLFwic2NvcGVzXCI6W1wiTUIjVklFV1wiLFwiTUJDViNNT0RJRllcIi
+2023-02-06 10:30:53.502  INFO--[26-main           ] [                                        ]a.c.m.c.CmvSchedule            :end getFirstAccessToken
+2023-02-06 10:31:26.862 DEBUG--[26-nio-8083-exec-1] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-06 10:32:05.839  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s49ms849µs800ns).
+2023-02-06 10:32:25.553 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=6e9882d9-f692-44c8-b7de-cc3c9025fb02 | {"projectId":188,"isFav":false}
+2023-02-06 10:33:04.850  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s11ms447µs500ns).
+2023-02-06 10:33:24.306 DEBUG--[26-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "6e9882d9-f692-44c8-b7de-cc3c9025fb02"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : false, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "d2c833b7a781d495851e9a7058bb0c446d245eef55bdb595be4ad9643fedf31fda92ba78ed2899caf8ccadecc72c86383d159a6b71b8a13780e6b8f9b8276ec1"}} in collection: logs
+2023-02-06 10:34:36.510  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s658ms700µs400ns).
+2023-02-06 10:34:56.071  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@341e9f71 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.084  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@757ca840 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.093  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35d95489 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.102  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10b9cabc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.113  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@259c4ab3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.123  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3532c8e8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.133  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ab0afdb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.143  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1402701b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.153  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@538c79fa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:34:56.163  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@705a9eeb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:35:03.167 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=6e9882d9-f692-44c8-b7de-cc3c9025fb02 | {"responseCode":200,"during":"216497 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"f5f51e38-dae0-403d-9276-5537a97ba00e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":6},\"time\":{\"hour\":10,\"minute\":34,\"second\":41,\"nano\":150616900}}}"}
+2023-02-06 10:35:03.180 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=6e9882d9-f692-44c8-b7de-cc3c9025fb02 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"f5f51e38-dae0-403d-9276-5537a97ba00e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-06 10:35:03.180 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": false
+}
+2023-02-06 10:35:03.353 DEBUG--[26-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-06 10:35:20.445 DEBUG--[26-bsub-publisher3] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6916886467109268
+2023-02-06 10:42:16.927 DEBUG--[26-nio-8083-exec-5] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-06 10:42:26.521 DEBUG--[26-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=41973187-c154-4dec-8733-5772bb31ff9b | {"projectId":188,"isFav":false}
+2023-02-06 10:42:34.445 DEBUG--[26-ynchLogThread-3] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "41973187-c154-4dec-8733-5772bb31ff9b"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : false, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "d2c833b7a781d495851e9a7058bb0c446d245eef55bdb595be4ad9643fedf31fda92ba78ed2899caf8ccadecc72c86383d159a6b71b8a13780e6b8f9b8276ec1"}} in collection: logs
+2023-02-06 10:42:45.628  WARN--[26-ynchLogThread-3] [                                        ]o.m.d.connection               :Got socket exception on connection [connectionId{localValue:4, serverValue:28161}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017. All connections to lab-uat-shard-00-02.ojso0.mongodb.net:27017 will be closed.
+2023-02-06 10:42:47.976  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:42:52.689  INFO--[26-ynchLogThread-3] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:28161}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised by this connection.
+2023-02-06 10:43:01.099 ERROR--[26-ynchLogThread-3] [                                        ]a.c.m.a.LogAsyn                :Exception sending message; nested exception is com.mongodb.MongoSocketWriteException: Exception sending message
+2023-02-06 10:43:15.818  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58aca6fb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.830  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3edd874f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.839  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ddee041 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.849  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70f80c7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.862  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29f499ab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.874  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@710cc84b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.885  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7cb83e00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.898  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@baf6d1e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.908  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@770bbb90 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:15.919  WARN--[26-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60526baa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:43:46.732 DEBUG--[26-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=41973187-c154-4dec-8733-5772bb31ff9b | {"responseCode":200,"during":"89808 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"01c740d8-820b-4aee-ba1c-f010bae10d1a","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":6},\"time\":{\"hour\":10,\"minute\":43,\"second\":10,\"nano\":225081800}}}"}
+2023-02-06 10:43:46.733 DEBUG--[26-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=41973187-c154-4dec-8733-5772bb31ff9b | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"01c740d8-820b-4aee-ba1c-f010bae10d1a","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-06 10:43:46.733 DEBUG--[26-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": false
+}
+2023-02-06 10:43:46.738 DEBUG--[26-ynchLogThread-4] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-06 10:43:47.344 DEBUG--[26-bsub-publisher2] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6916915945637912
+2023-02-06 10:43:47.687  INFO--[26-ynchLogThread-4] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:5, serverValue:28221}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:57:26.651 DEBUG--[26-nio-8083-exec-8] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-06 10:57:59.560 DEBUG--[26-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=5601ff20-b5cd-40b7-86e2-12fa1d50bcc8 | {"projectId":188,"isFav":false}
+2023-02-06 10:58:39.895  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s428ms581µs400ns).
+2023-02-06 10:58:57.185 DEBUG--[26-ynchLogThread-5] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "5601ff20-b5cd-40b7-86e2-12fa1d50bcc8"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : false, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "d2c833b7a781d495851e9a7058bb0c446d245eef55bdb595be4ad9643fedf31fda92ba78ed2899caf8ccadecc72c86383d159a6b71b8a13780e6b8f9b8276ec1"}} in collection: logs
+2023-02-06 10:58:58.410  WARN--[26-ynchLogThread-5] [                                        ]o.m.d.connection               :Got socket exception on connection [connectionId{localValue:5, serverValue:28221}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017. All connections to lab-uat-shard-00-02.ojso0.mongodb.net:27017 will be closed.
+2023-02-06 10:58:58.857  INFO--[26-ynchLogThread-5] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:5, serverValue:28221}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised by this connection.
+2023-02-06 10:58:58.858 ERROR--[26-ynchLogThread-5] [                                        ]a.c.m.a.LogAsyn                :Exception sending message; nested exception is com.mongodb.MongoSocketWriteException: Exception sending message
+2023-02-06 10:58:59.526  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 10:59:15.552  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63999662 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.554  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a2d89d3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.556  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ebed871 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.558  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@713b7f42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.559  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b69ad93 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.560  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3dccd03c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.562  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1519eaa4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.563  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ff2462a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.564  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9c17172 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:15.566  WARN--[26-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52570d46 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 10:59:19.818 DEBUG--[26-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=5601ff20-b5cd-40b7-86e2-12fa1d50bcc8 | {"responseCode":200,"during":"113168 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"1f21b01c-9c0b-4a0d-8c32-b73022eb417f","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":6},\"time\":{\"hour\":10,\"minute\":59,\"second\":13,\"nano\":222668900}}}"}
+2023-02-06 10:59:46.899 DEBUG--[26-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=5601ff20-b5cd-40b7-86e2-12fa1d50bcc8 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"1f21b01c-9c0b-4a0d-8c32-b73022eb417f","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-06 10:59:46.899 DEBUG--[26-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": false
+}
+2023-02-06 10:59:46.914 DEBUG--[26-ynchLogThread-6] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-06 10:59:47.430 DEBUG--[26-bsub-publisher3] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6916965104424832
+2023-02-06 10:59:47.664  INFO--[26-ynchLogThread-6] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:6, serverValue:28322}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 11:00:03.748 DEBUG--[26-nio-8083-exec-9] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-06 11:00:12.804 DEBUG--[26-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=d4695182-efb7-4a73-b9f0-597c738b4e0c | {"projectId":188,"isFav":false}
+2023-02-06 11:01:13.728  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s391ms206µs800ns).
+2023-02-06 11:01:15.705 DEBUG--[26-ynchLogThread-7] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "d4695182-efb7-4a73-b9f0-597c738b4e0c"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : false, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "d2c833b7a781d495851e9a7058bb0c446d245eef55bdb595be4ad9643fedf31fda92ba78ed2899caf8ccadecc72c86383d159a6b71b8a13780e6b8f9b8276ec1"}} in collection: logs
+2023-02-06 11:01:50.532 DEBUG--[26-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=d4695182-efb7-4a73-b9f0-597c738b4e0c | {"responseCode":200,"during":"106786 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"d29d28b2-9991-497e-9ba0-f72abf6f7d0e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":6},\"time\":{\"hour\":11,\"minute\":1,\"second\":38,\"nano\":319889500}}}"}
+2023-02-06 11:02:36.795 DEBUG--[26-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=d4695182-efb7-4a73-b9f0-597c738b4e0c | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"d29d28b2-9991-497e-9ba0-f72abf6f7d0e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-06 11:02:59.274 DEBUG--[26-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": false
+}
+2023-02-06 11:03:52.299 DEBUG--[26-ynchLogThread-8] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-06 11:03:59.735 DEBUG--[26-bsub-publisher3] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6916984785689269
+2023-02-06 11:12:58.898 DEBUG--[26-nio-8083-exec-1] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-06 11:13:13.389 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=0db6c4a2-7301-4e19-b280-a0d54620a236 | {"projectId":188,"isFav":false}
+2023-02-06 11:13:35.733 DEBUG--[26-ynchLogThread-9] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "0db6c4a2-7301-4e19-b280-a0d54620a236"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : false, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "d2c833b7a781d495851e9a7058bb0c446d245eef55bdb595be4ad9643fedf31fda92ba78ed2899caf8ccadecc72c86383d159a6b71b8a13780e6b8f9b8276ec1"}} in collection: logs
+2023-02-06 11:13:36.192  WARN--[26-ynchLogThread-9] [                                        ]o.m.d.connection               :Got socket exception on connection [connectionId{localValue:6, serverValue:28322}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017. All connections to lab-uat-shard-00-02.ojso0.mongodb.net:27017 will be closed.
+2023-02-06 11:13:36.193  INFO--[26-ynchLogThread-9] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:6, serverValue:28322}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised by this connection.
+2023-02-06 11:13:36.194 ERROR--[26-ynchLogThread-9] [                                        ]a.c.m.a.LogAsyn                :Exception sending message; nested exception is com.mongodb.MongoSocketWriteException: Exception sending message
+2023-02-06 11:13:36.762  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 11:14:10.921  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f264000 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.931  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@116e0678 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.940  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@28d847fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.950  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@451334a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.959  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49c849d3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.969  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2874cb54 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.979  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42f98608 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:10.992  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1e933cf5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:11.004  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@159e7825 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:11.013  WARN--[26-nio-8083-exec-1] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b3e3fa9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-06 11:14:59.732 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=0db6c4a2-7301-4e19-b280-a0d54620a236 | {"responseCode":200,"during":"120834 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"cde54650-9077-444f-90f7-33c92a72dcd6","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":6},\"time\":{\"hour\":11,\"minute\":13,\"second\":52,\"nano\":213136000}}}"}
+2023-02-06 11:15:19.753 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=0db6c4a2-7301-4e19-b280-a0d54620a236 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"40","postman-token":"cde54650-9077-444f-90f7-33c92a72dcd6","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-06 11:15:23.642 DEBUG--[26-nio-8083-exec-1] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": false
+}
+2023-02-06 11:16:01.575 DEBUG--[26-nchLogThread-10] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-06 11:16:42.933  INFO--[26-nchLogThread-10] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:7, serverValue:28431}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 11:16:45.278 DEBUG--[26-bsub-publisher4] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6916991028346455
+2023-02-06 12:13:26.782  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m49s461ms948µs800ns).
+2023-02-06 12:13:35.848 ERROR--[26-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-06 12:13:44.167  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-02.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-02.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-02.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-06 12:13:45.144  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-00.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-00.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-00.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-06 12:13:45.144  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-01.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-01.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-01.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-06 12:13:45.864 ERROR--[26-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-06 12:14:04.190  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-02.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-06 12:14:07.525 ERROR--[26-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-06 12:14:14.556  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:14, serverValue:28681}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 12:14:14.638  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=81773100, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Mon Feb 06 12:14:05 GMT+07:00 2023, lastUpdateTimeNanos=1805708133772900}
+2023-02-06 12:14:14.638  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 12:14:16.363  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-01.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: lab-uat-shard-00-01.ojso0.mongodb.net
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: lab-uat-shard-00-01.ojso0.mongodb.net
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-06 12:14:16.783  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:15, serverValue:27616}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-06 12:14:16.857  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=73878500, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Feb 06 12:14:15 GMT+07:00 2023, lastUpdateTimeNanos=1805710353562000}
+2023-02-06 12:14:17.528 ERROR--[26-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-06 12:14:26.730  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:17, serverValue:27728}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-06 12:14:26.815  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=84611000, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Mon Feb 06 12:14:24 GMT+07:00 2023, lastUpdateTimeNanos=1805720310733900}
+2023-02-06 13:24:59.914  WARN--[26-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m32s684ms522µs100ns).
+2023-02-06 13:25:09.129  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:18, serverValue:27922}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-06 13:25:09.831  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:19, serverValue:28027}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-06 13:25:16.984  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:20, serverValue:29000}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]ryBean$MethodInvocationGateway :stopped bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ].s.i.g.GatewayProxyFactoryBean :stopped bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]ryBean$MethodInvocationGateway :stopped bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ].s.i.g.GatewayProxyFactoryBean :stopped bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ].s.i.c.PublishSubscribeChannel :Channel 'application.errorChannel' has 0 subscriber(s).
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean '_org.springframework.integration.errorLogger'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {message-handler:pubSubConfig.messageSenderCmvRatting.serviceActivator} as a subscriber to the 'pubsubCmvRattingChannel' channel
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubCmvRattingChannel' has 0 subscriber(s).
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean 'pubSubConfig.messageSenderCmvRatting.serviceActivator'
+2023-02-06 13:26:35.075  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {message-handler:pubSubConfig.messageSenderLog.serviceActivator} as a subscriber to the 'pubsubLogChannel' channel
+2023-02-06 13:26:35.076  INFO--[26-extShutdownHook] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubLogChannel' has 0 subscriber(s).
+2023-02-06 13:26:35.076  INFO--[26-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean 'pubSubConfig.messageSenderLog.serviceActivator'
+2023-02-06 13:26:35.093  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2023-02-06 13:26:35.094  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2023-02-06 13:26:35.094  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2023-02-06 13:26:35.096  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'pubSubAcknowledgementExecutor'
+2023-02-06 13:26:35.096  INFO--[26-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'pubsubPublisherThreadPool'
+2023-02-06 13:26:35.098  INFO--[26-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'

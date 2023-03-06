@@ -1,0 +1,112 @@
+2023-02-07 10:52:33.177  INFO--[26-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-07 10:52:33.216  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 19940 (C:\Work\MbLandStock\landstock-app-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-app-be)
+2023-02-07 10:52:33.220 DEBUG--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :Running with Spring Boot v2.3.12.RELEASE, Spring v5.2.15.RELEASE
+2023-02-07 10:52:33.221  INFO--[26-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2023-02-07 10:52:34.513  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-07 10:52:34.515  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 10:52:34.701  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 181ms. Found 37 JPA repository interfaces.
+2023-02-07 10:52:34.702  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-07 10:52:34.702  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-07 10:52:34.711  INFO--[26-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 8ms. Found 1 MongoDB repository interfaces.
+2023-02-07 10:52:35.380  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-02-07 10:52:35.387  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2023-02-07 10:52:35.390  INFO--[26-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-02-07 10:52:35.631  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 10:52:35.640  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 10:52:35.642  INFO--[26-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 10:52:35.885  INFO--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2023-02-07 10:52:35.891  INFO--[26-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2023-02-07 10:52:35.892  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-07 10:52:35.892  INFO--[26-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-07 10:52:36.051  INFO--[26-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-07 10:52:36.051  INFO--[26-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2747 ms
+2023-02-07 10:52:36.392  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-07 10:52:36.594  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 10:52:36.621  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 10:52:36.621  INFO--[26-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 10:52:36.895  INFO--[26-main           ] [                                        ]o.m.d.cluster                  :No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@6d7bb5cc from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2023-02-07 10:52:47.529  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-02.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 10:52:49.433  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-00.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 10:52:49.448  INFO--[26-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-01.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 10:53:06.909 ERROR--[26-main           ] [                                        ]o.s.b.w.e.t.TomcatStarter      :Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'requestLoggingFilter': Unsatisfied dependency expressed through field 'loggingService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loggingService' defined in file [C:\Work\MbLandStock\landstock-app-be\target\classes\ati\com\mbeelive\log\LoggingService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logAsyn': Unsatisfied dependency expressed through field 'logsCollection'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logsCollection' defined in file [C:\Work\MbLandStock\landstock-app-be\target\classes\ati\com\mbeelive\collection\LogsCollection.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'mongoTemplate' threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting for a server that matches com.mongodb.client.internal.MongoClientDelegate$1@6d7bb5cc. Client view of cluster state is {type=REPLICA_SET, servers=[{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}, {address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}, {address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches com.mongodb.client.internal.MongoClientDelegate$1@6d7bb5cc. Client view of cluster state is {type=REPLICA_SET, servers=[{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}, {address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}, {address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}]
+2023-02-07 10:53:06.952  INFO--[26-main           ] [                                        ]o.a.c.c.StandardService        :Stopping service [Tomcat]
+2023-02-07 10:53:06.966  WARN--[26-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [Thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/sun.net.dns.ResolverConfigurationImpl.notifyAddrChange0(Native Method)
+ java.base@11.0.14/sun.net.dns.ResolverConfigurationImpl$AddressChangeListener.run(ResolverConfigurationImpl.java:144)
+2023-02-07 10:53:06.968  WARN--[26-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='63e1cb044a3d0d6f2affcdaf', description='null'}-srv-lab-uat.ojso0.mongodb.net] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultDnsSrvRecordMonitor$DnsSrvRecordMonitorRunnable.run(DefaultDnsSrvRecordMonitor.java:105)
+ java.base@11.0.14/java.lang.Thread.run(Thread.java:834)
+2023-02-07 10:53:06.969  WARN--[26-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='63e1cb044a3d0d6f2affcdaf', description='null'}-lab-uat-shard-00-00.ojso0.mongodb.net:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:216)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.base@11.0.14/java.lang.Thread.run(Thread.java:834)
+2023-02-07 10:53:06.971  WARN--[26-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='63e1cb044a3d0d6f2affcdaf', description='null'}-lab-uat-shard-00-01.ojso0.mongodb.net:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:216)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.base@11.0.14/java.lang.Thread.run(Thread.java:834)
+2023-02-07 10:53:06.972  WARN--[26-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='63e1cb044a3d0d6f2affcdaf', description='null'}-lab-uat-shard-00-02.ojso0.mongodb.net:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/java.lang.Thread.sleep(Native Method)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:216)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.base@11.0.14/java.lang.Thread.run(Thread.java:834)
+2023-02-07 10:53:06.977  WARN--[26-main           ] [                                        ]letWebServerApplicationContext :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2023-02-07 10:53:06.994  INFO--[26-main           ] [                                        ]valuationReportLoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

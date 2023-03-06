@@ -1,0 +1,5 @@
+
+o	java:S116"URename this field "SECRET_KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÀáÅøÿÿÿÿ
+t	java:S116"ZRename this field "EXPIRE_TIME_JWT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÔµŞøÿÿÿÿ
+s
+java:S2139="XEither log this exception and handle it, or rethrow it with some contextual information.(€ñÅÁøÿÿÿÿ

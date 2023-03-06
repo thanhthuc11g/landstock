@@ -1,0 +1,55 @@
+2022-12-01 09:10:43.877  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-12-01 09:10:43.906  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 20812 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-12-01 09:10:43.910  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-12-01 09:10:44.992  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-01 09:10:44.993  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-01 09:10:45.192  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 194ms. Found 36 JPA repository interfaces.
+2022-12-01 09:10:45.193  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-01 09:10:45.193  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-12-01 09:10:45.203  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 9ms. Found 2 MongoDB repository interfaces.
+2022-12-01 09:10:46.162  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-12-01 09:10:46.170  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-12-01 09:10:46.170  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-12-01 09:10:46.171  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-12-01 09:10:46.344  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-12-01 09:10:46.344  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2381 ms
+2022-12-01 09:10:46.533  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-12-01 09:10:47.021  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-12-01 09:10:56.572  INFO--[25-6.234.134:27717] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server 207.46.234.134:27717
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2022-12-01 09:11:17.044 ERROR--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatStarter      :Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'requestLoggingFilter': Unsatisfied dependency expressed through field 'loggingService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loggingService' defined in file [C:\Work\MbLandStock\landstock-cms-be\target\classes\ati\com\mbeelive\log\LoggingService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logAsyn': Unsatisfied dependency expressed through field 'logsCollection'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logsCollection' defined in file [C:\Work\MbLandStock\landstock-cms-be\target\classes\ati\com\mbeelive\collection\LogsCollection.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'mongoTemplate' threw exception; nested exception is org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=207.46.234.134:27717, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=207.46.234.134:27717, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+2022-12-01 09:11:17.065  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Stopping service [Tomcat]
+2022-12-01 09:11:17.074  WARN--[25-main           ] [                                        ]o.a.c.l.WebappClassLoaderBase  :The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='63880d26423a2d67b07d30c8', description='null'}-207.46.234.134:27717] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.14/java.net.PlainSocketImpl.waitForConnect(Native Method)
+ java.base@11.0.14/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+ java.base@11.0.14/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+ java.base@11.0.14/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+ java.base@11.0.14/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+ java.base@11.0.14/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+ java.base@11.0.14/java.net.Socket.connect(Socket.java:608)
+ app//com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+ app//com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+ app//com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+ app//com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+ app//com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+ java.base@11.0.14/java.lang.Thread.run(Thread.java:834)
+2022-12-01 09:11:17.074  WARN--[25-main           ] [                                        ]letWebServerApplicationContext :Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2022-12-01 09:11:17.086  INFO--[25-main           ] [                                        ]valuationReportLoggingListener :
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

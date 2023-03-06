@@ -1,0 +1,148 @@
+2023-02-08 14:15:30.772  INFO--[22-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-08 14:15:30.800  INFO--[22-main           ] [                                        ]c.m.t.CrawnewsApplication      :Starting CrawnewsApplication on DESKTOP-GSNRLR9 with PID 7784 (C:\Work\MbLandStock\landstock-tool-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-tool-be)
+2023-02-08 14:15:30.803  INFO--[22-main           ] [                                        ]c.m.t.CrawnewsApplication      :No active profile set, falling back to default profiles: default
+2023-02-08 14:15:31.409  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 14:15:31.411  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-08 14:15:31.471  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.DistrictRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.473  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.NewsRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.475  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProjectRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.477  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.ProvinceRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.478  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.SearchPriceViewRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.479  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.StreetRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.480  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.WardRepository. If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository.
+2023-02-08 14:15:31.491  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 77ms. Found 1 MongoDB repository interfaces.
+2023-02-08 14:15:31.771  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-08 14:15:31.771  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-08 14:15:31.804  INFO--[22-main           ] [                                        ]yConfigurationExtensionSupport :Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.mbeelive.toolbackend.repo.CmvRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2023-02-08 14:15:31.829  INFO--[22-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 54ms. Found 7 JPA repository interfaces.
+2023-02-08 14:15:32.352  INFO--[22-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8084 (http)
+2023-02-08 14:15:32.358  INFO--[22-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8084"]
+2023-02-08 14:15:32.358  INFO--[22-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 14:15:32.358  INFO--[22-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 14:15:32.487  INFO--[22-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 14:15:32.487  INFO--[22-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 1645 ms
+2023-02-08 14:15:32.698  INFO--[22-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2023-02-08 14:15:35.738  INFO--[22-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2023-02-08 14:15:35.796  INFO--[22-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-08 14:15:35.832  INFO--[22-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-08 14:15:35.912  INFO--[22-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-08 14:15:35.990  INFO--[22-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-08 14:15:36.483  INFO--[22-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-08 14:15:36.492  INFO--[22-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 14:15:36.656  INFO--[22-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-08 14:15:36.874  INFO--[22-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 14:15:36.902  INFO--[22-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 14:15:36.903  INFO--[22-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-08 14:15:37.441  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:40910}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-08 14:15:37.441  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:40805}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-08 14:15:37.441  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:42646}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 14:15:37.490  INFO--[22-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2023-02-08 14:15:37.529  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=86144600, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 14:15:31 GMT+07:00 2023, lastUpdateTimeNanos=1985807528283700}
+2023-02-08 14:15:37.535  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92614900, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Feb 08 14:15:31 GMT+07:00 2023, lastUpdateTimeNanos=1985807534384900}
+2023-02-08 14:15:37.535  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92660700, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Wed Feb 08 14:15:31 GMT+07:00 2023, lastUpdateTimeNanos=1985807534424200}
+2023-02-08 14:15:37.535  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000005 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 14:15:37.535  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 14:15:37.535  INFO--[22-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 14:15:39.114  INFO--[22-sson-netty-2-14] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 14:15:39.179  INFO--[22-sson-netty-2-20] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-08 14:15:39.674  INFO--[22-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 14:15:39.675  INFO--[22-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2023-02-08 14:15:39.678  INFO--[22-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-08 14:15:39.678  INFO--[22-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'increView'
+2023-02-08 14:15:39.717  WARN--[22-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-08 14:15:40.206  INFO--[22-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2023-02-08 14:15:40.235  INFO--[22-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8084"]
+2023-02-08 14:15:40.245  INFO--[22-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8084 (http) with context path ''
+2023-02-08 14:15:40.296  INFO--[22-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8091 (http)
+2023-02-08 14:15:40.297  INFO--[22-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8091"]
+2023-02-08 14:15:40.297  INFO--[22-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-08 14:15:40.297  INFO--[22-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-08 14:15:40.338  INFO--[22-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-08 14:15:40.338  INFO--[22-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 90 ms
+2023-02-08 14:15:40.348  INFO--[22-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-08 14:15:40.395  INFO--[22-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8091"]
+2023-02-08 14:15:40.398  INFO--[22-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8091 (http) with context path ''
+2023-02-08 14:15:40.416  INFO--[22-main           ] [                                        ]c.m.t.CrawnewsApplication      :Started CrawnewsApplication in 9.883 seconds (JVM running for 11.347)
+2023-02-08 14:15:40.658  INFO--[22-)-192.168.8.122] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-08 14:15:40.658  INFO--[22-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2023-02-08 14:15:40.665  INFO--[22-)-192.168.8.122] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 7 ms
+2023-02-08 14:15:41.001  INFO--[22-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :start crawNews
+2023-02-08 14:15:45.483  INFO--[22-)-192.168.8.122] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:42651}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-08 14:15:46.598  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:22.258 ERROR--[22-AsynchThread-4 ] [                                        ]c.m.t.s.CrawService            :downloadImage imagePath=|error=no protocol: 
+java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:645)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:118)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:83)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-02-08 14:16:22.258  INFO--[22-AsynchThread-4 ] [                                        ]c.m.t.s.CrawService            :image=
+2023-02-08 14:16:22.259 ERROR--[22-AsynchThread-5 ] [                                        ]c.m.t.s.CrawService            :downloadImage imagePath=|error=no protocol: 
+java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:645)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:118)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:83)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-02-08 14:16:22.259  INFO--[22-AsynchThread-5 ] [                                        ]c.m.t.s.CrawService            :image=
+2023-02-08 14:16:22.265 ERROR--[22-AsynchThread-3 ] [                                        ]c.m.t.s.CrawService            :downloadImage imagePath=|error=no protocol: 
+java.net.MalformedURLException: no protocol: 
+	at java.base/java.net.URL.<init>(URL.java:645)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at com.mbeelive.toolbackend.service.CrawService.downloadImage(CrawService.java:118)
+	at com.mbeelive.toolbackend.service.CrawService.crawnewItemCafef(CrawService.java:83)
+	at com.mbeelive.toolbackend.service.CrawService$$FastClassBySpringCGLIB$$7c546485.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.lambda$doSubmit$3(AsyncExecutionAspectSupport.java:276)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-02-08 14:16:22.265  INFO--[22-AsynchThread-3 ] [                                        ]c.m.t.s.CrawService            :image=
+2023-02-08 14:16:23.797  INFO--[22-AsynchThread-2 ] [                                        ]c.m.t.s.CrawService            :image=image-news/010532fd-7fc1-404d-88f5-c178aeb5b63a.jpeg
+2023-02-08 14:16:23.832  INFO--[22-AsynchThread-1 ] [                                        ]c.m.t.s.CrawService            :image=image-news/131ec116-212c-433a-b8ac-79b86203963f.jpeg
+2023-02-08 14:16:27.226  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:27.633  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:29.788  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:29.788  INFO--[22-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :end crawNews|ExcuteTime= 48786ms
+2023-02-08 14:16:30.005  INFO--[22-scheduling-1   ] [                                        ]c.m.t.s.NewsRealEstateSchedule :start crawNews
+2023-02-08 14:16:44.865  INFO--[22-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2023-02-08 14:16:44.866  INFO--[22-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'increView'
+2023-02-08 14:16:44.866  INFO--[22-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2023-02-08 14:16:45.078  INFO--[22-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:42651}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because the pool has been closed.
+2023-02-08 14:16:45.080  INFO--[22-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-08 14:16:45.083  INFO--[22-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2023-02-08 14:16:45.640  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:46.242  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:46.664  INFO--[22-scheduling-1   ] [                                        ]c.m.t.t.TelegramService        :send message success!
+2023-02-08 14:16:46.972  INFO--[22-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.

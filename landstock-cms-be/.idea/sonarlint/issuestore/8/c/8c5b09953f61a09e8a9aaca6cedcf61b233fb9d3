@@ -1,0 +1,51 @@
+
+x
+java:S1104;"VMake messageUri a static final constant or non-public and provide accessors if needed.(‡Ï¿Øùÿÿÿÿ8”ÚÖœÊ0
+€
+java:S1104="^Make contentCmvFeedback a static final constant or non-public and provide accessors if needed.(¾¢úøûÿÿÿÿ8”ÚÖœÊ0
+€
+java:S1104>"cMake contentRequestAdviseBds a static final constant or non-public and provide accessors if needed.(Æ”«€8”ÚÖœÊ0
+€
+java:S1104?"^Make messageCMVFeedback a static final constant or non-public and provide accessors if needed.(ãİ¸Åÿÿÿÿÿ8”ÚÖœÊ0
+Œ
+java:S1104A"jMake messageCMVFeedbackForApartment a static final constant or non-public and provide accessors if needed.(§Œ©ïıÿÿÿÿ8”ÚÖœÊ0
+~
+java:S1104D"\Make messageAdviseBds a static final constant or non-public and provide accessors if needed.(Œ‚ˆÌşÿÿÿÿ8”ÚÖœÊ0
+y
+java:S1104F"\Make messageTowerName a static final constant or non-public and provide accessors if needed.(€Û¯ò8”ÚÖœÊ0
+}
+java:S1104G"`Make messageApartmentInfo a static final constant or non-public and provide accessors if needed.(ÒÏØÉ8”ÚÖœÊ0
+|
+java:S1104I"ZMake messageNewPost a static final constant or non-public and provide accessors if needed.(ƒšİ‚øÿÿÿÿ8”ÚÖœÊ0
+
+java:S1104J"_Make messagePostLandItem a static final constant or non-public and provide accessors if needed.(£İÙ¥ÿÿÿÿÿ8”ÚÖœÊ0
+R
+java:S1444;"0Make this "public static messageUri" field final(‡Ï¿Øùÿÿÿÿ8”ÚÖœÊ0
+Z
+java:S1444="8Make this "public static contentCmvFeedback" field final(¾¢úøûÿÿÿÿ8”ÚÖœÊ0
+Z
+java:S1444>"=Make this "public static contentRequestAdviseBds" field final(Æ”«€8”ÚÖœÊ0
+Z
+java:S1444?"8Make this "public static messageCMVFeedback" field final(ãİ¸Åÿÿÿÿÿ8”ÚÖœÊ0
+f
+java:S1444A"DMake this "public static messageCMVFeedbackForApartment" field final(§Œ©ïıÿÿÿÿ8”ÚÖœÊ0
+X
+java:S1444D"6Make this "public static messageAdviseBds" field final(Œ‚ˆÌşÿÿÿÿ8”ÚÖœÊ0
+S
+java:S1444F"6Make this "public static messageTowerName" field final(€Û¯ò8”ÚÖœÊ0
+W
+java:S1444G":Make this "public static messageApartmentInfo" field final(ÒÏØÉ8”ÚÖœÊ0
+V
+java:S1444I"4Make this "public static messageNewPost" field final(ƒšİ‚øÿÿÿÿ8”ÚÖœÊ0
+[
+java:S1444J"9Make this "public static messagePostLandItem" field final(£İÙ¥ÿÿÿÿÿ8”ÚÖœÊ0
+~	java:S116("]Rename this field "TELEGRAM_BOT_TOKEN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÉ›ûşÿÿÿÿ8´ÚÖœÊ0
+ƒ	java:S116*"gRename this field "TELEGRAM_BDS_ADVISE_GROUP_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öö¯Ô8´ÚÖœÊ0
+	java:S116-"qRename this field "TELEGRAM_BDS_ADVISE_GROUP_VERSION_2_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ı³î8´ÚÖœÊ0
+	java:S1160"cRename this field "TELEGRAM_SUPORT_GROUP_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿…˜8´ÚÖœÊ0
+	java:S1162"rRename this field "TELEGRAM_BDS_POST_NOTIFICATION_GROUP_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†€¿ö8´ÚÖœÊ0
+Œ	java:S1164"kRename this field "TELEGRAM_BDS_LANDS_POST_GROUP_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïœàıûÿÿÿÿ8´ÚÖœÊ0
+s	java:S1167"WRename this field "TELEGRAM_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡èÖÂ8´ÚÖœÊ0
+|	java:S1169"[Rename this field "environment_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó»Ò‡üÿÿÿÿ8´ÚÖœÊ0
+J
+java:S1172œ",Remove this unused method parameter "input".(Îæ¼Å8İæ§È0

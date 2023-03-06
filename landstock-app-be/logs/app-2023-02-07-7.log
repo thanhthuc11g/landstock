@@ -1,0 +1,712 @@
+2023-02-07 09:57:51.476  INFO--[25-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2023-02-07 09:57:51.512  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 17888 (C:\Work\MbLandStock\landstock-app-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-app-be)
+2023-02-07 09:57:51.515 DEBUG--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Running with Spring Boot v2.3.12.RELEASE, Spring v5.2.15.RELEASE
+2023-02-07 09:57:51.516  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2023-02-07 09:57:53.061  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-07 09:57:53.066  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-07 09:57:53.457  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 374ms. Found 37 JPA repository interfaces.
+2023-02-07 09:57:53.458  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-07 09:57:53.458  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-02-07 09:57:53.469  INFO--[25-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 10ms. Found 1 MongoDB repository interfaces.
+2023-02-07 09:57:54.340  INFO--[25-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2023-02-07 09:57:54.350  INFO--[25-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2023-02-07 09:57:54.359  INFO--[25-main           ] [                                        ]guringBeanFactoryPostProcessor :No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2023-02-07 09:57:54.655  INFO--[25-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 09:57:54.666  INFO--[25-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 09:57:54.669  INFO--[25-main           ] [                                        ]egate$BeanPostProcessorChecker :Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-07 09:57:54.981  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2023-02-07 09:57:54.991  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2023-02-07 09:57:54.991  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-07 09:57:54.991  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-07 09:57:55.231  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-07 09:57:55.232  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 3641 ms
+2023-02-07 09:57:55.657  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[127.0.0.1:27017], srvHost=lab-uat.ojso0.mongodb.net, mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-gx6iy8-shard-0'}
+2023-02-07 09:57:55.800  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-00.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 09:57:55.857  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-01.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 09:57:55.858  INFO--[25-so0.mongodb.net] [                                        ]o.m.d.cluster                  :Adding discovered server lab-uat-shard-00-02.ojso0.mongodb.net:27017 to client view of cluster
+2023-02-07 09:57:56.516  INFO--[25-main           ] [                                        ]o.m.d.cluster                  :No server chosen by com.mongodb.client.internal.MongoClientDelegate$1@fefb66c from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2023-02-07 09:57:56.742  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:34563}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:57:56.742  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:33312}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-07 09:57:56.742  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:33412}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-07 09:57:56.847  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=101122700, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Tue Feb 07 09:57:48 GMT+07:00 2023, lastUpdateTimeNanos=1883936176516000}
+2023-02-07 09:57:56.847  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=101128000, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:57:48 GMT+07:00 2023, lastUpdateTimeNanos=1883936176511900}
+2023-02-07 09:57:56.847  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=101243400, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:57:48 GMT+07:00 2023, lastUpdateTimeNanos=1883936176512000}
+2023-02-07 09:57:56.848  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max election id to 7fffffff0000000000000005 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:57:56.848  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Setting max set version to 1 from replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:57:56.848  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:57:57.490  INFO--[25-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:4, serverValue:34564}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:57:57.897  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-07 09:57:57.897  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-07 09:57:58.179  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-07 09:57:58.179  INFO--[25-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2023-02-07 09:57:58.840  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2023-02-07 09:58:01.566  INFO--[25-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2023-02-07 09:58:01.684  INFO--[25-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-07 09:58:01.719  INFO--[25-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-02-07 09:58:01.823  INFO--[25-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-07 09:58:01.942  INFO--[25-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-07 09:58:02.929  INFO--[25-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-07 09:58:02.943  INFO--[25-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 09:58:03.473  WARN--[25-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-07 09:58:04.130  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2023-02-07 09:58:04.189 DEBUG--[25-main           ] [                                        ].c.m.s.JwtAuthenticationFilter :Filter 'jwtAuthenticationFilter' configured for use
+2023-02-07 09:58:04.189 DEBUG--[25-main           ] [                                        ]a.c.m.l.RequestLoggingFilter   :Filter 'requestLoggingFilter' configured for use
+2023-02-07 09:58:04.620  INFO--[25-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2023-02-07 09:58:08.515  INFO--[25-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-07 09:58:08.516  INFO--[25-sson-netty-2-20] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2023-02-07 09:58:09.538  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-07 09:58:09.539  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2023-02-07 09:58:09.761  INFO--[25-main           ] [                                        ].c.GcpContextAutoConfiguration :The default project ID is mb-data-science-329003
+2023-02-07 09:58:09.795  INFO--[25-main           ] [                                        ]s.c.DefaultCredentialsProvider :Default credentials provider for service account landstock-pubsub-dev@mb-data-science-329003.iam.gserviceaccount.com
+2023-02-07 09:58:09.795  INFO--[25-main           ] [                                        ]s.c.DefaultCredentialsProvider :Scopes in use by default credentials: [https://www.googleapis.com/auth/pubsub, https://www.googleapis.com/auth/spanner.admin, https://www.googleapis.com/auth/spanner.data, https://www.googleapis.com/auth/datastore, https://www.googleapis.com/auth/sqlservice.admin, https://www.googleapis.com/auth/devstorage.read_only, https://www.googleapis.com/auth/devstorage.read_write, https://www.googleapis.com/auth/cloudruntimeconfig, https://www.googleapis.com/auth/trace.append, https://www.googleapis.com/auth/cloud-platform, https://www.googleapis.com/auth/cloud-vision, https://www.googleapis.com/auth/bigquery, https://www.googleapis.com/auth/monitoring.write]
+2023-02-07 09:58:09.797  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService
+2023-02-07 09:58:09.807  INFO--[25-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'pubsubPublisherThreadPool'
+2023-02-07 09:58:09.852  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'pubSubAcknowledgementExecutor'
+2023-02-07 09:58:09.930  INFO--[25-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: 0b5e47b0-41df-41d7-8122-f19e3b27a4d8
+
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2023-02-07 09:58:09.971  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-02-07 09:58:10.012  INFO--[25-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3296b4ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@46d52510, org.springframework.security.web.header.HeaderWriterFilter@5e7967a, org.springframework.web.filter.CorsFilter@26fddb3f, org.springframework.security.web.csrf.CsrfFilter@4ba39ece, org.springframework.security.web.authentication.logout.LogoutFilter@272185e8, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@522fc67, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@369cadcf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a59e0e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c5a4358, org.springframework.security.web.session.SessionManagementFilter@17d188c5, org.springframework.security.web.access.ExceptionTranslationFilter@1cf44346, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a14682d]
+2023-02-07 09:58:10.151  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-07 09:58:10.152  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2023-02-07 09:58:10.152  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-07 09:58:10.152  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2023-02-07 09:58:10.152  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2023-02-07 09:58:10.152  INFO--[25-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2023-02-07 09:58:12.422  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ].s.i.c.PublishSubscribeChannel :Channel 'application.errorChannel' has 1 subscriber(s).
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean '_org.springframework.integration.errorLogger'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {message-handler:pubSubConfig.messageSenderCmvRatting.serviceActivator} as a subscriber to the 'pubsubCmvRattingChannel' channel
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubCmvRattingChannel' has 1 subscriber(s).
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean 'pubSubConfig.messageSenderCmvRatting.serviceActivator'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :Adding {message-handler:pubSubConfig.messageSenderLog.serviceActivator} as a subscriber to the 'pubsubLogChannel' channel
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubLogChannel' has 1 subscriber(s).
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.s.i.e.EventDrivenConsumer    :started bean 'pubSubConfig.messageSenderLog.serviceActivator'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]ryBean$MethodInvocationGateway :started bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ].s.i.g.GatewayProxyFactoryBean :started bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]ryBean$MethodInvocationGateway :started bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ].s.i.g.GatewayProxyFactoryBean :started bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-07 09:58:12.423  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2023-02-07 09:58:12.434  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2023-02-07 09:58:12.494  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2023-02-07 09:58:12.495  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2023-02-07 09:58:12.495  INFO--[25-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2023-02-07 09:58:12.495  INFO--[25-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-02-07 09:58:12.537  INFO--[25-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2023-02-07 09:58:12.537  INFO--[25-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 99 ms
+2023-02-07 09:58:12.549  INFO--[25-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-07 09:58:13.105  INFO--[25-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2023-02-07 09:58:13.108  INFO--[25-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2023-02-07 09:58:13.139  INFO--[25-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 21.951 seconds (JVM running for 23.647)
+2023-02-07 09:58:13.144  INFO--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2023-02-07 09:58:13.144  INFO--[25-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2023-02-07 09:58:13.358  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-public.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[LandStock], Content-Length=[49]} Body: {"username":"cmv_squad9","password":"cmv_squad9"}
+2023-02-07 09:58:13.746  INFO--[25-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-public.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 200 OK Headers: {Date=[Tue, 07 Feb 2023 02:57:09 GMT], Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Connection=[keep-alive], vary=[Origin,Access-Control-Request-Method,Access-Control-Request-Headers], cache-control=[no-store], pragma=[no-cache], x-envoy-upstream-service-time=[29], Server=[istio-envoy], x-envoy-decorator-operation=[ms001-service-cmv-auth-service.prod-cmv.svc.cluster.local:9129/*], Set-Cookie=[BIGipServerk8s_cmv_api_auth_pool_9129=3457941770.43299.0000; path=/; Httponly; Secure, BIGipServerapiGee_dmz_in_pool=3759931658.47873.0000; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=JKBNNEDLLKILLCOPADDDBKOIIDHAPDMEAIPACCDCPFFHHEJNFCMDCGJCGABLMNNACBIDCBMNKNJFGIEEAGIALGMDLLKPEKAKPEIBHLDGAJOHNHDLDLPGBIIIJJDFGBAC; HttpOnly; secure]} Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzU3ODE4MjksInVzZXJfbmFtZSI6IntcImlkXCI6Mjk1ODUsXCJicmFuY2hJZFwiOjEsXCJ1c2VybmFtZVwiOlwiY212X3NxdWFkOVwiLFwidXNlckNvZGVcIjpcImNtdl9zcXVhZDlcIixcImZ1bGxOYW1lXCI6XCJjbXZfc3F1YWQ5XCIsXCJlbWFpbFwiOlwiY212c3F1YWQ5QG1iYmFuay5jb20udm5cIixcImJyYW5jaENvZGVcIjpcIm51bGxcIixcImV4cGlyZUF0XCI6MTY3NTczODY3MjMzNyxcInRva2VuVHlwZVwiOlwiQUNDRVNTX1RPS0VOXCIsXCJjbGllbnRJZFwiOlwiY212LWNsaWVudC1pZFwiLFwic2NvcGVzXCI6W1wiTUIjVklFV1wiLFwiTUJDViNNT0RJRllcIi
+2023-02-07 09:58:13.856  INFO--[25-main           ] [                                        ]a.c.m.c.CmvSchedule            :end getFirstAccessToken
+2023-02-07 09:58:13.863  INFO--[25-)-192.168.8.100] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 09:58:13.863  INFO--[25-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2023-02-07 09:58:13.870  INFO--[25-)-192.168.8.100] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 7 ms
+2023-02-07 09:58:41.661 DEBUG--[25-nio-8083-exec-2] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 09:58:41.691 DEBUG--[25-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=301a41e8-3c93-4285-b3af-bd27a9374593 | {"projectId":188,"isFav":true}
+2023-02-07 09:58:41.735 DEBUG--[25-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "301a41e8-3c93-4285-b3af-bd27a9374593"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 09:58:42.891 DEBUG--[25-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=301a41e8-3c93-4285-b3af-bd27a9374593 | {"responseCode":200,"during":"1417 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"abaca9b1-d52f-4885-93c1-0a661242f04e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":9,\"minute\":58,\"second\":41,\"nano\":719181600}}}"}
+2023-02-07 09:58:42.924 DEBUG--[25-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=301a41e8-3c93-4285-b3af-bd27a9374593 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"abaca9b1-d52f-4885-93c1-0a661242f04e","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 09:58:42.925 DEBUG--[25-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 09:58:43.118 DEBUG--[25-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 09:58:45.179 DEBUG--[25-bsub-publisher2] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920488240244846
+2023-02-07 09:58:47.036 DEBUG--[25-nio-8083-exec-3] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 09:58:47.037 DEBUG--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=275caadb-0d34-4c48-a355-3f9d21a5a08d | {"projectId":188,"isFav":true}
+2023-02-07 09:58:47.039 DEBUG--[25-ynchLogThread-3] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "275caadb-0d34-4c48-a355-3f9d21a5a08d"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 09:58:48.113 DEBUG--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=275caadb-0d34-4c48-a355-3f9d21a5a08d | {"responseCode":200,"during":"1079 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"13868061-53f2-4216-a845-c82f7917b428","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":9,\"minute\":58,\"second\":47,\"nano\":38301000}}}"}
+2023-02-07 09:58:48.116 DEBUG--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=275caadb-0d34-4c48-a355-3f9d21a5a08d | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"13868061-53f2-4216-a845-c82f7917b428","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 09:58:48.116 DEBUG--[25-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 09:58:48.126 DEBUG--[25-ynchLogThread-4] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 09:58:48.241 DEBUG--[25-bsub-publisher2] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920475680615774
+2023-02-07 09:59:08.435  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-02.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-02.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-02.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-07 09:59:08.435  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-01.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-01.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-01.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-07 09:59:08.466  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-00.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketException: No such host is known (lab-uat-shard-00-00.ojso0.mongodb.net)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:211)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:75)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (lab-uat-shard-00-00.ojso0.mongodb.net)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at com.mongodb.ServerAddress.getSocketAddresses(ServerAddress.java:203)
+	... 5 more
+2023-02-07 09:59:14.264 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 09:59:19.190  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:10, serverValue:33316}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-07 09:59:19.292  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:8, serverValue:34576}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:19.293  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=99712200, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:59:18 GMT+07:00 2023, lastUpdateTimeNanos=1884018624263800}
+2023-02-07 09:59:19.385  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=95347500, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Tue Feb 07 09:59:18 GMT+07:00 2023, lastUpdateTimeNanos=1884018719690400}
+2023-02-07 09:59:19.385  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:21.266  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:9, serverValue:33419}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-07 09:59:21.486  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=213892200, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:59:18 GMT+07:00 2023, lastUpdateTimeNanos=1884020817721900}
+2023-02-07 09:59:24.278 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 09:59:34.283 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 09:59:36.436 DEBUG--[25-nio-8083-exec-4] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 09:59:36.438 DEBUG--[25-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=c51ed89e-e9a0-40f1-a364-d4c053e8df86 | {"projectId":188,"isFav":true}
+2023-02-07 09:59:36.440 DEBUG--[25-ynchLogThread-5] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "c51ed89e-e9a0-40f1-a364-d4c053e8df86"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 09:59:36.443  INFO--[25-ynchLogThread-5] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:4, serverValue:34564}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised on another connection from this pool.
+2023-02-07 09:59:36.446  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62aa438c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.449  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a6e2990 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.450  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@ae8bb72 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.452  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4bcd14d2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.453  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1cc7d3c7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.455  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57ae4b66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.456  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18d249ca (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.458  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b9ab586 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.459  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@196110d9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:36.460  WARN--[25-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c319de8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:37.030  INFO--[25-ynchLogThread-5] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:11, serverValue:34577}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:39.920 DEBUG--[25-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=c51ed89e-e9a0-40f1-a364-d4c053e8df86 | {"responseCode":200,"during":"3486 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"afd6894f-40fe-4c27-9db9-445dcd897ebd","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":9,\"minute\":59,\"second\":36,\"nano\":439017800}}}"}
+2023-02-07 09:59:39.925 DEBUG--[25-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=c51ed89e-e9a0-40f1-a364-d4c053e8df86 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"afd6894f-40fe-4c27-9db9-445dcd897ebd","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 09:59:39.925 DEBUG--[25-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 09:59:39.931 DEBUG--[25-ynchLogThread-6] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 09:59:40.326 DEBUG--[25-bsub-publisher4] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920488240183941
+2023-02-07 09:59:40.575  WARN--[25-ault-executor-0] [                                        ]i.g.i.ManagedChannelImpl       :[Channel<5>: (pubsub.googleapis.com:443)] Failed to resolve name. status=Status{code=UNAVAILABLE, description=Unable to resolve host pubsub.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: No such host is known (pubsub.googleapis.com)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+	at io.grpc.grpclb.GrpclbNameResolver.doResolve(GrpclbNameResolver.java:63)
+	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: No such host is known (pubsub.googleapis.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(DnsNameResolver.java:631)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:219)
+	... 6 more
+}
+2023-02-07 09:59:41.630  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-01.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 09:59:41.742  WARN--[25-ault-executor-0] [                                        ]i.g.i.ManagedChannelImpl       :[Channel<5>: (pubsub.googleapis.com:443)] Failed to resolve name. status=Status{code=UNAVAILABLE, description=Unable to resolve host pubsub.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: pubsub.googleapis.com
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+	at io.grpc.grpclb.GrpclbNameResolver.doResolve(GrpclbNameResolver.java:63)
+	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: pubsub.googleapis.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(DnsNameResolver.java:631)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:219)
+	... 6 more
+}
+2023-02-07 09:59:43.170  WARN--[25-ault-executor-0] [                                        ]i.g.i.ManagedChannelImpl       :[Channel<5>: (pubsub.googleapis.com:443)] Failed to resolve name. status=Status{code=UNAVAILABLE, description=Unable to resolve host pubsub.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: pubsub.googleapis.com
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+	at io.grpc.grpclb.GrpclbNameResolver.doResolve(GrpclbNameResolver.java:63)
+	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: pubsub.googleapis.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(DnsNameResolver.java:631)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:219)
+	... 6 more
+}
+2023-02-07 09:59:44.290 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 09:59:44.365 DEBUG--[25-nio-8083-exec-5] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 09:59:44.366 DEBUG--[25-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=7b1549f5-65cb-422f-933f-4c7217b3aede | {"projectId":188,"isFav":true}
+2023-02-07 09:59:44.369 DEBUG--[25-ynchLogThread-7] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "7b1549f5-65cb-422f-933f-4c7217b3aede"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 09:59:44.369  WARN--[25-nio-8083-exec-5] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@457ec8a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 09:59:44.370  WARN--[25-ynchLogThread-7] [                                        ]o.m.d.connection               :Got socket exception on connection [connectionId{localValue:11, serverValue:34577}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017. All connections to lab-uat-shard-00-02.ojso0.mongodb.net:27017 will be closed.
+2023-02-07 09:59:44.371  INFO--[25-ynchLogThread-7] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:11, serverValue:34577}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised by this connection.
+2023-02-07 09:59:44.372  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-02.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 09:59:44.378 ERROR--[25-ynchLogThread-7] [                                        ]a.c.m.a.LogAsyn                :Exception sending message; nested exception is com.mongodb.MongoSocketWriteException: Exception sending message
+2023-02-07 09:59:45.778  WARN--[25-ault-executor-0] [                                        ]i.g.i.ManagedChannelImpl       :[Channel<5>: (pubsub.googleapis.com:443)] Failed to resolve name. status=Status{code=UNAVAILABLE, description=Unable to resolve host pubsub.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: pubsub.googleapis.com
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+	at io.grpc.grpclb.GrpclbNameResolver.doResolve(GrpclbNameResolver.java:63)
+	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: pubsub.googleapis.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(DnsNameResolver.java:631)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:219)
+	... 6 more
+}
+2023-02-07 09:59:49.279 DEBUG--[25-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=7b1549f5-65cb-422f-933f-4c7217b3aede | {"responseCode":200,"during":"4916 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"0aba3b4f-4564-4e24-b491-db149cfc16e6","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":9,\"minute\":59,\"second\":44,\"nano\":367337800}}}"}
+2023-02-07 09:59:49.280 DEBUG--[25-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=7b1549f5-65cb-422f-933f-4c7217b3aede | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"0aba3b4f-4564-4e24-b491-db149cfc16e6","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 09:59:49.280 DEBUG--[25-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 09:59:49.283 DEBUG--[25-ynchLogThread-8] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 09:59:49.283  INFO--[25-ynchLogThread-8] [                                        ]o.m.d.cluster                  :No server chosen by WritableServerSelector from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=96579288, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:59:38 GMT+07:00 2023, lastUpdateTimeNanos=1884038816051500}, ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}, ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketException: Network is unreachable: connect}}]}. Waiting for 30000 ms before timing out
+2023-02-07 09:59:49.718  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:16, serverValue:33320}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-07 09:59:49.806  WARN--[25-ault-executor-0] [                                        ]i.g.i.ManagedChannelImpl       :[Channel<5>: (pubsub.googleapis.com:443)] Failed to resolve name. status=Status{code=UNAVAILABLE, description=Unable to resolve host pubsub.googleapis.com, cause=java.lang.RuntimeException: java.net.UnknownHostException: pubsub.googleapis.com
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:223)
+	at io.grpc.internal.DnsNameResolver.doResolve(DnsNameResolver.java:282)
+	at io.grpc.grpclb.GrpclbNameResolver.doResolve(GrpclbNameResolver.java:63)
+	at io.grpc.internal.DnsNameResolver$Resolve.run(DnsNameResolver.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.UnknownHostException: pubsub.googleapis.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:797)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at io.grpc.internal.DnsNameResolver$JdkAddressResolver.resolveAddress(DnsNameResolver.java:631)
+	at io.grpc.internal.DnsNameResolver.resolveAddresses(DnsNameResolver.java:219)
+	... 6 more
+}
+2023-02-07 09:59:49.868  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:14, serverValue:34578}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:49.882  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:15, serverValue:33420}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-07 09:59:49.977  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-02.ojso0.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=108057400, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-02.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Tue Feb 07 09:59:39 GMT+07:00 2023, lastUpdateTimeNanos=1884049308363000}
+2023-02-07 09:59:49.977  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Discovered replica set primary lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:49.981  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-01.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=98393400, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-01.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 09:59:39 GMT+07:00 2023, lastUpdateTimeNanos=1884049312447200}
+2023-02-07 09:59:50.656  INFO--[25-ynchLogThread-8] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:17, serverValue:34579}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 09:59:59.390 DEBUG--[25-bsub-publisher2] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920487881151731
+2023-02-07 10:00:02.518  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Exception in monitor thread while connecting to server lab-uat-shard-00-00.ojso0.mongodb.net:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Network is unreachable: connect
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:297)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 more
+2023-02-07 10:00:09.545 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 10:00:10.923  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:20, serverValue:33424}] to lab-uat-shard-00-01.ojso0.mongodb.net:27017
+2023-02-07 10:00:10.924  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:19, serverValue:34583}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 10:00:12.974  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:21, serverValue:33324}] to lab-uat-shard-00-00.ojso0.mongodb.net:27017
+2023-02-07 10:00:13.078  INFO--[25-ngodb.net:27017] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=lab-uat-shard-00-00.ojso0.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=103508800, setName='atlas-gx6iy8-shard-0', canonicalAddress=lab-uat-shard-00-00.ojso0.mongodb.net:27017, hosts=[lab-uat-shard-00-02.ojso0.mongodb.net:27017, lab-uat-shard-00-01.ojso0.mongodb.net:27017, lab-uat-shard-00-00.ojso0.mongodb.net:27017], passives=[], arbiters=[], primary='lab-uat-shard-00-02.ojso0.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AZURE'}, Tag{name='region', value='ASIA_SOUTH_EAST'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=1, lastWriteDate=Tue Feb 07 10:00:08 GMT+07:00 2023, lastUpdateTimeNanos=1884072409003900}
+2023-02-07 10:00:13.587 DEBUG--[25-nio-8083-exec-8] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 10:00:13.588 DEBUG--[25-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=d6f28dce-b408-4ac9-bd0c-d2f223efdc77 | {"projectId":188,"isFav":true}
+2023-02-07 10:00:13.590 DEBUG--[25-ynchLogThread-9] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "d6f28dce-b408-4ac9-bd0c-d2f223efdc77"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 10:00:13.590  INFO--[25-ynchLogThread-9] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:17, serverValue:34579}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because there was a socket exception raised on another connection from this pool.
+2023-02-07 10:00:13.591  WARN--[25-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46dcb028 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 10:00:13.597  WARN--[25-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3eb86e69 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 10:00:13.599  WARN--[25-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24142eeb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 10:00:13.600  WARN--[25-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76a87b1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 10:00:13.606  WARN--[25-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@588a913a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-02-07 10:00:14.251  INFO--[25-ynchLogThread-9] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:22, serverValue:34584}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017
+2023-02-07 10:00:14.710 DEBUG--[25-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=d6f28dce-b408-4ac9-bd0c-d2f223efdc77 | {"responseCode":200,"during":"1124 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"cd9c3693-6a8e-4531-87d2-266af6e39903","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":10,\"minute\":0,\"second\":13,\"nano\":588487700}}}"}
+2023-02-07 10:00:14.714 DEBUG--[25-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=d6f28dce-b408-4ac9-bd0c-d2f223efdc77 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"cd9c3693-6a8e-4531-87d2-266af6e39903","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 10:00:14.715 DEBUG--[25-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 10:00:14.723 DEBUG--[25-nchLogThread-10] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 10:00:15.090 DEBUG--[25-bsub-publisher3] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920488414774032
+2023-02-07 10:00:17.948 DEBUG--[25-nio-8083-exec-7] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 10:00:17.949 DEBUG--[25-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=2ce80f87-d05d-4a32-93c9-849a04ace8a7 | {"projectId":188,"isFav":true}
+2023-02-07 10:00:17.951 DEBUG--[25-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "2ce80f87-d05d-4a32-93c9-849a04ace8a7"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 10:00:19.135 DEBUG--[25-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=2ce80f87-d05d-4a32-93c9-849a04ace8a7 | {"responseCode":200,"during":"1190 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"d2fb652d-9657-4f60-90ac-463b5b310885","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":10,\"minute\":0,\"second\":17,\"nano\":949543100}}}"}
+2023-02-07 10:00:19.139 DEBUG--[25-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=2ce80f87-d05d-4a32-93c9-849a04ace8a7 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"d2fb652d-9657-4f60-90ac-463b5b310885","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 10:00:19.140 DEBUG--[25-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 10:00:19.143 DEBUG--[25-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 10:00:19.255 DEBUG--[25-bsub-publisher4] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920475680709970
+2023-02-07 10:00:19.567 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 10:00:21.284 DEBUG--[25-nio-8083-exec-6] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 10:00:21.285 DEBUG--[25-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=168deb6b-1207-431d-8182-d77d99f9bb0e | {"projectId":188,"isFav":true}
+2023-02-07 10:00:21.285 DEBUG--[25-ynchLogThread-3] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "168deb6b-1207-431d-8182-d77d99f9bb0e"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 10:00:22.458 DEBUG--[25-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=168deb6b-1207-431d-8182-d77d99f9bb0e | {"responseCode":200,"during":"1176 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"ff52d920-7401-42f3-be15-0993024e4119","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":10,\"minute\":0,\"second\":21,\"nano\":285995700}}}"}
+2023-02-07 10:00:22.462 DEBUG--[25-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=168deb6b-1207-431d-8182-d77d99f9bb0e | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"ff52d920-7401-42f3-be15-0993024e4119","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 10:00:22.463 DEBUG--[25-nio-8083-exec-6] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 10:00:22.468 DEBUG--[25-ynchLogThread-4] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 10:00:22.564 DEBUG--[25-bsub-publisher3] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920475851815637
+2023-02-07 10:00:23.965 DEBUG--[25-nio-8083-exec-9] [                                        ].c.m.s.JwtAuthenticationFilter :LOGIN SUCCESSFULLY!
+2023-02-07 10:00:23.966 DEBUG--[25-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST BODY:X-Request-ID=62cd6583-93ec-4783-ab42-a041621f6051 | {"projectId":188,"isFav":true}
+2023-02-07 10:00:23.968 DEBUG--[25-ynchLogThread-5] [                                        ]o.s.d.m.c.MongoTemplate        :Calling update using query: { "requestId" : "62cd6583-93ec-4783-ab42-a041621f6051"} and update: { "$set" : { "requestBody" : { "projectId" : 188, "isFav" : true, "_class" : "ati.com.mbeelive.dto.input.UserFavProjectInput"}, "session" : "2a2c06e2a65fdbbb4d2649d2315ce8d71aa3bb39d73be671cb384afde48be40137ea726df3ca894004e930f7579ff28049a5487c828dadcef9c641f2aaa80f43"}} in collection: logs
+2023-02-07 10:00:25.032 DEBUG--[25-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=62cd6583-93ec-4783-ab42-a041621f6051 | {"responseCode":200,"during":"1069 ms","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"4267cfc0-ef8b-437f-a19f-766408c59986","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":true,\"timestamp\":{\"date\":{\"year\":2023,\"month\":2,\"day\":7},\"time\":{\"hour\":10,\"minute\":0,\"second\":23,\"nano\":967914400}}}"}
+2023-02-07 10:00:25.035 DEBUG--[25-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=62cd6583-93ec-4783-ab42-a041621f6051 | {"httpMethod":"POST","httpPath":"/api/customer/v1/favProject","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","content-length":"39","postman-token":"4267cfc0-ef8b-437f-a19f-766408c59986","host":"localhost:8083","content-type":"application/json","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json","user-agent":"PostmanRuntime/7.30.0"},"parameters":{}}
+2023-02-07 10:00:25.036 DEBUG--[25-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :Test here {
+  "projectId": 188,
+  "isFav": true
+}
+2023-02-07 10:00:25.041 DEBUG--[25-ynchLogThread-6] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, requestBody, session, _class]
+2023-02-07 10:00:25.187 DEBUG--[25-bsub-publisher4] [                                        ]a.c.m.c.PubSubConfig           :GCP Pubsub Log send success ackId = 6920487881306978
+2023-02-07 10:00:29.586 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 10:00:39.611 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 10:00:49.622 ERROR--[25-sson-netty-2-21] [                                        ]o.r.c.DNSMonitor               :Unable to resolve dev-brood.redis.cache.windows.net
+java.net.UnknownHostException: failed to resolve 'dev-brood.redis.cache.windows.net'
+	at io.netty.resolver.dns.DnsResolveContext.finishResolve(DnsResolveContext.java:1014)
+	at io.netty.resolver.dns.DnsResolveContext.tryToFinishResolve(DnsResolveContext.java:967)
+	at io.netty.resolver.dns.DnsResolveContext.query(DnsResolveContext.java:414)
+	at io.netty.resolver.dns.DnsResolveContext.access$600(DnsResolveContext.java:63)
+	at io.netty.resolver.dns.DnsResolveContext$2.operationComplete(DnsResolveContext.java:463)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.resolver.dns.DnsQueryContext.tryFailure(DnsQueryContext.java:225)
+	at io.netty.resolver.dns.DnsQueryContext$4.run(DnsQueryContext.java:177)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: io.netty.resolver.dns.DnsNameResolverTimeoutException: [/192.168.8.1:53] query via UDP timed out after 5000 milliseconds (no stack trace available)
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ]ryBean$MethodInvocationGateway :stopped bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ].s.i.g.GatewayProxyFactoryBean :stopped bean 'pubSubConfig$PubsubCmvRattingOutboundGateway'
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ]ryBean$MethodInvocationGateway :stopped bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ].s.i.g.GatewayProxyFactoryBean :stopped bean 'pubSubConfig$PubsubLogOutboundGateway'
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ].s.i.c.PublishSubscribeChannel :Channel 'application.errorChannel' has 0 subscriber(s).
+2023-02-07 10:00:57.080  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean '_org.springframework.integration.errorLogger'
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {message-handler:pubSubConfig.messageSenderCmvRatting.serviceActivator} as a subscriber to the 'pubsubCmvRattingChannel' channel
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubCmvRattingChannel' has 0 subscriber(s).
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean 'pubSubConfig.messageSenderCmvRatting.serviceActivator'
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :Removing {message-handler:pubSubConfig.messageSenderLog.serviceActivator} as a subscriber to the 'pubsubLogChannel' channel
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.c.DirectChannel          :Channel 'application.pubsubLogChannel' has 0 subscriber(s).
+2023-02-07 10:00:57.081  INFO--[25-extShutdownHook] [                                        ]o.s.i.e.EventDrivenConsumer    :stopped bean 'pubSubConfig.messageSenderLog.serviceActivator'
+2023-02-07 10:00:57.088  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2023-02-07 10:00:57.089  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2023-02-07 10:00:57.089  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2023-02-07 10:00:57.091  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'pubSubAcknowledgementExecutor'
+2023-02-07 10:00:57.091  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'pubsubPublisherThreadPool'
+2023-02-07 10:00:57.092  INFO--[25-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2023-02-07 10:00:57.496  INFO--[25-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2023-02-07 10:00:57.527  INFO--[25-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-07 10:00:57.543  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2023-02-07 10:00:57.577  INFO--[25-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2023-02-07 10:00:57.685  INFO--[25-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:22, serverValue:34584}] to lab-uat-shard-00-02.ojso0.mongodb.net:27017 because the pool has been closed.

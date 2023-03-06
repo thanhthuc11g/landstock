@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mb-data-science-329003",
+  "private_key_id": "fe9dc5ad7d04e4840a144abf34d647103b169c1e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCXEbX/V7x4isE7\nodTeLCyo3vlObSm0pqO0tH51IgtSUW/zWNKCfkalCSGLb0gmpXQltnLlzMiVOlgd\n3raxOF9+VIYFBpPmz8BjXEpu3G2rJNnHVK6dticFUZG58IsFEmE9haA4V4Uga24v\nsADn5VX3rwuvYyfcvZkPtcprEn5tx8PA1vREapM3TskjZgaxnmGXlAZMayuZGsb1\nO23Xw3SoUKE++m5f86U9bWNHr3k/q3J0weVrDOZuF/03JBW10FNftXxAOVGnh8lU\nPjReNiO4AGXxrRyvXuPSCKJLXx6rlj/YpGnuSwIUpwveEW00mFqT3QTIvgo+Dh/H\nDHxa3D+nAgMBAAECggEABPO+ApEkCtOJmA8rBN7FLAKl1i36kwMaFLS3Udb8MLDz\nZDJs3Cg63/LCWGlydQncGoG2QdWKXGdIN4Udz1touKHEBEAonbABFNYT/o8Cl/yi\nQvLXXTDOa1HhiWCFk3SnHrbVqg3RvbP9La+tp+xlpV6QmdQ8nJ4pI/xdQVCe4lxV\neSNrCtOvHVCuddf/4hiwrTVTg3YMtCiOx45LsqEIxdZoUH8jhI8LlZhnpLM6g/DS\nl02qAU3kwodvNwwot8S5cej2n8IokOpOMb2qg2ZqHFR6DR5m3tfc7tyQMMhAYDzE\nRcBlUChXG7bVM75lU4tUf5HnFzAE/l5gpj82YrU92QKBgQDO8URKomo6a+ut1JrR\ng7L1QBnj3fo/w/sxrWPWe7SH1BeffOQUBpOrlC00N4ABuXVaaC8AM+ofYkfxF8f/\niHPl/Nr8jN3CmPoG1fr23kkmnqhH+IopHN5JbqwijkzRMQQ1fdWTLt41t5GQk782\n3yjiVeqKaUCvALtUEEBiMrIt2wKBgQC64aileQChwvNwU7Q98jsCxrHbKHctbSSi\nktNuGUeth4pMDBzJNLmbmwgwXIs8XCWBux2uuOpd0LmOY4P+gyUSJslvShV+Flq0\noAq6IquMKerMyuMpSQLVkKnKDfg6HcQRSKfJIxX6E16JuDyOXKpzK23kGUpBBHBY\nh21K+66NJQKBgQC7DW2zIJdwczg2iePe2XIbKHO+eljG5njZcGa76llGJTmtGZB3\nYXJ9NpSdjEUSSfZ/X4iMYGCROZ7Zl6tZmJdaHXI7sYCJcwkcwLH2DvqEBAkL9OW9\nP7DVI0pIeeOJewrY5wLz5PtKBsF2s3W1PYWRACPeNEEZbknlNENd/4D63QKBgQC0\nAl8nHLneFuHUpdvs+2GaF/gDiSPaztHGAzXDTHh9jxxIijZEHRRX7Wpi4xF/D6dV\nIf7CaP3fZgkGPZdL1dkkddX769lt/WxbpfkPOAwT0+CGaTuMbfZb7p+NsA0VNczB\ndUGg/bnSi0u5zowN+PZ6Py/30eBzZiotLC27V1jYPQKBgExrTiPuvCloAwhUBdkE\nODPuvFlp5gAVt2/6y8PB5PEx/Zuq3WoMpc3aL4eNTdeia1WX4Egdcxo0WCoxe/JY\nj3m9NRJPEK2lLX63ugCYUNHztKVhHpOrehMB8v6dgEM2UKFLkxaMqlatyB7OyDrK\nCvjT9xelNl+2+WXNsl2Q3eMV\n-----END PRIVATE KEY-----\n",
+  "client_email": "landstock-pubsub-dev@mb-data-science-329003.iam.gserviceaccount.com",
+  "client_id": "104474942155792999062",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/landstock-pubsub-dev%40mb-data-science-329003.iam.gserviceaccount.com"
+}

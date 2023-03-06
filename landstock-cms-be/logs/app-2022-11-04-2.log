@@ -1,0 +1,447 @@
+2022-11-04 16:30:37.117  INFO--[24-kground-preinit] [                                        ]o.h.v.i.u.Version              :HV000001: Hibernate Validator 6.1.7.Final
+2022-11-04 16:30:37.142  INFO--[24-main           ] [                                        ]a.c.m.MbeeliveApplication      :Starting MbeeliveApplication on DESKTOP-GSNRLR9 with PID 3044 (C:\Work\MbLandStock\landstock-cms-be\target\classes started by Thanh Thuc in C:\Work\MbLandStock\landstock-cms-be)
+2022-11-04 16:30:37.145  INFO--[24-main           ] [                                        ]a.c.m.MbeeliveApplication      :No active profile set, falling back to default profiles: default
+2022-11-04 16:30:38.213  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-04 16:30:38.214  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-04 16:30:38.404  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 184ms. Found 36 JPA repository interfaces.
+2022-11-04 16:30:38.404  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-11-04 16:30:38.405  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-11-04 16:30:38.414  INFO--[24-main           ] [                                        ]epositoryConfigurationDelegate :Finished Spring Data repository scanning in 9ms. Found 2 MongoDB repository interfaces.
+2022-11-04 16:30:39.418  INFO--[24-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8083 (http)
+2022-11-04 16:30:39.425  INFO--[24-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8083"]
+2022-11-04 16:30:39.425  INFO--[24-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-04 16:30:39.425  INFO--[24-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-04 16:30:39.591  INFO--[24-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-04 16:30:39.591  INFO--[24-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 2398 ms
+2022-11-04 16:30:39.797  INFO--[24-main           ] [                                        ]o.m.d.cluster                  :Cluster created with settings {hosts=[207.46.234.134:27717], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-11-04 16:30:40.295  INFO--[24-6.234.134:27717] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:1, serverValue:5125644}] to 207.46.234.134:27717
+2022-11-04 16:30:40.318  INFO--[24-main           ] [                                        ]o.m.d.cluster                  :Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-11-04 16:30:40.379  INFO--[24-6.234.134:27717] [                                        ]o.m.d.cluster                  :Monitor thread successfully connected to server with description ServerDescription{address=207.46.234.134:27717, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=81584400}
+2022-11-04 16:30:40.947  INFO--[24-main           ] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:2, serverValue:5125645}] to 207.46.234.134:27717
+2022-11-04 16:30:41.489  INFO--[24-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-04 16:30:41.489  INFO--[24-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-04 16:30:41.671  INFO--[24-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field '_id' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-04 16:30:41.672  INFO--[24-main           ] [                                        ]oPersistentEntityIndexResolver :Found cycle for field 'lastComment' in type 'PostComment' for path 'lastComment -> lastComment'
+2022-11-04 16:30:42.151  INFO--[24-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Starting...
+2022-11-04 16:30:45.489  INFO--[24-main           ] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Start completed.
+2022-11-04 16:30:45.610  INFO--[24-main           ] [                                        ]o.h.j.i.u.LogHelper            :HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-04 16:30:45.645  INFO--[24-main           ] [                                        ]o.h.Version                    :HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-11-04 16:30:45.730  INFO--[24-main           ] [                                        ]o.h.a.c.Version                :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-04 16:30:45.814  INFO--[24-main           ] [                                        ]o.h.d.Dialect                  :HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-04 16:30:46.646  INFO--[24-main           ] [                                        ]e.t.j.p.i.JtaPlatformInitiator :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-04 16:30:46.659  INFO--[24-main           ] [                                        ]tainerEntityManagerFactoryBean :Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 16:30:47.249  WARN--[24-main           ] [                                        ]figuration$JpaWebConfiguration :spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-04 16:30:48.223  INFO--[24-main           ] [                                        ]o.r.Version                    :Redisson 3.13.2
+2022-11-04 16:30:50.162  INFO--[24-sson-netty-2-19] [                                        ]o.r.c.p.MasterConnectionPool   :24 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-04 16:30:50.167  INFO--[24-sson-netty-2-20] [                                        ]c.p.MasterPubSubConnectionPool :1 connections initialized for dev-brood.redis.cache.windows.net/13.76.180.224:6380
+2022-11-04 16:30:51.360  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-04 16:30:51.361  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'threadPoolTaskExecutor'
+2022-11-04 16:30:51.496  INFO--[24-main           ] [                                        ]etailsServiceAutoConfiguration :
+
+Using generated security password: d1879f62-3656-4c72-b712-754e79866537
+
+2022-11-04 16:30:51.537  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v2/api-docs'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/ui'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/configuration/security'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/swagger-ui/**'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/v3/api-docs/**'], []
+2022-11-04 16:30:51.538  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: Ant [pattern='/webjars/**'], []
+2022-11-04 16:30:51.575  INFO--[24-main           ] [                                        ]s.w.DefaultSecurityFilterChain :Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fcaf12a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d1ddb65, org.springframework.security.web.header.HeaderWriterFilter@3e755a96, org.springframework.web.filter.CorsFilter@57927f4f, org.springframework.security.web.authentication.logout.LogoutFilter@554a76fd, ati.com.mbeelive.springsercurity.JwtAuthenticationFilter@13ebbdab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dfc833b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@332815a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e937569, org.springframework.security.web.session.SessionManagementFilter@b6d5ccc, org.springframework.security.web.access.ExceptionTranslationFilter@15a806a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f218b0c]
+2022-11-04 16:30:51.720  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-04 16:30:51.721  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutor'
+2022-11-04 16:30:51.721  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-04 16:30:51.721  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncExecutorNotification'
+2022-11-04 16:30:51.721  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService
+2022-11-04 16:30:51.721  INFO--[24-main           ] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Initializing ExecutorService 'asyncLogsExecutor'
+2022-11-04 16:30:53.285  INFO--[24-main           ] [                                        ].s.s.c.ThreadPoolTaskScheduler :Initializing ExecutorService 'taskScheduler'
+2022-11-04 16:30:53.332  INFO--[24-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8083"]
+2022-11-04 16:30:53.346  INFO--[24-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8083 (http) with context path ''
+2022-11-04 16:30:53.419  INFO--[24-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat initialized with port(s): 8090 (http)
+2022-11-04 16:30:53.420  INFO--[24-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Initializing ProtocolHandler ["http-nio-8090"]
+2022-11-04 16:30:53.420  INFO--[24-main           ] [                                        ]o.a.c.c.StandardService        :Starting service [Tomcat]
+2022-11-04 16:30:53.420  INFO--[24-main           ] [                                        ]o.a.c.c.StandardEngine         :Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-11-04 16:30:53.476  INFO--[24-main           ] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring embedded WebApplicationContext
+2022-11-04 16:30:53.476  INFO--[24-main           ] [                                        ]letWebServerApplicationContext :Root WebApplicationContext: initialization completed in 126 ms
+2022-11-04 16:30:53.490  INFO--[24-main           ] [                                        ].b.a.e.w.EndpointLinksResolver :Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-04 16:30:54.114  INFO--[24-main           ] [                                        ]o.a.c.h.Http11NioProtocol      :Starting ProtocolHandler ["http-nio-8090"]
+2022-11-04 16:30:54.118  INFO--[24-main           ] [                                        ]o.s.b.w.e.t.TomcatWebServer    :Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-04 16:30:54.148  INFO--[24-main           ] [                                        ]a.c.m.MbeeliveApplication      :Started MbeeliveApplication in 17.285 seconds (JVM running for 18.951)
+2022-11-04 16:30:54.155  INFO--[24-main           ] [                                        ]a.c.m.c.CmvSchedule            :start getFirstAccessToken
+2022-11-04 16:30:54.155  INFO--[24-main           ] [                                        ]a.c.m.c.CmvRestClient          :getAccessToken with no auth!!!
+2022-11-04 16:30:54.319  INFO--[24-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate request logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Headers: {Accept=[text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*], Content-Type=[application/json], clientMessageId=[LandStock], Content-Length=[46]} Body: {"username":"cmv_amc_app","password":"123456"}
+2022-11-04 16:30:54.580  INFO--[24-)-192.168.8.150] [                                        ]o.a.c.c.C.[.[.[/]              :Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-04 16:30:54.581  INFO--[24-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Initializing Servlet 'dispatcherServlet'
+2022-11-04 16:30:54.591  INFO--[24-)-192.168.8.150] [                                        ]o.s.w.s.DispatcherServlet      :Completed initialization in 10 ms
+2022-11-04 16:30:54.777  INFO--[24-main           ] [                                        ]omClientHttpRequestInterceptor :RestTemplate response logging: URI: https://api-sandbox.mbbank.com.vn/ms-cmv-service-auth/v1.0/login Method: POST Status code: 200 OK Headers: {Date=[Fri, 04 Nov 2022 09:30:11 GMT], Content-Type=[application/json;charset=UTF-8], Connection=[keep-alive], Vary=[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Cache-Control=[no-store], Pragma=[no-cache], Set-Cookie=[BIGipServer~DEV~apiGee=rd5o00000000000000000000ffff0a011b63o443; path=/; Httponly; Secure, MBAnalyticsaaaaaaaaaaaaaaaa_session_=GAPJMCLHNPFPEHABEOANNEECBGGOCCLAIENHPIEBLBFOEIIDPAGIAHIBDKMOGANEFLFDJPFHILCANKBJKDOAOODAFNJOAHONLCBKLGLGHAEMIMGDKPELGMMKGJJMJGDI; HttpOnly; secure, MB01e353a0=01bb14ea42a0452af88a339b89ff8cf84e099b96aec40947a322f2dfa0dbaf93850981edccd3b6de5fb2e71dbdb3a55c9864fbd7f8; Path=/], Transfer-Encoding=[chunked]} Body: {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Njc1NTc4MTEsInVzZXJfbmFtZSI6IntcImlkXCI6MTE0MzIsXCJicmFuY2hJZFwiOjEsXCJ1c2VybmFtZVwiOlwiY212X2FtY19hcHBcIixcInVzZXJDb2RlXCI6XCJjbXZfYW1jX2FwcFwiLFwiZnVsbE5hbWVcIjpcIk1vYmlsZSBhcHAgQU1DXCIsXCJlbWFpbFwiOlwidGVzdC5jbXZfYW1jX2FwcEBtYmJhbmsuY29tLnZuXCIsXCJicmFuY2hDb2RlXCI6XCJWTjAwMTAwMDFcIixcImV4cGlyZUF0XCI6MTY2NzU1NDIxNTIwMCxcInRva2VuVHlwZVwiOlwiQUNDRVNTX1RPS0VOXCIsXCJjbGllbnRJZFwiOlwiY212LWNsaWVudC1pZFwiLFwic2NvcGVzXCI6W1wiTUIjTU9ESU
+2022-11-04 16:30:54.875  INFO--[24-main           ] [                                        ]a.c.m.c.CmvSchedule            :end getFirstAccessToken
+2022-11-04 16:31:23.766  INFO--[24-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=630cdfdd-8890-4132-9bc1-be9c15f606fa | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"3f0ee588-28a5-4f24-9994-db1a06d73a0d","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"10000","pageSize":"10","sort":"createdAt:desc"}}
+2022-11-04 16:31:23.818 DEBUG--[24-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:33:01.328  WARN--[24-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s747ms966µs400ns).
+2022-11-04 16:33:01.382 DEBUG--[24-nio-8083-exec-3] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:34:34.893  WARN--[24-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m33s567ms674µs200ns).
+2022-11-04 16:34:34.906 ERROR--[24-nio-8083-exec-3] [                                        ]a.c.m.e.CustomExceptionHandler :Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717; nested exception is com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+org.springframework.data.mongodb.UncategorizedMongoDbException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717; nested exception is com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:140)
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2874)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2799)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2518)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2500)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:856)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:842)
+	at ati.com.mbeelive.collection.LogsCollection.findLogByUser(LogsCollection.java:83)
+	at ati.com.mbeelive.collection.LogsCollection$$FastClassBySpringCGLIB$$3942f8b5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ati.com.mbeelive.collection.LogsCollection$$EnhancerBySpringCGLIB$$b91c42af.findLogByUser(<generated>)
+	at ati.com.mbeelive.log.LoggingService.findLogByUser(LoggingService.java:145)
+	at ati.com.mbeelive.controller.cms.LogController.logs(LogController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+	at com.mongodb.internal.operation.FindOperation$1.call(FindOperation.java:635)
+	at com.mongodb.internal.operation.FindOperation$1.call(FindOperation.java:625)
+	at com.mongodb.internal.operation.OperationHelper.withReadConnectionSource(OperationHelper.java:462)
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:625)
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:77)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:178)
+	at com.mongodb.client.internal.MongoIterableImpl.execute(MongoIterableImpl.java:135)
+	at com.mongodb.client.internal.MongoIterableImpl.iterator(MongoIterableImpl.java:92)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2782)
+	... 118 more
+2022-11-04 16:34:34.940  INFO--[24-nio-8083-exec-3] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=630cdfdd-8890-4132-9bc1-be9c15f606fa | {"responseCode":500,"during":"191392 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"3f0ee588-28a5-4f24-9994-db1a06d73a0d","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Lỗi hệ thống!\",\"code\":1001,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":4},\"time\":{\"hour\":16,\"minute\":34,\"second\":34,\"nano\":908351900}}}"}
+2022-11-04 16:34:44.946  INFO--[24-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=92a80deb-609d-42ec-9589-548039e47b4a | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"538e7033-0db3-4d16-9425-e58c5492bb84","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"10000","pageSize":"10"}}
+2022-11-04 16:34:51.941 DEBUG--[24-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:34:51.941 DEBUG--[24-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:34:52.331  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@951273b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.334  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@75ab5b69 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.335  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7543c218 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.336  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@87115b4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.337  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37a7b4d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.339  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18f8c158 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.340  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7340835d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.341  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@731ce434 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.342  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7997ff85 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.343  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@273b03ee (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:34:52.350  INFO--[24-ynchLogThread-2] [                                        ]o.m.d.connection               :Opened connection [connectionId{localValue:3, serverValue:5125652}] to 207.46.234.134:27717
+2022-11-04 16:34:55.093 DEBUG--[24-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:34:55.521  INFO--[24-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=92a80deb-609d-42ec-9589-548039e47b4a | {"responseCode":200,"during":"10575 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"538e7033-0db3-4d16-9425-e58c5492bb84","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":1},\"time\":{\"hour\":13,\"minute\":36,\"second\":44,\"nano\":982000000}},\"userId\":2,\"path\":\"/pressroom\",\"requestId\":\"4018a993-eb40-4e38-b737-78bbc5b1827d\",\"requestObject\":{\"httpMethod\":\"GET\",\"httpPath\":\"/pressroom\",\"clientIp\":\"115.79.142.34\",\"localIp\":\"10.4.1.17\",\"headers\":{\"x-request-id\":\"199e153ca11bceb04c77b1255df5501d\",\"x-real-ip\":\"115.79.142.34\",\"authorization\":\"\\u003c\\u003cNot log au"}
+2022-11-04 16:39:36.409  INFO--[24-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=5b9b8750-355a-4f08-a5c3-079b7856e993 | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"dc450080-48d4-4b75-b31b-43d598631f60","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"10000","pageSize":"10"}}
+2022-11-04 16:39:51.823 DEBUG--[24-ynchLogThread-3] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:39:51.823 DEBUG--[24-nio-8083-exec-8] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:39:52.193  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@9d9f56c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.193  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@389a5a58 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.193  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2f42e832 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.193  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69f60a23 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.193  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@665f8019 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.208  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6db8976c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.208  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@777d8d8a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.208  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1116c0ab (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.224  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14732ed0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:52.244  WARN--[24-nio-8083-exec-8] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3dd9d8c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:39:55.293 DEBUG--[24-nio-8083-exec-8] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:39:55.708  INFO--[24-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=5b9b8750-355a-4f08-a5c3-079b7856e993 | {"responseCode":200,"during":"19315 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"dc450080-48d4-4b75-b31b-43d598631f60","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":1},\"time\":{\"hour\":13,\"minute\":36,\"second\":44,\"nano\":982000000}},\"userId\":2,\"path\":\"/pressroom\",\"requestId\":\"4018a993-eb40-4e38-b737-78bbc5b1827d\",\"requestObject\":{\"httpMethod\":\"GET\",\"httpPath\":\"/pressroom\",\"clientIp\":\"115.79.142.34\",\"localIp\":\"10.4.1.17\",\"headers\":{\"x-request-id\":\"199e153ca11bceb04c77b1255df5501d\",\"x-real-ip\":\"115.79.142.34\",\"authorization\":\"\\u003c\\u003cNot log au"}
+2022-11-04 16:40:13.219  INFO--[24-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=d3f5932c-4117-4a22-b115-876c9c41e77a | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"fc1f6f21-fbe6-4eed-9069-7dad028fb1b3","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"100","pageSize":"10","sort":"createdAt:desc"}}
+2022-11-04 16:40:28.764 DEBUG--[24-ynchLogThread-4] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:40:43.581 DEBUG--[24-nio-8083-exec-7] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:41:43.437  WARN--[24-l-1 housekeeper] [                                        ]c.z.h.p.HikariPool             :HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s117ms617µs600ns).
+2022-11-04 16:42:04.239 DEBUG--[24-nio-8083-exec-7] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:42:04.709  INFO--[24-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=d3f5932c-4117-4a22-b115-876c9c41e77a | {"responseCode":200,"during":"111493 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"fc1f6f21-fbe6-4eed-9069-7dad028fb1b3","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":3},\"time\":{\"hour\":16,\"minute\":16,\"second\":41,\"nano\":613000000}},\"userId\":2,\"path\":\"/api/cms/v1/user/adminCreateUser\",\"requestId\":\"8d3129e3-b922-4bc6-880b-4844ba00bcaf\",\"requestObject\":{\"httpMethod\":\"POST\",\"httpPath\":\"/api/cms/v1/user/adminCreateUser\",\"clientIp\":\"115.79.142.34\",\"localIp\":\"10.4.3.14\",\"headers\":{\"x-request-id\":\"32c076057f8704f9ff68c48cba5c83b8\",\"sec-fetch-mode\":\"cors"}
+2022-11-04 16:42:15.547  INFO--[24-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=5430d15f-73a3-47df-a4b2-926fc703405e | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"00a656ff-a8f5-4c63-b080-841631f70feb","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"100","pageSize":"10"}}
+2022-11-04 16:42:17.404 DEBUG--[24-ynchLogThread-5] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:42:27.230 DEBUG--[24-nio-8083-exec-9] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:42:45.280 DEBUG--[24-nio-8083-exec-9] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:42:45.709  INFO--[24-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=5430d15f-73a3-47df-a4b2-926fc703405e | {"responseCode":200,"during":"30163 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"00a656ff-a8f5-4c63-b080-841631f70feb","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":6,\"day\":15},\"time\":{\"hour\":11,\"minute\":9,\"second\":4,\"nano\":729000000}},\"userId\":2,\"path\":\"/api/cms/v1/postcate/search\",\"requestId\":\"84ae1ce0-62ca-4b5c-93f2-a34bb19ab79e\",\"requestObject\":{\"httpMethod\":\"POST\",\"httpPath\":\"/api/cms/v1/postcate/search\",\"clientIp\":\"59.153.238.55\",\"localIp\":\"10.4.1.240\",\"headers\":{\"x-request-id\":\"08222e914286de1e956147328092a6e7\",\"sec-fetch-mode\":\"cors\",\"content-"}
+2022-11-04 16:43:40.567  INFO--[24-io-8083-exec-10] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=0b020cfe-8e61-451d-8d3e-90b50eb1c392 | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"9875cf17-1710-4678-8ea6-58a031ff5b7f","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"0","pageSize":"10"}}
+2022-11-04 16:43:49.253 DEBUG--[24-ynchLogThread-6] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:43:52.495 DEBUG--[24-io-8083-exec-10] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:43:53.093 DEBUG--[24-io-8083-exec-10] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:43:53.507  INFO--[24-io-8083-exec-10] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=0b020cfe-8e61-451d-8d3e-90b50eb1c392 | {"responseCode":200,"during":"12944 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"9875cf17-1710-4678-8ea6-58a031ff5b7f","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":6,\"day\":14},\"time\":{\"hour\":9,\"minute\":44,\"second\":29,\"nano\":389000000}},\"userId\":2,\"path\":\"/api/cms/v1/postcate/search\",\"requestId\":\"9359b63a-eebe-45f0-aa8f-0f55e3124d3f\",\"requestObject\":{\"httpMethod\":\"POST\",\"httpPath\":\"/api/cms/v1/postcate/search\",\"clientIp\":\"59.153.252.246\",\"localIp\":\"10.4.2.212\",\"headers\":{\"x-request-id\":\"4710990490c03e637c4ffd9fbd5b4a28\",\"sec-fetch-mode\":\"cors\",\"conten"}
+2022-11-04 16:44:21.117  INFO--[24-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=9e5f1cf0-8d4d-488d-b59f-b9638d78344f | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"cc2fba37-0819-4679-b010-3c4e0387e146","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"0","pageSize":"10","sort":"createdAt:desc"}}
+2022-11-04 16:44:25.606 DEBUG--[24-nio-8083-exec-2] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:44:25.606 DEBUG--[24-ynchLogThread-7] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:44:26.681 DEBUG--[24-nio-8083-exec-2] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:44:27.111  INFO--[24-nio-8083-exec-2] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=9e5f1cf0-8d4d-488d-b59f-b9638d78344f | {"responseCode":200,"during":"5999 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"cc2fba37-0819-4679-b010-3c4e0387e146","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"roleOther\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":4},\"time\":{\"hour\":16,\"minute\":43,\"second\":59,\"nano\":219000000}},\"userId\":3,\"path\":\"/api/cms/v1/user-logs/getUser\",\"requestId\":\"e4860680-f7cf-4907-b382-05ea430c0c46\",\"requestObject\":{\"httpMethod\":\"GET\",\"httpPath\":\"/api/cms/v1/user-logs/getUser\",\"clientIp\":\"59.153.235.97\",\"localIp\":\"10.4.3.14\",\"headers\":{\"x-request-id\":\"bf3f87d3787b64763f58824910fee3ac\",\"sec-fetch-mode\":\"cors\",\""}
+2022-11-04 16:47:30.798  INFO--[24-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=f505ea15-5c02-4587-9c75-337c67bec098 | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"79069cd3-96a3-4ed1-8487-10e46221c8ef","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"1000","pageSize":"10","sort":"createdAt:desc"}}
+2022-11-04 16:47:30.800 DEBUG--[24-ynchLogThread-8] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:47:30.800 DEBUG--[24-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:47:31.452  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f0c214a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.456  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21bdd695 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.458  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4411f2e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.460  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a59689d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.461  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b9a16fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.463  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74dc6664 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.467  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7868bfbe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.472  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29a42dae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.478  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4262e390 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:31.484  WARN--[24-nio-8083-exec-4] [                                        ]c.z.h.p.PoolBase               :HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@551a42fe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2022-11-04 16:47:34.643 DEBUG--[24-nio-8083-exec-4] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:47:35.082  INFO--[24-nio-8083-exec-4] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=f505ea15-5c02-4587-9c75-337c67bec098 | {"responseCode":200,"during":"4285 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"79069cd3-96a3-4ed1-8487-10e46221c8ef","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":3},\"time\":{\"hour\":15,\"minute\":38,\"second\":44,\"nano\":328000000}},\"userId\":2,\"path\":\"/v3/redirector\",\"requestId\":\"3f5756e1-b576-4910-8358-02a0abdc8d24\",\"requestObject\":{\"httpMethod\":\"GET\",\"httpPath\":\"/v3/redirector\",\"clientIp\":\"125.235.233.149\",\"localIp\":\"10.4.3.14\",\"headers\":{\"x-request-id\":\"380d731acc0d3c892ee96d9a386831c8\",\"x-real-ip\":\"125.235.233.149\",\"authorization\":\"\\u003c\\u00"}
+2022-11-04 16:47:50.051  INFO--[24-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=f13fdd22-02e1-4452-a5eb-c8297d6c0e73 | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"df82348d-8495-494d-935e-ca674ebaba78","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"10000","pageSize":"10","sort":"createdAt:desc"}}
+2022-11-04 16:47:50.052 DEBUG--[24-ynchLogThread-9] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:47:50.052 DEBUG--[24-nio-8083-exec-5] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:47:50.468 ERROR--[24-nio-8083-exec-5] [                                        ]a.c.m.e.CustomExceptionHandler :Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717; nested exception is com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+org.springframework.data.mongodb.UncategorizedMongoDbException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717; nested exception is com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:140)
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2874)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2799)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2518)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2500)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:856)
+	at org.springframework.data.mongodb.core.MongoTemplate.find(MongoTemplate.java:842)
+	at ati.com.mbeelive.collection.LogsCollection.findLogByUser(LogsCollection.java:83)
+	at ati.com.mbeelive.collection.LogsCollection$$FastClassBySpringCGLIB$$3942f8b5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at ati.com.mbeelive.collection.LogsCollection$$EnhancerBySpringCGLIB$$b91c42af.findLogByUser(<generated>)
+	at ati.com.mbeelive.log.LoggingService.findLogByUser(LoggingService.java:145)
+	at ati.com.mbeelive.controller.cms.LogController.logs(LogController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at ati.com.mbeelive.log.RequestLoggingFilter.doFilter(RequestLoggingFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at ati.com.mbeelive.springsercurity.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mongodb.MongoQueryException: Query failed with error code 292 and error message 'Executor error during find command :: caused by :: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in.' on server 207.46.234.134:27717
+	at com.mongodb.internal.operation.FindOperation$1.call(FindOperation.java:635)
+	at com.mongodb.internal.operation.FindOperation$1.call(FindOperation.java:625)
+	at com.mongodb.internal.operation.OperationHelper.withReadConnectionSource(OperationHelper.java:462)
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:625)
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:77)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:178)
+	at com.mongodb.client.internal.MongoIterableImpl.execute(MongoIterableImpl.java:135)
+	at com.mongodb.client.internal.MongoIterableImpl.iterator(MongoIterableImpl.java:92)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2782)
+	... 118 more
+2022-11-04 16:47:50.472  INFO--[24-nio-8083-exec-5] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=f13fdd22-02e1-4452-a5eb-c8297d6c0e73 | {"responseCode":500,"during":"422 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"df82348d-8495-494d-935e-ca674ebaba78","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"Lỗi hệ thống!\",\"code\":1001,\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":4},\"time\":{\"hour\":16,\"minute\":47,\"second\":50,\"nano\":469106500}}}"}
+2022-11-04 16:50:08.081  INFO--[24-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=2d8b82c7-0da6-43cd-84d9-408c1d1e306b | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"422a4afb-a2c5-40b2-84d3-ceeb38b01f88","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"0","pageSize":"10"}}
+2022-11-04 16:50:08.083 DEBUG--[24-nchLogThread-10] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:50:08.083 DEBUG--[24-nio-8083-exec-8] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:50:08.918 DEBUG--[24-nio-8083-exec-8] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:50:09.433  INFO--[24-nio-8083-exec-8] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=2d8b82c7-0da6-43cd-84d9-408c1d1e306b | {"responseCode":200,"during":"1353 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"422a4afb-a2c5-40b2-84d3-ceeb38b01f88","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"admin\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":6,\"day\":14},\"time\":{\"hour\":9,\"minute\":44,\"second\":29,\"nano\":389000000}},\"userId\":2,\"path\":\"/api/cms/v1/postcate/search\",\"requestId\":\"9359b63a-eebe-45f0-aa8f-0f55e3124d3f\",\"requestObject\":{\"httpMethod\":\"POST\",\"httpPath\":\"/api/cms/v1/postcate/search\",\"clientIp\":\"59.153.252.246\",\"localIp\":\"10.4.2.212\",\"headers\":{\"x-request-id\":\"4710990490c03e637c4ffd9fbd5b4a28\",\"sec-fetch-mode\":\"cors\",\"conten"}
+2022-11-04 16:50:21.319  INFO--[24-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=edba7686-56a8-4a6c-a719-fd3ec4e6b73c | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"ab4d5c30-4c8f-4835-bdcc-1177206b8420","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"17518","pageSize":"10"}}
+2022-11-04 16:50:21.320 DEBUG--[24-ynchLogThread-1] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:50:21.320 DEBUG--[24-nio-8083-exec-7] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:50:21.743 DEBUG--[24-nio-8083-exec-7] [                                        ]o.s.d.m.c.MongoTemplate        :Executing count: { "cif" : { "$exists" : false}} in collection: logs
+2022-11-04 16:50:22.176  INFO--[24-nio-8083-exec-7] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=edba7686-56a8-4a6c-a719-fd3ec4e6b73c | {"responseCode":200,"during":"859 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"ab4d5c30-4c8f-4835-bdcc-1177206b8420","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[],\"pageInfo\":{\"pageNo\":17518,\"pageSize\":10,\"total\":175177,\"totalPage\":17518}},\"timestamp\":{\"date\":{\"year\":2022,\"month\":11,\"day\":4},\"time\":{\"hour\":16,\"minute\":50,\"second\":21,\"nano\":320929600}}}"}
+2022-11-04 16:50:31.635  INFO--[24-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :REQUEST:X-Request-ID=9022a6d6-3de5-41c9-87c4-95955bc10bb1 | {"httpMethod":"GET","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"cd6b4345-218b-431d-b85c-d243c4d688f0","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"parameters":{"pageNo":"17517","pageSize":"10"}}
+2022-11-04 16:50:31.637 DEBUG--[24-ynchLogThread-2] [                                        ]o.s.d.m.c.MongoTemplate        :Saving Document containing fields: [createdAt, userId, cif, path, requestId, requestObject, _class]
+2022-11-04 16:50:31.638 DEBUG--[24-nio-8083-exec-9] [                                        ]o.s.d.m.c.MongoTemplate        :find using query: { "cif" : { "$exists" : false}} fields: {} for class: class ati.com.mbeelive.document.Log in collection: logs
+2022-11-04 16:50:32.696  INFO--[24-nio-8083-exec-9] [                                        ]a.c.m.l.LoggingService         :RESPONSE:X-Request-ID=9022a6d6-3de5-41c9-87c4-95955bc10bb1 | {"responseCode":200,"during":"1064 ms","httpPath":"/api/cms/v1/user-logs","clientIp":"0:0:0:0:0:0:0:1","localIp":"0:0:0:0:0:0:0:1","headers":{"authorization":"\u003c\u003cNot log authorization record\u003e\u003e","postman-token":"cd6b4345-218b-431d-b85c-d243c4d688f0","host":"localhost:8083","connection":"keep-alive","accept-encoding":"gzip, deflate, br","accept":"application/json; charset\u003dUTF-8","user-agent":"PostmanRuntime/7.29.2"},"body":"{\"message\":\"OK\",\"code\":200,\"data\":{\"content\":[{\"userName\":\"roleOther\",\"createdAt\":{\"date\":{\"year\":2022,\"month\":11,\"day\":4},\"time\":{\"hour\":16,\"minute\":49,\"second\":28,\"nano\":57000000}},\"userId\":3,\"path\":\"/api/cms/v1/user-logs/getUser\",\"requestId\":\"73036af1-609c-45f5-9f0d-8d681897fdf3\",\"requestObject\":{\"httpMethod\":\"GET\",\"httpPath\":\"/api/cms/v1/user-logs/getUser\",\"clientIp\":\"59.153.235.97\",\"localIp\":\"10.4.3.14\",\"headers\":{\"x-request-id\":\"fec5e66ac27cfdd5198bdead55a48e3f\",\"sec-fetch-mode\":\"cors\",\"r"}
+2022-11-04 16:53:59.563  INFO--[24-extShutdownHook] [                                        ].s.s.c.ThreadPoolTaskScheduler :Shutting down ExecutorService 'taskScheduler'
+2022-11-04 16:53:59.563  INFO--[24-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncLogsExecutor'
+2022-11-04 16:53:59.563  INFO--[24-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutorNotification'
+2022-11-04 16:53:59.563  INFO--[24-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'asyncExecutor'
+2022-11-04 16:53:59.563  INFO--[24-extShutdownHook] [                                        ]o.s.s.c.ThreadPoolTaskExecutor :Shutting down ExecutorService 'threadPoolTaskExecutor'
+2022-11-04 16:53:59.736  INFO--[24-extShutdownHook] [                                        ]tainerEntityManagerFactoryBean :Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-04 16:53:59.736  INFO--[24-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown initiated...
+2022-11-04 16:53:59.752  INFO--[24-extShutdownHook] [                                        ]c.z.h.HikariDataSource         :HikariPool-1 - Shutdown completed.
+2022-11-04 16:53:59.846  INFO--[24-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:3, serverValue:5125652}] to 207.46.234.134:27717 because the pool has been closed.
+2022-11-04 16:53:59.846  INFO--[24-extShutdownHook] [                                        ]o.m.d.connection               :Closed connection [connectionId{localValue:2, serverValue:5125645}] to 207.46.234.134:27717 because the pool has been closed.
